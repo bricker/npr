@@ -1,6 +1,6 @@
 # NPR API Ruby Client
 
-{<img src="https://secure.travis-ci.org/bricker88/npr.png"/>}[http://travis-ci.org/bricker88/npr]
+[![Build Status](https://travis-ci.org/bricker88/npr.png)](https://travis-ci.org/bricker88/npr)
  
 **NOTE** This gem is a WIP
 
