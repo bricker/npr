@@ -1,5 +1,5 @@
 require "spec_helper"
 
-describe NPR::Audio do
+describe NPR::List do
   pending
 end
