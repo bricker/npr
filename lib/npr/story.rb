@@ -11,8 +11,18 @@ module NPR
       #-------------------------
       # Find a story based on ID
       # 
-      # In order to use this, you must configure
-      # the apiKey using NPR.configure
+      # This method is meant to be a quick, easy
+      # way to find a story just by its ID. 
+      #
+      # If you need more control over what gets
+      # fetched and how, use NPR::Client directly,
+      # or the other chainable methods (+where+,
+      # +order+, etc.)
+      #
+      # It is not possible to pass options into this
+      # method. Therefore, you *must* globally 
+      # configure at least the apiKey using 
+      # +NPR.configure+.
       #
       # Example:
       #

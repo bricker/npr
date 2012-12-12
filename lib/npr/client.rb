@@ -30,12 +30,13 @@ module NPR
     # global configuration.
     #
     def initialize(params={})
-      @params  = params
+      @params  = NPR.config.merge(params)
       @apiKey = @params.delete(:apiKey)
     end
 
     #-----------------
     # Send a query to the NPR API.
+    #
     # Accepts a hash of options which get passed
     # directly to the API.
     #
@@ -49,12 +50,12 @@ module NPR
     #   client.query(sort: "date descending", requiredAssets: "image")
     #
     def query(params={})
-      if @apiKey.blank?
+      if @apiKey.nil?
         raise NPR::NotConfiguredError, "apiKey must be set to perform a query"
       end
       
       response = connection.get do |request|
-        request.url NPR::Configuration::API_PATH
+        request.url NPR::Configuration::API_QUERY_PATH
         request.params = @params.merge(params)
         request.params['apiKey'] = @apiKey
       end
