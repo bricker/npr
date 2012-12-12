@@ -26,7 +26,7 @@ describe NPR::Client do
   describe "#query" do
     it "raises NotConfiguredError if apiKey is blank" do
       client = NPR::Client.new
-      -> { client.query }.should raise_error NPR::NotConfiguredError
+      lambda { client.query }.should raise_error NPR::NotConfiguredError
     end
     
   end
