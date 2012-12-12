@@ -2,7 +2,8 @@
 
 **NOTE** This gem is a WIP
 
-A simple Ruby client for the NPR API.
+A simple Ruby client for the 
+[NPR API](http://www.npr.org/api/index).
 
 
 ## Support
@@ -52,12 +53,14 @@ API requests can be configured globally. This is recommended
 for setting the API Key, but you can also set other parameters
 which will be passed in with every request (unless overridden):
 
-    NPR.configure do |config|
-      config.apiKey         = "YOUR_API_KEY"
-      config.sort           = "date descending"
-      config.output         = "NPRML"
-      config.requiredAssets = "text"
-    end
+```ruby
+NPR.configure do |config|
+  config.apiKey         = "YOUR_API_KEY"
+  config.sort           = "date descending"
+  config.output         = "NPRML"
+  config.requiredAssets = "text"
+end
+```
 
 For a Rails application, a good place to put the configuration 
 would be in an initializer, such as `config/initializers/npr_config.rb`.
@@ -70,12 +73,16 @@ naturally to you!
 
 To find a story by ID:
 
-    NPR::Story.find(1999) #=> NPR::Story
+```ruby
+NPR::Story.find(1999) #=> NPR::Story
+```
 
-You can also query directly on an NPR::Client object:
+You can also query directly on an `NPR::Client` object:
 
-    client = NPR::Client.new(apiKey: NPR.config.apiKey)
-    client.query(id: 63985) #=> NPR::Story
+```ruby
+client = NPR::Client.new(apiKey: NPR.config.apiKey)
+client.query(id: 63985) #=> NPR::Story
+```
 
 The params that get passed into the `#query` method map directly to
 the parameters that NPR's API accepts. See the 
@@ -92,8 +99,8 @@ for all of the options.
     * RSS
     * mediaRSS
     * ATOM
-    * HTML?
-    * Javascript?
+    * HTML
+    * Javascript
 
 
 ## Contributing
