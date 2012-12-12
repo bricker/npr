@@ -71,7 +71,7 @@ module NPR
     def connection
       @connection ||= begin
         Faraday.new NPR::Config::API_ROOT do |conn|
-          conn.response :xml, content_type: /\bxml$/
+          conn.response :xml, :content_type => /\bxml$/
           conn.adapter Faraday.default_adapter
         end
       end

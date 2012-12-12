@@ -20,8 +20,8 @@ module NPR
       # TODO: Accept multiple ID's
       #
       def find(id)
-        client = NPR::Client.new(apiKey: NPR.config.apiKey)
-        response = client.query(id: id)
+        client = NPR::Client.new(:apiKey => NPR.config.apiKey)
+        response = client.query(:id => id)
         new(response["list"]["story"])
       end
     end
