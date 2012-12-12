@@ -28,6 +28,5 @@ describe NPR::Client do
       client = NPR::Client.new
       lambda { client.query }.should raise_error NPR::NotConfiguredError
     end
-    
   end
 end

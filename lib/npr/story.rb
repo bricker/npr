@@ -39,26 +39,58 @@ module NPR
     end
 
     #-------------------------
-    
+    # Association accessors
+    # the :_attr methods are what was received
+    # from the API. The normal :attr ones are
+    # the actual association, which should be used
+    # instead of the raw data
     attr_accessor :images, :audio, :bylines
-    attr_reader :attributes
+    attr_accessor :_byline, :_image, :_audio
     
+    attr_accessor :relatedLink, :pullQuote
+    
+    attr_accessor :parent, :organization
+    
+    attr_accessor :text, :textWithHtml, :fullText
+    
+    # Attribute accessors
+    attr_accessor :id, :link, :title, :partnerId,
+                  :subtitle, :shortTitle, :teaser,
+                  :miniTeaser, :slug, :thumbnail,
+                  :storyDate, :pubDate, :lastModifiedDate,
+                  :keywords, :priorityKeywords, 
+                  :container
+    
+    
+    #-------------------------
+    # For now, "associations" are just arrays.
+    # This will be replaced with a more "ActiveRecord" 
+    # style behavior.
     def initialize(attributes={})
-      @attributes = attributes
       @images     = []
       @audio      = []
       @bylines    = []
       
-      Array.wrap(@attributes["images"]).each do |image|
+      Array.wrap(attributes["image"]).each do |image|
         self.images.push NPR::Image.new(image)
       end
       
-      Array.wrap(@attributes["audio"]).each do |audio|
+      Array.wrap(attributes["audio"]).each do |audio|
         self.audio.push NPR::Audio.new(audio)
       end
       
-      Array.wrap(@attributes["byline"]).each do |byline|
+      Array.wrap(attributes["byline"]).each do |byline|
         self.bylines.push NPR::Byline.new(byline)
+      end
+      
+      # Special-case setters
+      %w{ image byline audio }.each do |assoc|
+        self.send "_#{assoc}=", attributes.delete(assoc)
+      end
+      
+      # Setters for all the normal attributes
+      attributes.keys.each do |attrib|
+        self.send "#{attrib}=", attributes.delete(attrib)
       end
     end
     
@@ -71,12 +103,6 @@ module NPR
         primary = self.images.find { |i| i["type"] == "primary"}
         primary || self.images.first
       end
-    end
-
-    #-------------------------
-
-    def method_missing(method, *args, &block)
-      @attributes[method] || super
     end
   end # Story
 end # NPR
