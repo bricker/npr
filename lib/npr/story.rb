@@ -12,7 +12,7 @@ module NPR
       # Find a story based on ID
       # 
       # In order to use this, you must configure
-      # the apiKey using NPR.configure
+      # the at least the apiKey using NPR.configure
       #
       # Example:
       #

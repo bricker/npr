@@ -96,13 +96,11 @@ for all of the options.
 
 * Specs
 * Documentation
-* Support all of NPR's output formats:
+* Support a way to return raw formats of:
+    * HTML / Javascript (for views)
     * JSON
-    * RSS
-    * mediaRSS
     * ATOM
-    * HTML
-    * Javascript
+    * RSS
 
 
 ## Contributing
