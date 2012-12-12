@@ -46,51 +46,76 @@ module NPR
     # instead of the raw data
     attr_accessor :images, :audio, :bylines
     attr_accessor :_byline, :_image, :_audio
+        
+    # Attributes that we are using as-is
+    ATTR_AS_IS = [
+      :title, 
+      :subtitle, 
+      :shortTitle,
+      :teaser, 
+      :miniTeaser, 
+      :slug, 
+      :thumbnail, 
+      :keywords, 
+      :priorityKeywords, 
+      :parent, 
+      :organization, 
+      :link, 
+      :container,
+      :text, 
+      :textWithHtml, 
+      :fullText,
+      :relatedLink, 
+      :pullQuote
+    ]
+    attr_accessor *ATTR_AS_IS
     
-    attr_accessor :relatedLink, :pullQuote
-    
-    attr_accessor :parent, :organization
-    
-    attr_accessor :text, :textWithHtml, :fullText
-    
-    # Attribute accessors
-    attr_accessor :id, :link, :title, :partnerId,
-                  :subtitle, :shortTitle, :teaser,
-                  :miniTeaser, :slug, :thumbnail,
-                  :storyDate, :pubDate, :lastModifiedDate,
-                  :keywords, :priorityKeywords, 
-                  :container
-    
+    # Attributes that are being typecast to Ruby classes
+    ATTR_TYPECAST = {
+      :id               => Fixnum,
+      :partnerId        => Fixnum,
+      :storyDate        => Time, 
+      :pubDate          => Time,
+      :lastModifiedDate => Time
+    }
+    attr_accessor *ATTR_TYPECAST.keys
     
     #-------------------------
     # For now, "associations" are just arrays.
     # This will be replaced with a more "ActiveRecord" 
     # style behavior.
     def initialize(attributes={})
+      attributes.symbolize_keys!
+      
       @images     = []
       @audio      = []
       @bylines    = []
       
-      Array.wrap(attributes["image"]).each do |image|
+      # Special-case setters
+      [:image, :byline, :audio].each do |key|
+        self.send "_#{key}=", attributes[key]
+      end
+      
+      Array.wrap(self._image).each do |image|
         self.images.push NPR::Image.new(image)
       end
       
-      Array.wrap(attributes["audio"]).each do |audio|
+      Array.wrap(self._audio).each do |audio|
         self.audio.push NPR::Audio.new(audio)
       end
       
-      Array.wrap(attributes["byline"]).each do |byline|
+      Array.wrap(self._byline).each do |byline|
         self.bylines.push NPR::Byline.new(byline)
       end
       
-      # Special-case setters
-      %w{ image byline audio }.each do |assoc|
-        self.send "_#{assoc}=", attributes.delete(assoc)
+      ATTR_TYPECAST.each do |key, type|
+        attribute = attributes[key]
+        self.send "#{key}=", typecast(attribute, type)
       end
       
-      # Setters for all the normal attributes
-      attributes.keys.each do |attrib|
-        self.send "#{attrib}=", attributes.delete(attrib)
+      ATTR_AS_IS.each do |key|
+        attribute = attributes[key]
+        self.send "#{key}=", attribute
       end
     end
     
@@ -102,6 +127,30 @@ module NPR
       @primary_image ||= begin
         primary = self.images.find { |i| i["type"] == "primary"}
         primary || self.images.first
+      end
+    end
+
+    #-------------------------
+    
+    private
+
+    #-------------------------
+    # Turn the attribute into the specified type
+    #
+    # Example:
+    #
+    #   typecast_attribute("20", Fixnum) #=> 20
+    #
+    def typecast(attribute, type)
+      case type
+      when Fixnum
+        attribute.to_i
+      when Time
+        Time.parse(attribute)
+      else
+        # Typecast failed.
+        # Just return the attribute.
+        attribute
       end
     end
   end # Story
