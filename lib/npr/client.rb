@@ -54,7 +54,7 @@ module NPR
       end
       
       response = connection.get do |request|
-        request.url NPR::Config::API_PATH
+        request.url NPR::Configuration::API_PATH
         request.params = @params.merge(params)
         request.params['apiKey'] = @apiKey
       end
@@ -70,7 +70,7 @@ module NPR
     
     def connection
       @connection ||= begin
-        Faraday.new NPR::Config::API_ROOT do |conn|
+        Faraday.new NPR::Configuration::API_ROOT do |conn|
           conn.response :xml, :content_type => /\bxml$/
           conn.adapter Faraday.default_adapter
         end
