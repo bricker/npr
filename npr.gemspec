@@ -21,8 +21,9 @@ Gem::Specification.new do |gem|
   gem.add_dependency 'faraday', ['>= 0.8.0']
   gem.add_dependency 'faraday_middleware', ['>= 0.9.0']
   gem.add_dependency 'multi_xml', ['>= 0.5.1']
-  
+
   gem.add_development_dependency 'bundler', ['>= 1.0.0']
   gem.add_development_dependency 'rake', ['>= 0']
   gem.add_development_dependency 'rspec', ['>= 0']
+  gem.add_development_dependency 'fakeweb', ['>= 0']
 end
