@@ -1,5 +1,8 @@
 # NPR Ruby Client
 
+**NOTE** This gem is a WIP
+
+
 A simple Ruby client for the NPR API
 
 ## Installation
