@@ -1,0 +1,38 @@
+<div class="nprMod">
+      <script type="text/javascript">
+/* popup window function, based on original code by James Craig */
+var sUserAgent = navigator.userAgent.toLowerCase();
+var isOp = (sUserAgent.indexOf('opera')!=-1)?true:false;
+
+function moduleLink(oAnchor, sWindow){
+    var sUrl = '';
+    if(typeof(oAnchor)=='string') sUrl = oAnchor;
+    else {
+        if(oAnchor.getAttribute) sUrl = oAnchor.getAttribute('href');
+        if(sUrl=='') sUrl = oAnchor.href;
+    }
+
+    if(sUrl=='') return true;
+    var sWindowName = sWindow?sWindow:'nprPopup';
+    if(sUrl) var oPopup = window.open(sUrl,sWindowName);
+    if(oPopup && !isOp) oPopup.focus();
+    return (oPopup)?false:true;
+}
+
+function moduleMedia(oAnchor){
+    var sUrl = '';
+    if(typeof(oAnchor)=='string') sUrl = oAnchor;
+    else {
+        if(oAnchor.getAttribute) sUrl = oAnchor.getAttribute('href');
+        if(sUrl=='') sUrl = oAnchor.href;
+    }
+
+    if(sUrl=='') return true;
+
+    window.location.href = sUrl;
+    return false;
+}
+</script>
+
+<script type="text/javascript" src="http://www.npr.org/templates/javascript/generated/apiModule.js"></script>
+</div>

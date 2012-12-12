@@ -1,0 +1,440 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list id="3002" typeid="3002">
+  <title>All Topics</title>
+  <item id="1149" num="1" type="topic">
+    <title>Afghanistan</title>
+    <additionalInfo>Afghanistan</additionalInfo>
+  </item>
+  <item id="1126" num="2" type="topic">
+    <title>Africa</title>
+    <additionalInfo>Africa</additionalInfo>
+  </item>
+  <item id="1059" num="3" type="topic">
+    <title>Analysis</title>
+    <additionalInfo>Analysis by NPR commentators, including Ted Koppel. Subscribe to our free podcast.</additionalInfo>
+  </item>
+  <item id="1132" num="4" type="topic">
+    <title>Animals</title>
+    <additionalInfo>Animals</additionalInfo>
+  </item>
+  <item id="1142" num="5" type="topic">
+    <title>Architecture</title>
+    <additionalInfo>Architecture</additionalInfo>
+  </item>
+  <item id="1091" num="6" type="topic">
+    <title>Around the Nation</title>
+    <additionalInfo>Stories of Local interest</additionalInfo>
+  </item>
+  <item id="1047" num="7" type="topic">
+    <title>Art &amp; Design</title>
+    <additionalInfo>NPR explores the visual arts including design, photography, sculpture, and architecture. Interviews, commentary, and audio. Subscribe to the RSS feed.</additionalInfo>
+  </item>
+  <item id="1008" num="8" type="topic">
+    <title>Arts &amp; Life</title>
+    <additionalInfo>Art and entertainment commentary plus interviews, book reviews, movie reviews, music reviews, comedy, and visual art. Subscribe to podcasts and follow trends in music, painting, art, architecture, photography, and design.</additionalInfo>
+  </item>
+  <item id="1125" num="9" type="topic">
+    <title>Asia</title>
+    <additionalInfo>Asia</additionalInfo>
+  </item>
+  <item id="1033" num="10" type="topic">
+    <title>Author Interviews</title>
+    <additionalInfo>NPR interviews with top authors and the NPR Book Tour, a weekly feature and podcast where leading authors read and discuss their writing. Subscribe to the RSS feed.</additionalInfo>
+  </item>
+  <item id="1034" num="11" type="topic">
+    <title>Book Reviews</title>
+    <additionalInfo>Summary judgment on books of note, from NPR personalities, independent booksellers and critics from across the public-radio spectrum.</additionalInfo>
+  </item>
+  <item id="1032" num="12" type="topic">
+    <title>Books</title>
+    <additionalInfo>NPR's brings you news about books and authors along with our picks for great reads. Interviews, reviews, the NPR Bestseller Lists, New in Paperback and much more.</additionalInfo>
+  </item>
+  <item id="1161" num="13" type="topic">
+    <title>Books News &amp; Features</title>
+    <additionalInfo>Headlines, trends and profiles from the world of publishing.</additionalInfo>
+  </item>
+  <item id="1130" num="14" type="topic">
+    <title>Brain Candy</title>
+    <additionalInfo>Brain Candy</additionalInfo>
+  </item>
+  <item id="1006" num="15" type="topic">
+    <title>Business</title>
+    <additionalInfo>Find the latest business news with reports on Wall Street, interest rates, banking, companies, and U.S. and world financial markets. Subscribe to the Business Story of the Day podcast.</additionalInfo>
+  </item>
+  <item id="1095" num="16" type="topic">
+    <title>Business Story of the Day</title>
+    <additionalInfo>NPR's top stories about business, money, Wall Street, companies, and the economy that you can't miss. Subscribe to the Business Story of the Day RSS feed.</additionalInfo>
+  </item>
+  <item id="1030" num="17" type="topic">
+    <title>Children's Health</title>
+    <additionalInfo>NPR reports on children's health and medical news including health insurance, new treatments for diseases, and child product safety recalls. Subscribe to the RSS feed.</additionalInfo>
+  </item>
+  <item id="1060" num="18" type="topic">
+    <title>Commentary</title>
+    <additionalInfo>NPR's acclaimed commentary on news, politics, and sports. Subscribe to RSS news feeds and podcasts.</additionalInfo>
+  </item>
+  <item id="1109" num="19" type="topic">
+    <title>Concerts</title>
+    <additionalInfo>Performances from today's top artists, filmed at venues and festivals across the country.</additionalInfo>
+  </item>
+  <item id="1145" num="20" type="topic">
+    <title>Dance</title>
+    <additionalInfo>Dance</additionalInfo>
+  </item>
+  <item id="1049" num="21" type="topic">
+    <title>Digital Life</title>
+    <additionalInfo>NPR's stories on information technology, computing, and the internet. Download podcasts and subscribe to RSS feeds. Listen to audio online.</additionalInfo>
+  </item>
+  <item id="1108" num="22" type="topic">
+    <title>Discover Songs</title>
+    <additionalInfo>Song features from NPR Music including All Songs Considered, Song of the Day, Open Mic, Song on Deadline, Music Lists, and more. Listen online to find new music in rock, pop, folk, jazz, urban, blues, classical, and world music. Video sessions of new artists.</additionalInfo>
+  </item>
+  <item id="1051" num="23" type="topic">
+    <title>Diversions</title>
+    <additionalInfo>Irrestible and odd stories from news, culture, sports, and literature. Subscribe to the Diversions RSS feed.</additionalInfo>
+  </item>
+  <item id="1017" num="24" type="topic">
+    <title>Economy</title>
+    <additionalInfo>NPR news on the U.S. and world economy, the World Bank, and Federal Reserve. Commentary on economic trends. Subscribe to NPR Economy podcasts and RSS feeds.</additionalInfo>
+  </item>
+  <item id="1013" num="25" type="topic">
+    <title>Education</title>
+    <additionalInfo>NPR news and commentary on education, schools, colleges and universities, and emerging trends in learning. Listen to audio and subscribe to RSS feeds.</additionalInfo>
+  </item>
+  <item id="1102" num="26" type="topic">
+    <title>Election 2008</title>
+    <additionalInfo>In-depth coverage of the 2008 presidential election, Democratic and Republican candidates, and primary elections and caucuses. Listen to audio and video reports from the campaign trail. Interactive features include a primary calendar and an interactive election map.</additionalInfo>
+  </item>
+  <item id="1114" num="27" type="topic">
+    <title>Election 2008: Congressional &amp; State Races</title>
+    <additionalInfo>NPR looks at the key House, Senate and gubernatorial races for November 2008.</additionalInfo>
+  </item>
+  <item id="1111" num="28" type="topic">
+    <title>Election 2008: Issues</title>
+    <additionalInfo>NPR provides in-depth coverage of election issues, from the Iraq war to the economy to health care.</additionalInfo>
+  </item>
+  <item id="1113" num="29" type="topic">
+    <title>Election 2008: Money, Media &amp; Influence</title>
+    <additionalInfo>NPR looks at the political process in the 2008 presidential election, including campaign finance, media coverage and the role of lobbyists.</additionalInfo>
+  </item>
+  <item id="1115" num="30" type="topic">
+    <title>Election 2008: On the Campaign Trail</title>
+    <additionalInfo>NPR examines the presidential candidates on the campaign trail.</additionalInfo>
+  </item>
+  <item id="1112" num="31" type="topic">
+    <title>Election 2008: Voting Groups</title>
+    <additionalInfo>NPR looks at the key voting groups for election 2008, including white working-class voters, Hispanics and women.</additionalInfo>
+  </item>
+  <item id="1121" num="32" type="topic">
+    <title>Election 2008: Voting Problems</title>
+    <additionalInfo>NPR examines voting problems for the 2008 election with a look at voter intimidation, voter fraud, registration irregularities and other issues at the polls.</additionalInfo>
+  </item>
+  <item id="139482413" num="33" type="topic">
+    <title>Election 2012</title>
+    <additionalInfo>Explore NPR's coverage of the battle for the White House. You'll also find the latest news about House and Senate races and key statewide contests.</additionalInfo>
+  </item>
+  <item id="1131" num="34" type="topic">
+    <title>Energy</title>
+    <additionalInfo>Energy</additionalInfo>
+  </item>
+  <item id="1025" num="35" type="topic">
+    <title>Environment</title>
+    <additionalInfo>Breaking news on the environment, climate change, pollution, and endangered species. Also featuring Climate Connections, a special series on climate change co-produced by NPR and National Geographic.</additionalInfo>
+  </item>
+  <item id="1124" num="36" type="topic">
+    <title>Europe</title>
+    <additionalInfo>Europe</additionalInfo>
+  </item>
+  <item id="1141" num="37" type="topic">
+    <title>Fine Art</title>
+    <additionalInfo>Fine Art</additionalInfo>
+  </item>
+  <item id="1134" num="38" type="topic">
+    <title>Fitness &amp; Nutrition</title>
+    <additionalInfo>Fitness &amp; Nutrition</additionalInfo>
+  </item>
+  <item id="1053" num="39" type="topic">
+    <title>Food</title>
+    <additionalInfo>Stories on food, nutrition, recipes, cooking, cookbook reviews, and health. Download Food and Hidden Kitchen podcasts and subscribe to RSS feeds.</additionalInfo>
+  </item>
+  <item id="1061" num="40" type="topic">
+    <title>From Our Listeners</title>
+    <additionalInfo>Listeners respond by email and phone to NPR stories. Subscribe to the Listeners RSS feed.</additionalInfo>
+  </item>
+  <item id="1052" num="41" type="topic">
+    <title>Games &amp; Humor</title>
+    <additionalInfo>Games, puzzles, and contests plus odd stories from comedy, art, and society.</additionalInfo>
+  </item>
+  <item id="1054" num="42" type="topic">
+    <title>Gardening</title>
+    <additionalInfo>NPR stories about gardening, plants, and food crops. Read interviews and commentary and subscribe to the Gardening RSS feed.</additionalInfo>
+  </item>
+  <item id="1031" num="43" type="topic">
+    <title>Global Health</title>
+    <additionalInfo>NPR news on world health issues, disease control, public health and sanitation, and health education. Subscribe to the RSS feed.</additionalInfo>
+  </item>
+  <item id="1120" num="44" type="topic">
+    <title>Gov. Sarah Palin</title>
+    <additionalInfo>Browse NPR coverage of Republican vice-presidential candidate Alaska Gov. Sarah Palin.</additionalInfo>
+  </item>
+  <item id="1123" num="45" type="topic">
+    <title>Governing</title>
+    <additionalInfo>Governing</additionalInfo>
+  </item>
+  <item id="1128" num="46" type="topic">
+    <title>Health</title>
+    <additionalInfo>Health</additionalInfo>
+  </item>
+  <item id="1027" num="47" type="topic">
+    <title>Health Care</title>
+    <additionalInfo>The state of health care, health insurance, new medical research, disease prevention, and drug treatments. Interviews, news, and commentary from NPR's correspondents. Subscribe to podcasts.</additionalInfo>
+  </item>
+  <item id="1136" num="48" type="topic">
+    <title>History</title>
+    <additionalInfo>History</additionalInfo>
+  </item>
+  <item id="1096" num="49" type="topic">
+    <title>Holiday Story of the Day</title>
+    <additionalInfo>The holiday stories that you can't miss. Christmas, Hannukah, Kwanzaa, and New Year's. Subscribe to the Holiday Story of the Day RSS feed.</additionalInfo>
+  </item>
+  <item id="1002" num="50" type="topic">
+    <title>Home Page Top Stories</title>
+    <additionalInfo>NPR delivers breaking national and world news. Also top stories from business, politics, health, science, technology, music, arts and culture. Subscribe to podcasts and RSS feeds.</additionalInfo>
+  </item>
+  <item id="139545299" num="51" type="topic">
+    <title>House &amp; Senate Races</title>
+    <additionalInfo>Explore NPR's latest coverage of the 2012 congressional contests.</additionalInfo>
+  </item>
+  <item id="1129" num="52" type="topic">
+    <title>Humans</title>
+    <additionalInfo>Humans</additionalInfo>
+  </item>
+  <item id="1022" num="53" type="topic">
+    <title>Interviews</title>
+    <additionalInfo>NPR interviews famous and everyday individuals, including world leaders and political figures, artists, writers, musicians, and unique people in your community.</additionalInfo>
+  </item>
+  <item id="1127" num="54" type="topic">
+    <title>Latin America</title>
+    <additionalInfo>Latin America</additionalInfo>
+  </item>
+  <item id="1076" num="55" type="topic">
+    <title>Low-Wage America</title>
+    <additionalInfo>NPR stories about low-wage America, the income gap between rich and poor, affordable housing, welfare, medicaid, social security, and healthcare for the working poor.</additionalInfo>
+  </item>
+  <item id="1020" num="56" type="topic">
+    <title>Media</title>
+    <additionalInfo>News about the state of the media. Trends in broadcast and print media, television, and radio journalism. Download podcasts and RSS feeds.</additionalInfo>
+  </item>
+  <item id="1135" num="57" type="topic">
+    <title>Medical Treatments</title>
+    <additionalInfo>Medical Treatments</additionalInfo>
+  </item>
+  <item id="1029" num="58" type="topic">
+    <title>Mental Health</title>
+    <additionalInfo>NPR covers mental health, happiness, depression, and treatment options. Subscribe to the RSS feed.</additionalInfo>
+  </item>
+  <item id="1137" num="59" type="topic">
+    <title>Movie Interviews</title>
+    <additionalInfo>Movie Interviews</additionalInfo>
+  </item>
+  <item id="1045" num="60" type="topic">
+    <title>Movies</title>
+    <additionalInfo>NPR Movies podcast, movie reviews, and commentary on new and classic films. Interviews with filmmakers, actors, and actresses.</additionalInfo>
+  </item>
+  <item id="1147" num="61" type="topic">
+    <title>Multimedia</title>
+    <additionalInfo>National Public Radio offers up radio with a vision. Presenting NPR multimedia: the Picture Show blog and the Radio Pictures video podcast - quality visuals to go with NPR's quality sound.</additionalInfo>
+  </item>
+  <item id="1039" num="62" type="topic">
+    <title>Music</title>
+    <additionalInfo>NPR Music features, streams, live concerts and music news.</additionalInfo>
+  </item>
+  <item id="1151" num="63" type="topic">
+    <title>Music Games &amp; Humor</title>
+    <additionalInfo>Music Games &amp; Humor</additionalInfo>
+  </item>
+  <item id="1105" num="64" type="topic">
+    <title>Music Interviews</title>
+    <additionalInfo>Interviews with top musicians from jazz, blues, rock, pop, folk, classical, urban, and world music. Listen online to live studio sessions and musician interviews and watch video sessions.</additionalInfo>
+  </item>
+  <item id="1106" num="65" type="topic">
+    <title>Music News</title>
+    <additionalInfo>Current music news, artist interviews, album reviews, and music industry news from NPR Music. Rock, pop, folk, classical, jazz, blues, urban, and world music. Watch video sessions.</additionalInfo>
+  </item>
+  <item id="1104" num="66" type="topic">
+    <title>Music Reviews</title>
+    <additionalInfo>Music reviews of the best new albums in pop, rock, folk, jazz, blues, classical, world, and urban music. Song of the day, artist interviews, video sessions, and album reviews.</additionalInfo>
+  </item>
+  <item id="1110" num="67" type="topic">
+    <title>Music Videos</title>
+    <additionalInfo>Watch new music videos and live NPR studio sessions featuring top musicians. Discover songs and listen online. NPR covers the best pop, rock, urban, jazz, folk, blues, world, and classical music.</additionalInfo>
+  </item>
+  <item id="1122" num="68" type="topic">
+    <title>National Security</title>
+    <additionalInfo>National Security</additionalInfo>
+  </item>
+  <item id="1001" num="69" type="topic">
+    <title>News</title>
+    <additionalInfo>NPR news, audio, and pointernal linksdcasts. Coverage of breaking stories, national and world news, politics, business, science, technology, and extended coverage of major national and world events.</additionalInfo>
+  </item>
+  <item id="128850421" num="70" type="topic">
+    <title>News iPad</title>
+    <additionalInfo>teaser</additionalInfo>
+  </item>
+  <item id="1107" num="71" type="topic">
+    <title>NPR Music Essentials</title>
+    <additionalInfo>Lists of top artists and top songs compiled by musicians, critics, and noted NPR hosts. Listen online and find new songs in rock, pop, folk, jazz, blues, urban, classical, and world music.</additionalInfo>
+  </item>
+  <item id="1150" num="72" type="topic">
+    <title>NPR News Investigations</title>
+    <additionalInfo>NPR News Investigations</additionalInfo>
+  </item>
+  <item id="1028" num="73" type="topic">
+    <title>On Aging</title>
+    <additionalInfo>NPR stories and audio on aging, longevity, retirement, and senior issues. More articles on health care, leisure, disease prevention, and housing. Subscribe to the RSS feed.</additionalInfo>
+  </item>
+  <item id="1133" num="74" type="topic">
+    <title>On Disabilities</title>
+    <additionalInfo>On Disabilities</additionalInfo>
+  </item>
+  <item id="1057" num="75" type="topic">
+    <title>Opinion</title>
+    <additionalInfo>Editorial opinions and commentary on news events and world events. Download podcasts and subscribe to RSS feeds.</additionalInfo>
+  </item>
+  <item id="1046" num="76" type="topic">
+    <title>Performing Arts</title>
+    <additionalInfo>News, interviews, and commentary on theater, the arts, music, and dance.</additionalInfo>
+  </item>
+  <item id="1143" num="77" type="topic">
+    <title>Photography</title>
+    <additionalInfo>Photography</additionalInfo>
+  </item>
+  <item id="1014" num="78" type="topic">
+    <title>Politics</title>
+    <additionalInfo>NPR's expanded coverage of U.S. and world politics, the latest news from Congress and the White House, and elections. Subscribe to podcasts and RSS feeds.</additionalInfo>
+  </item>
+  <item id="1048" num="79" type="topic">
+    <title>Pop Culture</title>
+    <additionalInfo>News and commentary on popular culture trends. Download the Pop Culture podcast.</additionalInfo>
+  </item>
+  <item id="139544303" num="80" type="topic">
+    <title>Presidential Race</title>
+    <additionalInfo>Explore NPR's latest coverage of the race for the White House.</additionalInfo>
+  </item>
+  <item id="1139" num="81" type="topic">
+    <title>Recipes</title>
+    <additionalInfo>Recipes</additionalInfo>
+  </item>
+  <item id="1016" num="82" type="topic">
+    <title>Religion</title>
+    <additionalInfo>NPR's stories on U.S. and world religion, spirituality, ethics, and moral issues affecting society and culture. Subscribe to NPR Religion RSS feeds.</additionalInfo>
+  </item>
+  <item id="1062" num="83" type="topic">
+    <title>Remembrances</title>
+    <additionalInfo>NPR remembrances of remarkable individuals. Also obituaries and and tributes to great individuals. Subscribe to the Remembrances podcast.</additionalInfo>
+  </item>
+  <item id="1024" num="84" type="topic">
+    <title>Research News</title>
+    <additionalInfo>New advances in science, medicine, health, and technology.Stem cell research, drug research, and new treatments for disease.</additionalInfo>
+  </item>
+  <item id="1007" num="85" type="topic">
+    <title>Science</title>
+    <additionalInfo>The latest health and science news. Updates on medicine, healthy living, nutrition, drugs, diet, and advances in science and technology. Subscribe to the Health &amp; Science podcast.</additionalInfo>
+  </item>
+  <item id="1117" num="86" type="topic">
+    <title>Sen. Barack Obama (D-IL)</title>
+    <additionalInfo>Browse NPR coverage of Democratic presidential candidate Illinois Sen. Barack Obama.</additionalInfo>
+  </item>
+  <item id="1116" num="87" type="topic">
+    <title>Sen. Hillary Clinton (D-NY)</title>
+    <additionalInfo>Browse NPR coverage of Democratic presidential candidate New York Sen. Hillary Clinton.</additionalInfo>
+  </item>
+  <item id="1118" num="88" type="topic">
+    <title>Sen. John McCain (R-AZ)</title>
+    <additionalInfo>Browse NPR coverage of Republican presidential candidate Arizona Sen. John McCain.</additionalInfo>
+  </item>
+  <item id="1119" num="89" type="topic">
+    <title>Sen. Joseph Biden (D-DE)</title>
+    <additionalInfo>Browse NPR coverage of Democratic vice-presidential candidate Delaware Sen. Joseph Biden.</additionalInfo>
+  </item>
+  <item id="1026" num="90" type="topic">
+    <title>Space</title>
+    <additionalInfo>NPR coverage of space exploration, space shuttle missions, news from NASA, private space exploration, satellite technology, and new discoveries in astronomy and astrophysics.</additionalInfo>
+  </item>
+  <item id="1055" num="91" type="topic">
+    <title>Sports</title>
+    <additionalInfo>NPR sports news and interviews. Listen to Frank DeFord's sport commentary and download the sports podcast.</additionalInfo>
+  </item>
+  <item id="139545485" num="92" type="topic">
+    <title>Statewide Races</title>
+    <additionalInfo>Explore NPR's coverage of gubernatorial contests, ballot issues and other statewide elections in 2012.</additionalInfo>
+  </item>
+  <item id="1090" num="93" type="topic">
+    <title>Story of the Day</title>
+    <additionalInfo>NPR's daily top stories that you can't miss. Exceptional, moving, offbeat, or just plain funny. Subscribe to the Story of the Day podcast.</additionalInfo>
+  </item>
+  <item id="1146" num="94" type="topic">
+    <title>Strange News</title>
+    <additionalInfo>Unlikely stories from around the nation and the world.</additionalInfo>
+  </item>
+  <item id="1103" num="95" type="topic">
+    <title>Studio Sessions</title>
+    <additionalInfo>Musicians perform and discuss their work in the studios of NPR and NPR Music station partners. Live music sessions, interviews, and the best new songs in rock, pop, folk, classical, jazz, blues, urban, and world music. Watch video sessions.</additionalInfo>
+  </item>
+  <item id="1088" num="96" type="topic">
+    <title>Summer</title>
+    <additionalInfo>NPR stories about summer. Living, eating, diversions, health, and summer traditions. Subscribe to the Summer RSS feed.</additionalInfo>
+  </item>
+  <item id="1087" num="97" type="topic">
+    <title>Summer Reading: Cooking</title>
+    <additionalInfo>Fresh recipes and cookbooks for summer reading. Subscribe to the RSS feed.</additionalInfo>
+  </item>
+  <item id="1085" num="98" type="topic">
+    <title>Summer Reading: Fiction</title>
+    <additionalInfo>Selections for great summer fiction. Book reviews, excerpts, and author interviews. Suscribe to the Summer Fiction RSS feed.</additionalInfo>
+  </item>
+  <item id="1086" num="99" type="topic">
+    <title>Summer Reading: Kids</title>
+    <additionalInfo>NPR's selections of summer reading for kids. Excerpts, interviews, and reviews. Subscribe to RSS feeds.</additionalInfo>
+  </item>
+  <item id="1089" num="100" type="topic">
+    <title>Summer Reading: Nonfiction</title>
+    <additionalInfo>Selections for great summer nonfiction. Book reviews, excerpts, and author interviews. Suscribe to the Summer Reading Nonfiction RSS feed.</additionalInfo>
+  </item>
+  <item id="1019" num="101" type="topic">
+    <title>Technology</title>
+    <additionalInfo>Latest technology news and breakthroughs in technology, science, and industry. Download the NPR Technology podcast and Technology RSS feed.</additionalInfo>
+  </item>
+  <item id="1138" num="102" type="topic">
+    <title>Television</title>
+    <additionalInfo>Television</additionalInfo>
+  </item>
+  <item id="1078" num="103" type="topic">
+    <title>The Impact of War</title>
+    <additionalInfo>NPR news and stories about the wars in Iraq and Afghanistan. Interviews with soldiers, world leaders, veterans, and families on the home front. Read and listen to stories and subscribe to RSS feeds.</additionalInfo>
+  </item>
+  <item id="1144" num="104" type="topic">
+    <title>Theater</title>
+    <additionalInfo>Theater</additionalInfo>
+  </item>
+  <item id="1003" num="105" type="topic">
+    <title>U.S.</title>
+    <additionalInfo>NPR coverage of national news, U.S. politics, elections, business, arts, culture, health and science, and technology. Subscribe to the NPR Nation RSS feed.</additionalInfo>
+  </item>
+  <item id="1004" num="106" type="topic">
+    <title>World</title>
+    <additionalInfo>NPR world news, international art and culture, world business and financial markets, world economy, and global trends in health, science and technology. Subscribe to the World Story of the Day podcast and RSS feed.</additionalInfo>
+  </item>
+  <item id="1056" num="107" type="topic">
+    <title>World Story of the Day</title>
+    <additionalInfo>NPR's top daily news about world events, politics, economy, and culture. Download the World Story of the Day podcast.</additionalInfo>
+  </item>
+  <item id="1066" num="108" type="topic">
+    <title>Your Health</title>
+    <additionalInfo>News and commentary about personal health, medicine, healthcare, drugs, diet, recipes, and nutrition. Download the Your Health podcast and subscribe to our RSS feed.</additionalInfo>
+  </item>
+  <item id="1018" num="109" type="topic">
+    <title>Your Money</title>
+    <additionalInfo>NPR coverage of personal finance, money, investing, taxes, retirement, mortgages and housing markets, wealth management, and stock market news. Download NPR podcasts and RSS feeds.</additionalInfo>
+  </item>
+</list>

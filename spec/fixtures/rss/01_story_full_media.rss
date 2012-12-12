@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:npr="http://www.npr.org/rss/" xmlns:nprml="http://api.npr.org/nprml" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>NPR: Stories from NPR</title>
+    <link>http://www.npr.org</link>
+    <description>Assorted stories from NPR</description>
+    <language>en</language>
+    <copyright>Copyright 2012 NPR - For Personal Use Only</copyright>
+    <generator>NPR API RSS Generator 0.94</generator>
+    <lastBuildDate>Wed, 12 Dec 2012 00:30:00 -0500</lastBuildDate>
+    <image>
+      <url>http://media.npr.org/images/npr_news_123x20.gif</url>
+      <title>NPR: Stories from NPR</title>
+      <link>http://www.npr.org</link>
+    </image>
+    <item>
+      <title>Ravi Shankar, Who Brought Eastern Music To Western Legends, Dies</title>
+      <description>When he was just 10 years old, Shankar began performing in Europe and the US with his family's Indian dance troupe. But at age 18, Shankar gave up all the glitter to study with a guru who taught him the sitar. He became a master, and introduced the West to his country's music.</description>
+      <pubDate>Wed, 12 Dec 2012 00:30:00 -0500</pubDate>
+      <link>http://www.npr.org/blogs/therecord/2012/12/12/167019577/ravi-shankar-who-brought-eastern-music-to-western-legends-dies?ft=1&amp;f=167019577</link>
+      <guid>http://www.npr.org/blogs/therecord/2012/12/12/167019577/ravi-shankar-who-brought-eastern-music-to-western-legends-dies?ft=1&amp;f=167019577</guid>
+      <content:encoded><![CDATA[<p>When he was just 10 years old, Shankar began performing in Europe and the US with his family's Indian dance troupe. But at age 18, Shankar gave up all the glitter to study with a guru who taught him the sitar. He became a master, and introduced the West to his country's music.</p><p><a href="http://www.npr.org/templates/email/emailAFriend.php?storyId=167019577">&raquo; E-Mail This</a>&nbsp;&nbsp;&nbsp;&nbsp; <a href="http://del.icio.us/post?url=http%3A%2F%2Fwww.npr.org%2Ftemplates%2Fstory%2Fstory.php%3FstoryId%3D167019577">&raquo; Add to Del.icio.us</a></p>]]></content:encoded>
+    </item>
+  </channel>
+</rss>

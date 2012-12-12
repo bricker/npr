@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nprml version="0.94">
+  <message id="401" level="warning">
+    <text>There were no results that matched your query criteria.</text>
+    <timestamp>1355298330.06</timestamp>
+  </message>
+  <list>
+    <title><![CDATA[NPR: Stories from NPR]]></title>
+    <teaser><![CDATA[Assorted stories from NPR]]></teaser>
+    <miniTeaser><![CDATA[Custom NPR News Feed API.  Visit http://www.npr.org/templates/apidoc/index.php for more information.]]></miniTeaser>
+    <link type="api">http://api.npr.org/query?id=167016221&amp;apiKey=API_KEY</link>
+    <link type="html">http://www.npr.org/2012/12/11/167016221/3-dead-including-gunman-in-ore-mall-shooting?ft=3&amp;f=167016221</link>
+  </list>
+</nprml>

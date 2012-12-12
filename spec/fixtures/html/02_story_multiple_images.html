@@ -1,0 +1,55 @@
+<div class="nprMod">
+      <script type="text/javascript">
+/* popup window function, based on original code by James Craig */
+var sUserAgent = navigator.userAgent.toLowerCase();
+var isOp = (sUserAgent.indexOf('opera')!=-1)?true:false;
+
+function moduleLink(oAnchor, sWindow){
+    var sUrl = '';
+    if(typeof(oAnchor)=='string') sUrl = oAnchor;
+    else {
+        if(oAnchor.getAttribute) sUrl = oAnchor.getAttribute('href');
+        if(sUrl=='') sUrl = oAnchor.href;
+    }
+
+    if(sUrl=='') return true;
+    var sWindowName = sWindow?sWindow:'nprPopup';
+    if(sUrl) var oPopup = window.open(sUrl,sWindowName);
+    if(oPopup && !isOp) oPopup.focus();
+    return (oPopup)?false:true;
+}
+
+function moduleMedia(oAnchor){
+    var sUrl = '';
+    if(typeof(oAnchor)=='string') sUrl = oAnchor;
+    else {
+        if(oAnchor.getAttribute) sUrl = oAnchor.getAttribute('href');
+        if(sUrl=='') sUrl = oAnchor.href;
+    }
+
+    if(sUrl=='') return true;
+
+    window.location.href = sUrl;
+    return false;
+}
+</script>
+
+<script type="text/javascript" src="http://www.npr.org/templates/javascript/generated/apiModule.js"></script>
+   <div class="nprModStory1">
+            <div class="nprModImg">
+                  <a href="http://www.npr.org/2012/12/11/166884441/in-freedom-ex-felon-becomes-probation-counselor"  onclick="return moduleLink(this);"><img src="http://media.npr.org/assets/img/2012/12/11/clark_composite_sq-fe93b6a98c444ebe0b1dd7e3e02729f934c676fb.jpg?s=13" alt="Courtesy of Washington Universtiy in St. Louis" height="75" width="75" border="0" align="left" style="margin-right: 5px;" /></a>
+      </div>
+      <div class="nprModHead">
+                  <a href="http://www.npr.org/2012/12/11/166884441/in-freedom-ex-felon-becomes-probation-counselor"  onclick="return moduleLink(this);"><strong>In Freedom, Ex-Felon Becomes Probation Counselor </strong></a>
+      </div>
+      <div class="nprModText">
+                  <span class="nprModDate">December 11, 2012</span>         <span class="nprModPipe"> | </span>         <span class="nprModName">KWMU</span>         <span class="nprMiddot"> &middot; </span>         <span class="nprTeaser">The federal probation office in St. Louis has one of the biggest caseloads of violent offenders in the country — and one of the lowest recidivism rates. That's in part because of a former felon who knows how to keep ex-offenders from returning to prison.</span>
+      </div>
+      <div class="nprModAudioLinks">
+                  <a href="http://www.npr.org/templates/dmg/dmg_wmref_em.php?id=167000584&type=1&mtype=WM&orgId=278&topicId=1003" onclick="return moduleMedia(this);" class="nprModLinkWindows"><img src="http://media.npr.org/chrome/audio-icon-pos.gif" height="15" width="14" border="0" class="nprModListenIconWindows" /></a>         <span> </span>         <a href="http://www.npr.org/templates/dmg/dmg_wmref_em.php?id=167000584&type=1&mtype=WM&orgId=278&topicId=1003" onclick="return moduleMedia(this);" class="nprModLinkWindows">Windows Media</a>         <span class="nprModAudioPipeMP3"> | </span>         <a href="http://pd.npr.org/anon.npr-mp3/npr/atc/2012/12/20121211_atc_07.mp3?orgId=278&topicId=1003" onclick="return moduleMedia(this);" class="nprModLinkMp3"><img src="http://media.npr.org/chrome/audio-icon-pos.gif" height="15" width="14" border="0" class="nprModListenIconMp3" /></a>         <span> </span>         <a href="http://pd.npr.org/anon.npr-mp3/npr/atc/2012/12/20121211_atc_07.mp3?orgId=278&topicId=1003" onclick="return moduleMedia(this);" class="nprModLinkMp3">MP3</a>         <span class="nprModAudioPipePlayNow"> | </span>         <a href="javascript:NPR.Player.openPlayer(166884441, 167000584, null, NPR.Player.Action.PLAY_NOW, NPR.Player.Type.STORY, '')" onclick="return moduleMedia(this);" class="nprModLinkPlayNow"><img src="http://media.npr.org/chrome/audio-icon-pos.gif" height="15" width="14" border="0" class="nprModListenIconPlayNow" /></a>         <span> </span>         <a href="javascript:NPR.Player.openPlayer(166884441, 167000584, null, NPR.Player.Action.PLAY_NOW, NPR.Player.Type.STORY, '')" onclick="return moduleMedia(this);" class="nprModLinkPlayNow">NPR Player</a>         <span class="nprModAudioPipePlaylist"> | </span>         <a href="javascript:NPR.Player.openPlayer(166884441, 167000584, null, NPR.Player.Action.ADD_TO_PLAYLIST, NPR.Player.Type.STORY, '')" onclick="return moduleMedia(this);" class="nprModLinkAddToPlaylist"><img src="http://media.npr.org/chrome/audio-icon-plus.gif" height="15" width="14" border="0" class="nprModLinkAddToPlaylistIcon" /></a>         <span> </span>         <a href="javascript:NPR.Player.openPlayer(166884441, 167000584, null, NPR.Player.Action.ADD_TO_PLAYLIST, NPR.Player.Type.STORY, '')" onclick="return moduleMedia(this);" class="nprModLinkAddToPlaylist">Add to NPR Player</a>
+      </div>
+      <div style="clear:both;">
+         &nbsp;
+      </div>
+   </div>
+</div>

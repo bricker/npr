@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:npr="http://www.npr.org/rss/" xmlns:nprml="http://api.npr.org/nprml" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>NPR: Stories from NPR</title>
+    <link>http://www.npr.org</link>
+    <description>Assorted stories from NPR</description>
+    <language>en</language>
+    <copyright>Copyright 2012 NPR - For Personal Use Only</copyright>
+    <generator>NPR API RSS Generator 0.94</generator>
+    <lastBuildDate>Tue, 11 Dec 2012 15:24:00 -0500</lastBuildDate>
+    <image>
+      <url>http://media.npr.org/images/podcasts/thumbnail/npr_generic_image_75.jpg</url>
+      <title>NPR: Stories from NPR</title>
+      <link>http://www.npr.org</link>
+    </image>
+    <itunes:block/>
+    <itunes:image href="http://media.npr.org/images/podcasts/primary/npr_generic_image_300.jpg"/>
+    <item>
+      <title>In Freedom, Ex-Felon Becomes Probation Counselor </title>
+      <description>The federal probation office in St. Louis has one of the biggest caseloads of violent offenders in the country — and one of the lowest recidivism rates. That's in part because of a former felon who knows how to keep ex-offenders from returning to prison.</description>
+      <pubDate>Tue, 11 Dec 2012 15:24:00 -0500</pubDate>
+      <link>http://www.npr.org/2012/12/11/166884441/in-freedom-ex-felon-becomes-probation-counselor?ft=1&amp;f=166884441</link>
+      <guid>http://www.npr.org/2012/12/11/166884441/in-freedom-ex-felon-becomes-probation-counselor?ft=1&amp;f=166884441</guid>
+      <itunes:summary>The federal probation office in St. Louis has one of the biggest caseloads of violent offenders in the country — and one of the lowest recidivism rates. That's in part because of a former felon who knows how to keep ex-offenders from returning to prison.</itunes:summary>
+      <itunes:keywords/>
+      <itunes:duration>290</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <content:encoded><![CDATA[<p>The federal probation office in St. Louis has one of the biggest caseloads of violent offenders in the country — and one of the lowest recidivism rates. That's in part because of a former felon who knows how to keep ex-offenders from returning to prison.</p><p><a href="http://www.npr.org/templates/email/emailAFriend.php?storyId=166884441">&raquo; E-Mail This</a>&nbsp;&nbsp;&nbsp;&nbsp; <a href="http://del.icio.us/post?url=http%3A%2F%2Fwww.npr.org%2Ftemplates%2Fstory%2Fstory.php%3FstoryId%3D166884441">&raquo; Add to Del.icio.us</a></p>]]></content:encoded>
+      <enclosure url="http://public.npr.org/anon.npr-mp3/npr/atc/2012/12/20121211_atc_07.mp3?sc=16&amp;orgId=278&amp;forsearch=0&amp;topicId=1003&amp;ft=1&amp;f=166884441" length="100000" type="audio/mpeg"/>
+    </item>
+  </channel>
+</rss>

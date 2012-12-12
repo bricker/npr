@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:nprml="http://api.npr.org/nprml">
+  <title type="text">NPR: Stories from NPR</title>
+  <subtitle type="text">Custom NPR News Feed API.  Visit http://www.npr.org/templates/apidoc/index.php for more information.</subtitle>
+  <id>http://api.npr.org/query?id=166884441</id>
+  <link rel="self" type="application/atom+xml" href="http://api.npr.org/query?id=166884441&amp;apiKey=API_KEY"/>
+  <rights>Copyright(c) 2012, NPR</rights>
+  <generator uri="http://api.npr.org/query" version="0.94">NPR API</generator>
+  <updated>2012-12-11T15:24:00-05:00</updated>
+  <entry>
+    <title>In Freedom, Ex-Felon Becomes Probation Counselor </title>
+    <summary>The federal probation office in St. Louis has one of the biggest caseloads of violent offenders in the country — and one of the lowest recidivism rates. That's in part because of a former felon who knows how to keep ex-offenders from returning to prison.</summary>
+    <id>http://api.npr.org/query?id=166884441</id>
+    <category term="1091" label="Around the Nation"/>
+    <category term="1003" label="U.S."/>
+    <category term="1002" label="Home Page Top Stories"/>
+    <published>2012-12-11T15:24:00-05:00</published>
+    <updated>2012-12-11T21:34:27-05:00</updated>
+    <author>
+      <name>KWMU-FM</name>
+      <uri>http://www.stlpublicradio.org</uri>
+    </author>
+    <contributor>
+      <name>Julie Bierach</name>
+    </contributor>
+    <link href="http://api.npr.org/query?id=166884441&amp;apiKey=API_KEY" rel="alternate"/>
+    <link href="http://media.npr.org/assets/img/2012/12/11/clark_composite_custom-7a789655986f08866836381751bd592fd4cfca2d.jpg" rel="related" title="Clark Porter was 17 when he was sentenced to 35 years in prison for robbing a downtown post office at gunpoint. He spent 15 years in prison and today helps some of the toughest ex-offenders turn their lives around." length="100000"/>
+    <link href="http://media.npr.org/assets/img/2012/12/10/f_clark_porter_alumnus_1_custom-35bad304f3f860d830fd400fe48eea92115cc29e.jpg" rel="related" title="Porter was hired by Chief U.S. Probation Officer Douglas Burris, who was initially taken aback by the idea of an ex-felon working for the probation office." length="100000"/>
+    <link href="http://pd.npr.org/anon.npr-mp3/npr/atc/2012/12/20121211_atc_07.mp3?orgId=278&amp;topicId=1003" rel="enclosure" type="audio/mp3" title="Story Segment Audio" length="290"/>
+    <link href="http://api.npr.org/m3u/1167000584-5e6998.m3u?orgId=278&amp;topicId=1003" rel="enclosure" type="audio/mp3" title="Story Segment Audio" length="290"/>
+  </entry>
+</feed>

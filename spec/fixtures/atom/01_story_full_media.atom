@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:nprml="http://api.npr.org/nprml">
+  <title type="text">NPR: Stories from NPR</title>
+  <subtitle type="text">Custom NPR News Feed API.  Visit http://www.npr.org/templates/apidoc/index.php for more information.</subtitle>
+  <id>http://api.npr.org/query?id=167019577</id>
+  <link rel="self" type="application/atom+xml" href="http://api.npr.org/query?id=167019577&amp;apiKey=API_KEY"/>
+  <rights>Copyright(c) 2012, NPR</rights>
+  <generator uri="http://api.npr.org/query" version="0.94">NPR API</generator>
+  <updated>2012-12-12T00:30:00-05:00</updated>
+  <entry>
+    <title>Ravi Shankar, Who Brought Eastern Music To Western Legends, Dies</title>
+    <summary>When he was just 10 years old, Shankar began performing in Europe and the US with his family's Indian dance troupe. But at age 18, Shankar gave up all the glitter to study with a guru who taught him the sitar. He became a master, and introduced the West to his country's music.</summary>
+    <id>http://api.npr.org/query?id=167019577</id>
+    <category term="161375941" label="The Musicians"/>
+    <category term="128494978" label="The Record"/>
+    <category term="100920965" label="Music Articles"/>
+    <category term="10004" label="World"/>
+    <category term="1106" label="Music News"/>
+    <category term="1062" label="Remembrances"/>
+    <category term="1039" label="Music"/>
+    <category term="1002" label="Home Page Top Stories"/>
+    <published>2012-12-12T00:30:00-05:00</published>
+    <updated>2012-12-12T01:00:06-05:00</updated>
+    <author>
+      <name>National Public Radio</name>
+      <uri>http://www.npr.org/</uri>
+    </author>
+    <contributor>
+      <name>Susan Stamberg</name>
+    </contributor>
+    <link href="http://api.npr.org/query?id=167019577&amp;apiKey=API_KEY" rel="alternate"/>
+    <link href="http://www.npr.org/templates/story/story.php?storyId=125507150" rel="related" type="text/html" title=" Ravi Shankar At 90: The Man And His Music"/>
+    <link href="http://www.npr.org/templates/story/story.php?storyId=125512689" rel="related" type="text/html" title=" Indian Classical Music 101 With Ravi Shankar"/>
+    <link href="http://media.npr.org/assets/img/2012/12/12/gettyimages_84882815-0e02bde00f7b2ac036374e2874fc6b5ee6de4352.jpg" rel="related" title="Ravi Shankar circa 1960 in the U.K." length="100000"/>
+  </entry>
+</feed>
