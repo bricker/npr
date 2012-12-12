@@ -1,5 +1,5 @@
 require "npr/version"
 
-module Npr
+module NPR
   # Your code goes here...
 end

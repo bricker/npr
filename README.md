@@ -1,6 +1,6 @@
-# Npr
+# NPR Ruby Client
 
-TODO: Write a gem description
+A simple Ruby client for the NPR API
 
 ## Installation
 

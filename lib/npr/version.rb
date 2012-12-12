@@ -1,3 +1,3 @@
-module Npr
-  VERSION = "0.0.1"
+module NPR
+  VERSION = "0.0.0"
 end
