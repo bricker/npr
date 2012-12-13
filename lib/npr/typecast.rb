@@ -19,7 +19,7 @@ module NPR
     #
     # Example:
     #
-    #   typecast_attribute("20", Fixnum) #=> 20
+    #   typecast("20", Fixnum) #=> 20
     #
     def typecast(value, type)
       CASTERS[type].call(value)

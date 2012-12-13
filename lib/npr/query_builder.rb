@@ -36,7 +36,7 @@ module NPR
     end
     
     #-----------------------
-    # Merge in the passed-in condition to what
+    # Merge in the passed-in conditions to what
     # already exists.
     #
     # Accepts a Hash.
