@@ -38,6 +38,7 @@ describe NPR::Story do
     it "creates a new QueryBuilder object and runs where on it" do
       args = { :id => 9999 }
       query = NPR::Story.where(args)
+      query._klass.should eq NPR::Story
       query.builder[:conditions].should eq args
     end
   end
@@ -61,4 +62,14 @@ describe NPR::Story do
       query.builder[:limit].should eq args
     end
   end
+  
+  #--------------------
+  
+  describe "::offset" do
+    it "creates a new QueryBuilder object and runs where on it" do
+      args = 100
+      query = NPR::Story.offset(args)
+      query.builder[:offset].should eq args
+    end
+  end  
 end

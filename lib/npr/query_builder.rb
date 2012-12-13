@@ -6,14 +6,25 @@ module NPR
     CLASS_BUILDER_METHODS = [
       :where,
       :order,
-      :limit
+      :limit,
+      :offset
     ]
     
-    attr_reader :klass, :builder
-        
+    attr_reader :_klass, :builder
+    
     def initialize(klass)
-      @klass   = klass
+      @_klass  = klass
       @builder = {}
+    end
+    
+    #-----------------------
+    # Build the params hash.
+    def to_params
+      params = @builder[:conditions] || {}
+      
+      params[:sort]       = @builder[:order]
+      params[:numResults] = @builder[:limit]
+      params[:startNum]   = @builder[:offset]
     end
     
     #-----------------------
@@ -61,5 +72,20 @@ module NPR
       @builder[:limit] = limit
       self
     end
-  end
-end
+    
+    #-----------------------
+    # Offset the number of results 
+    # Useful for pagination
+    #
+    # Accepts an Integer.
+    #
+    # Example:
+    #
+    #   query.offset(100)
+    #
+    def offset(offset)
+      @builder[:offset] = offset
+      self
+    end
+  end # QueryBuilder
+end # NPR
