@@ -1,10 +1,10 @@
-require "active_support/core_ext/array/wrap"
-
 ##
 # NPR::Story
 #
 module NPR
   class Story
+    include NPR::Typecast
+    
     #-------------------------
     
     class << self
@@ -46,37 +46,40 @@ module NPR
     # instead of the raw data
     attr_accessor :images, :audio, :bylines
     attr_accessor :_byline, :_image, :_audio
-        
+    
     # Attributes that we are using as-is
+    # Use strings so that we don't have to
+    # convert between Strings and Symbols.
     ATTR_AS_IS = [
-      :title, 
-      :subtitle, 
-      :shortTitle,
-      :teaser, 
-      :miniTeaser, 
-      :slug, 
-      :thumbnail, 
-      :keywords, 
-      :priorityKeywords, 
-      :parent, 
-      :organization, 
-      :link, 
-      :container,
-      :text, 
-      :textWithHtml, 
-      :fullText,
-      :relatedLink, 
-      :pullQuote
+      "title", 
+      "subtitle", 
+      "shortTitle",
+      "teaser", 
+      "miniTeaser", 
+      "slug", 
+      "thumbnail", 
+      "keywords", 
+      "priorityKeywords", 
+      "parent", 
+      "organization", 
+      "link", 
+      "container",
+      "text", 
+      "textWithHtml", 
+      "fullText",
+      "relatedLink", 
+      "pullQuote"
     ]
     attr_accessor *ATTR_AS_IS
-    
+
+    #------------------
     # Attributes that are being typecast to Ruby classes
     ATTR_TYPECAST = {
-      :id               => Fixnum,
-      :partnerId        => Fixnum,
-      :storyDate        => Time, 
-      :pubDate          => Time,
-      :lastModifiedDate => Time
+      "id"               => Fixnum,
+      "partnerId"        => Fixnum,
+      "storyDate"        => Time, 
+      "pubDate"          => Time,
+      "lastModifiedDate" => Time
     }
     attr_accessor *ATTR_TYPECAST.keys
     
@@ -85,14 +88,12 @@ module NPR
     # This will be replaced with a more "ActiveRecord" 
     # style behavior.
     def initialize(attributes={})
-      attributes.symbolize_keys!
-      
       @images     = []
       @audio      = []
       @bylines    = []
       
       # Special-case setters
-      [:image, :byline, :audio].each do |key|
+      %w{ image byline audio }.each do |key|
         self.send "_#{key}=", attributes[key]
       end
       
@@ -127,30 +128,6 @@ module NPR
       @primary_image ||= begin
         primary = self.images.find { |i| i["type"] == "primary"}
         primary || self.images.first
-      end
-    end
-
-    #-------------------------
-    
-    private
-
-    #-------------------------
-    # Turn the attribute into the specified type
-    #
-    # Example:
-    #
-    #   typecast_attribute("20", Fixnum) #=> 20
-    #
-    def typecast(attribute, type)
-      case type
-      when Fixnum
-        attribute.to_i
-      when Time
-        Time.parse(attribute)
-      else
-        # Typecast failed.
-        # Just return the attribute.
-        attribute
       end
     end
   end # Story
