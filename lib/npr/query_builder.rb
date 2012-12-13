@@ -11,6 +11,8 @@ module NPR
     ]
     
     attr_reader :_klass, :builder
+
+    #-----------------------
     
     def initialize(klass)
       @_klass  = klass
@@ -21,12 +23,12 @@ module NPR
     # Build the params hash.
     def to_params
       if @_klass == NPR::Story
-        conditions = parse_conditions(@builder[:conditions]) || {}
+        conditions = parse_conditions(@builder[:conditions])
       else
-        conditions = @builder[:conditions] || {}
+        conditions = @builder[:conditions]
       end
       
-      params = conditions
+      params = conditions || {}
       
       params[:sort]       = @builder[:order]
       params[:numResults] = @builder[:limit]
@@ -113,6 +115,12 @@ module NPR
     #-----------------------
     
     def parse_conditions(conditions)
+      parse_conditions!(conditions.dup)
+    end
+
+    #-----------------------
+    
+    def parse_conditions!(conditions)
       if conditions[:id].is_a? Array
         conditions[:id] = conditions[:id].join(",")
       end
@@ -125,5 +133,6 @@ module NPR
       
       conditions
     end
+    
   end # QueryBuilder
 end # NPR
