@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:nprml="http://api.npr.org/nprml">
+  <title type="text">NPR: Stories from NPR</title>
+  <subtitle type="text">Custom NPR News Feed API.  Visit http://www.npr.org/templates/apidoc/index.php for more information.</subtitle>
+  <id>http://api.npr.org/query?id=1</id>
+  <link rel="self" type="application/atom+xml" href="http://api.npr.org/query?id=1&amp;apiKey=API_KEY"/>
+  <rights>Copyright(c) 2012, NPR</rights>
+  <generator uri="http://api.npr.org/query" version="0.94">NPR API</generator>
+  <updated>2012-12-13T11:25:00-05:00</updated>
+  <entry>
+    <title>On 'Fiscal Cliff,' Majority Of Public Sides With Democrats, Pew Poll Says</title>
+    <summary>Fifty-five percent of those surveyed said President Obama is making a "serious effort" to work with Republicans. Just 32 percent said Republicans are making a serious effort to work with the Democratic president.</summary>
+    <id>http://api.npr.org/query?id=167159547</id>
+    <category term="164716837" label="Two-Way Featured Post Two"/>
+    <category term="164475099" label="fiscal cliff"/>
+    <category term="137769525" label="deficit reduction "/>
+    <category term="128111167" label="taxes"/>
+    <category term="127602855" label="America"/>
+    <category term="125939328" label="Pew Research Center"/>
+    <category term="103943429" label="The Two-Way"/>
+    <category term="1091" label="Around the Nation"/>
+    <category term="1014" label="Politics"/>
+    <category term="1003" label="U.S."/>
+    <category term="1002" label="Home Page Top Stories"/>
+    <category term="1001" label="News"/>
+    <published>2012-12-13T11:25:00-05:00</published>
+    <updated>2012-12-13T12:33:32-05:00</updated>
+    <author>
+      <name>National Public Radio</name>
+      <uri>http://www.npr.org/</uri>
+    </author>
+    <contributor>
+      <name>Mark Memmott</name>
+    </contributor>
+    <link href="http://api.npr.org/query?id=167159547&amp;apiKey=API_KEY" rel="alternate"/>
+    <link href="http://media.npr.org/assets/img/2012/12/13/twosides132way-0600cdf9eefdbc0d5c1021c23a48a9a6f8b9c719.jpg" rel="related" title="President Obama, with House Speaker John Boehner (R-Ohio) behind him, delivering his State of the Union address last January." length="100000"/>
+  </entry>
+  <entry>
+    <title>It's ScuttleButton Time!</title>
+    <summary>This is the last ScuttleButton puzzle for 2012 — and your last chance to win a Political Junkie t-shirt and Official No-Prize button!  (until next year, of course)</summary>
+    <id>http://api.npr.org/query?id=167177687</id>
+    <category term="126925951" label="Political Junkie"/>
+    <category term="125961350" label="ScuttleButton"/>
+    <category term="97248522" label="Political Junkie"/>
+    <category term="1014" label="Politics"/>
+    <published>2012-12-13T13:48:00-05:00</published>
+    <updated>2012-12-13T13:53:53-05:00</updated>
+    <author>
+      <name>National Public Radio</name>
+      <uri>http://www.npr.org/</uri>
+    </author>
+    <contributor>
+      <name>Ken Rudin</name>
+    </contributor>
+    <link href="http://api.npr.org/query?id=167177687&amp;apiKey=API_KEY" rel="alternate"/>
+    <link href="http://media.npr.org/assets/img/2012/12/13/button_1207_1_custom-2ea6e50cae5f62fcad63b4d42ff47f515d5f5302.jpg" rel="related" length="100000"/>
+  </entry>
+  <entry>
+    <title>Sales Soar In Gaza Of Fragrance Named For Rocket Fired At Israel </title>
+    <summary>M75 fragrances for men and women get their name from rockets fired from Gaza into Israel in November. Sales have been soaring, shopkeepers say. No, they don't  smell like rocket fuel. They're citrus-scented.</summary>
+    <id>http://api.npr.org/query?id=167171524</id>
+    <category term="167171561" label="perfume"/>
+    <category term="127602464" label="International"/>
+    <category term="125940539" label="Israel"/>
+    <category term="125940537" label="Gaza"/>
+    <category term="103943429" label="The Two-Way"/>
+    <category term="1002" label="Home Page Top Stories"/>
+    <category term="1001" label="News"/>
+    <published>2012-12-13T13:15:00-05:00</published>
+    <updated>2012-12-13T13:17:51-05:00</updated>
+    <author>
+      <name>National Public Radio</name>
+      <uri>http://www.npr.org/</uri>
+    </author>
+    <contributor>
+      <name>Mark Memmott</name>
+    </contributor>
+    <link href="http://api.npr.org/query?id=167171524&amp;apiKey=API_KEY" rel="alternate"/>
+    <link href="http://media.npr.org/assets/img/2012/12/13/m75132way_custom-cc8a08679d92851f23eb4e23542a4c14ac7f9803.jpg" rel="related" title="Bottles of M75 on sale at a shop in Gaza City. The fragrance is named for the rockets fired from Gaza into Israel." length="100000"/>
+  </entry>
+  <entry>
+    <title>One Photo, 126 Frames, 2 Billion Leaves, 247 Feet</title>
+    <summary>Those numbers represent one giant sequoia. Oh, also: The "President," as it's called, is more than 3,000 years old.</summary>
+    <id>http://api.npr.org/query?id=167163801</id>
+    <category term="125399511" label="National Geographic"/>
+    <category term="125399052" label="Daily Picture Show"/>
+    <category term="97635953" label="The Picture Show"/>
+    <category term="1143" label="Photography"/>
+    <category term="1047" label="Art &amp; Design"/>
+    <category term="1002" label="Home Page Top Stories"/>
+    <published>2012-12-13T13:01:00-05:00</published>
+    <updated>2012-12-13T13:01:35-05:00</updated>
+    <author>
+      <name>National Public Radio</name>
+      <uri>http://www.npr.org/</uri>
+    </author>
+    <contributor>
+      <name>Claire O'Neill</name>
+    </contributor>
+    <link href="http://api.npr.org/query?id=167163801&amp;apiKey=API_KEY" rel="alternate"/>
+    <link href="http://media.npr.org/assets/img/2012/12/13/giant_sequoias_mm7946_002_custom-ecf623469ff776e037de22f1d3b67fa590a57c88.jpg" rel="related" title="The giant sequoia is a snow tree, says scientist Steve Sillett, adapted for long winters in the Sierra Nevada. But it's a fire tree, too. Thick bark protects it from burning in lightning-caused fires, which open cones and clear the understory, allowing saplings to find light and prosper." length="100000"/>
+    <link href="http://media.npr.org/assets/img/2012/12/13/tree_custom-490978178ed5b70330c46529a5e3d3ca585f88a7.jpg" rel="related" title="Cloaked in the snows of California's Sierra Nevada, the 3,200-year-old giant sequoia called the President rises 247 feet. Two other sequoias have wider trunks, but none has a larger crown, say the scientists who climbed it. The figure at top seems taller than the other climbers because he's standing forward on one of the great limbs." length="100000"/>
+    <link href="http://media.npr.org/assets/img/2012/12/13/natgeo-mag-1col_custom-a808c9c7d76afd6167e2533a63817c408fd4ec60.gif" rel="related" length="100000"/>
+  </entry>
+  <entry>
+    <title>NCAA Shake-Up: The Future Of College Athletics</title>
+    <summary>In 2013 and 2014, there will be a number of substantial realignments in the NCAA conferences. Some believe that the realignment process will ultimately result in the creation of four "super conferences." NPR's Mike Pesca talks about how conference shifts could effect the future of college athletics.</summary>
+    <id>http://api.npr.org/query?id=167180401</id>
+    <category term="1091" label="Around the Nation"/>
+    <category term="1055" label="Sports"/>
+    <published>2012-12-13T13:00:00-05:00</published>
+    <updated>2012-12-13T14:15:23-05:00</updated>
+    <author>
+      <name>National Public Radio</name>
+      <uri>http://www.npr.org/</uri>
+    </author>
+    <link href="http://api.npr.org/query?id=167180401&amp;apiKey=API_KEY" rel="alternate"/>
+    <link href="http://www.npr.org/2012/04/11/150285525/the-ncaa-is-membership-worth-it" rel="related" type="text/html" title=" The NCAA: Is Membership Worth It?"/>
+    <link href="http://www.npr.org/2012/03/26/149411848/in-ncaa-tournament-a-kentucky-showdown" rel="related" type="text/html" title=" In NCAA Tournament, A Kentucky Showdown"/>
+  </entry>
+  <entry>
+    <title>10 Artists You Should Have Known In 2012</title>
+    <summary>It's hard to keep track of new artists these days. So we asked our colleagues around the country to recommend recent discoveries from their communities. Download 10 songs that helped put these musicians on the map in 2012.</summary>
+    <id>http://api.npr.org/query?id=166745766</id>
+    <category term="166027976" label="Lists"/>
+    <category term="166026576" label="Best Music Of 2012"/>
+    <category term="160609993" label="Heavy Rotation"/>
+    <category term="100920965" label="Music Articles"/>
+    <category term="10001" label="Rock"/>
+    <category term="1039" label="Music"/>
+    <category term="1002" label="Home Page Top Stories"/>
+    <published>2012-12-13T13:00:00-05:00</published>
+    <updated>2012-12-13T13:16:48-05:00</updated>
+    <author>
+      <name>National Public Radio</name>
+      <uri>http://www.npr.org/</uri>
+    </author>
+    <link href="http://api.npr.org/query?id=166745766&amp;apiKey=API_KEY" rel="alternate"/>
+    <link href="http://media.npr.org/assets/img/2012/12/07/1343246959_heddy_bergsman-phillies-1f72671b8717dd80c9eae8e8da5f47cbc4247450.jpg" rel="related" title="Philadelphia's Aaron Brown." length="100000"/>
+    <link href="http://media.npr.org/assets/img/2012/12/07/grahamdechter1-aef349a21423cc9ce62fe6c5aa49b55d5f70187c.jpg" rel="related" title="Los Angeles jazz guitarist Graham Dechter." length="100000"/>
+    <link href="http://media.npr.org/assets/img/2012/12/07/f010-fullbright-bdshoot-mar2012-033-vrf_20120330_144008-c5f81e4871348ab24f78ddad77b6f86f02e4671a.jpg" rel="related" title="Oklahoma's John Fullbright." length="100000"/>
+    <link href="http://media.npr.org/assets/img/2012/12/07/lord-huron-credit-ben-schneider-2daa81da0de3641bcfa08d642fa0ca5d3af2d5e2.jpg" rel="related" title="L.A.'s Ben Schneider." length="100000"/>
+    <link href="http://media.npr.org/assets/img/2012/12/07/6839382744_22a459a1a5_b-03ab159cbdaebd8469c1d24694ac029078324802.jpg" rel="related" title="Poliça lead singer Channy Leaneagh." length="100000"/>
+    <link href="http://media.npr.org/assets/img/2012/12/07/1323796924radiation_img05_hires-6b42c22378ee8b13e882a67b6cf2685e40d41c1d.jpg" rel="related" title="From left, Radiation City's Cameron Spies, Lizzy Ellison, Randy Bemrose, Patti King and Matt Rafferty." length="100000"/>
+    <link href="http://media.npr.org/assets/img/2012/12/07/savoiradore_ournaturephoto4_4-2eed3db56a2ace1f58226e7efb473bb9c609d415.jpg" rel="related" title="Savoir Adore's Deidre Muro and Paul Hammer." length="100000"/>
+    <link href="http://media.npr.org/assets/img/2012/12/07/theesatisfaction_2012_1_davidbelisle_print-ea933f9b1882066e917ec566dc1ea51bfdddbeda.jpg" rel="related" title="THEESatisfaction's Catherine Harris-White and Stasia Irons." length="100000"/>
+    <link href="http://media.npr.org/assets/img/2012/12/07/20090617_pedromoraes_025-edit_saraiva_1251942567-51c6af0972c6078bf725a3a5e95bde727f13e5d9.jpg" rel="related" title="Brazilian guitarist and composer Pedro Moraes." length="100000"/>
+    <link href="http://media.npr.org/assets/img/2012/12/07/shakeygraves_credit-kirkstewart-f9eba33e7bbd8f61b3e508e60e1698bfde75f68f.jpeg" rel="related" title="Austin's Alejandro Rose-Garcia" length="100000"/>
+    <link href="http://media.npr.org/assets/img/2012/12/09/7838896508_7caae34cb0_k_wide-8d7bb036235dd240c33cfd79ffe309b169fc95c3.jpg" rel="related" title="Stasia Irons of THEESatisfaction performs at an All Songs Considered party at KEXP on August 20, 2012." length="100000"/>
+  </entry>
+  <entry>
+    <title>Options For Intervention In Mali's Growing Crisis</title>
+    <summary>A military coup brought down Mali's prime minister in March, allowing radical Islamists from Mali and surrounding areas to take hold of an area the size of Texas. As al-Qaida-linked militants take over the northern part of the country, many wonder what the U.S. and other can do to intervene.</summary>
+    <id>http://api.npr.org/query?id=167180399</id>
+    <category term="1126" label="Africa"/>
+    <category term="1004" label="World"/>
+    <published>2012-12-13T13:00:00-05:00</published>
+    <updated>2012-12-13T14:13:31-05:00</updated>
+    <author>
+      <name>National Public Radio</name>
+      <uri>http://www.npr.org/</uri>
+    </author>
+    <link href="http://api.npr.org/query?id=167180399&amp;apiKey=API_KEY" rel="alternate"/>
+    <link href="http://www.npr.org/2012/12/06/166593065/why-no-ones-going-to-timbuktu-these-days" rel="related" type="text/html" title=" Why No One's Going To Timbuktu These Days"/>
+    <link href="http://www.npr.org/2012/12/04/166519642/morocco-warns-of-growing-terrorist-threat-in-mali" rel="related" type="text/html" title=" Morocco Warns Of Growing Terrorist Threat In Mali"/>
+    <link href="http://www.npr.org/2012/08/07/157998664/mali-in-crisis-fractures-along-twin-fault-lines" rel="related" type="text/html" title=" Mali In Crisis Fractures Along Twin Fault Lines"/>
+  </entry>
+  <entry>
+    <title>Drought Continues: Farmers, Shippers Feel Pressure</title>
+    <summary>The United States is facing its worst drought since the 1950s, according to the National Oceanic and Atmospheric Administration. With little to no signs of relief on the horizon, many analysts expect conditions to worsen well into next year.</summary>
+    <id>http://api.npr.org/query?id=167180403</id>
+    <category term="1091" label="Around the Nation"/>
+    <category term="1025" label="Environment"/>
+    <published>2012-12-13T13:00:00-05:00</published>
+    <updated>2012-12-13T14:17:06-05:00</updated>
+    <author>
+      <name>National Public Radio</name>
+      <uri>http://www.npr.org/</uri>
+    </author>
+    <link href="http://api.npr.org/query?id=167180403&amp;apiKey=API_KEY" rel="alternate"/>
+    <link href="http://www.npr.org/2012/11/23/165667600/an-arbor-embolism-why-trees-die-in-drought" rel="related" type="text/html" title=" An Arbor Embolism? Why Trees Die In Drought"/>
+    <link href="http://www.npr.org/2012/10/03/162232865/planning-for-a-sustainable-mississippi-river" rel="related" type="text/html" title=" Planning For A Sustainable Mississippi River"/>
+    <link href="http://www.npr.org/2012/08/21/159485936/drought-dries-up-crops-but-not-airline-schedules" rel="related" type="text/html" title=" Drought Dries Up Crops, But Not Airline Schedules"/>
+  </entry>
+  <entry>
+    <title>Open Or Closed-Book Exams: Which Style Works Best?</title>
+    <summary>Afshin Gharib, a psychology professor at Dominican University of California, prefers to give open-book tests. His colleague William Phillips only lets students use cheat sheets. After several arguments about the techniques, they decided to conduct an experiment to find out which method works best.</summary>
+    <id>http://api.npr.org/query?id=167180405</id>
+    <category term="1057" label="Opinion"/>
+    <category term="1013" label="Education"/>
+    <published>2012-12-13T13:00:00-05:00</published>
+    <updated>2012-12-13T14:08:02-05:00</updated>
+    <author>
+      <name>National Public Radio</name>
+      <uri>http://www.npr.org/</uri>
+    </author>
+    <link href="http://api.npr.org/query?id=167180405&amp;apiKey=API_KEY" rel="alternate"/>
+  </entry>
+  <entry>
+    <title>No Alarm Sounded When The West Virginia Pipeline Exploded</title>
+    <summary>The NTSB is investigating why no warning sounded in the control center of pipeline operator, Columbia Gas Transmission, when the explosion occurred.</summary>
+    <id>http://api.npr.org/query?id=167169109</id>
+    <category term="167169585" label="West Virginia explosion"/>
+    <category term="130208826" label="gas pipeline explosion"/>
+    <category term="127602855" label="America"/>
+    <category term="127602334" label="Accidents and Disasters"/>
+    <category term="103943429" label="The Two-Way"/>
+    <published>2012-12-13T12:26:00-05:00</published>
+    <updated>2012-12-13T12:26:24-05:00</updated>
+    <author>
+      <name>National Public Radio</name>
+      <uri>http://www.npr.org/</uri>
+    </author>
+    <contributor>
+      <name>Korva Coleman</name>
+    </contributor>
+    <link href="http://api.npr.org/query?id=167169109&amp;apiKey=API_KEY" rel="alternate"/>
+    <link href="http://media.npr.org/assets/img/2012/12/13/ntsb_custom-146b1ff151f7305817057c0d852f726ce62e9367.jpg" rel="related" title="Investigators examine a 20-foot long section of gas pipeline found more than 40 feet from the rupture site north of Charleston, W. Va." length="100000"/>
+    <link href="http://media.npr.org/assets/img/2012/12/13/sissonvilletwoway2012_custom-8a3e86fa855d7d86a73adda5f930bca5b0d97248.jpg" rel="related" title="A fireball over Interstate 77 after a gas line ruptured in Sissonville, W. Va. on Tuesday, Dec. 11." length="100000"/>
+  </entry>
+  <entry>
+    <title>Caution: Walking Under The Influence Of Mobile Devices</title>
+    <summary>Nearly a third of pedestrians crossing som of Seattle's most dangerous intersections were were doing something distracting at the same time. People texting were four times more likely to cross the street without looking both ways.</summary>
+    <id>http://api.npr.org/query?id=167150785</id>
+    <category term="133783954" label="pedestrians"/>
+    <category term="128466483" label="accident"/>
+    <category term="126567525" label="Your Health"/>
+    <category term="103537970" label="Shots - Health News"/>
+    <category term="1128" label="Health"/>
+    <category term="1066" label="Your Health"/>
+    <category term="1002" label="Home Page Top Stories"/>
+    <category term="1001" label="News"/>
+    <published>2012-12-13T12:18:00-05:00</published>
+    <updated>2012-12-13T12:18:10-05:00</updated>
+    <author>
+      <name>National Public Radio</name>
+      <uri>http://www.npr.org/</uri>
+    </author>
+    <contributor>
+      <name>Scott Hensley</name>
+    </contributor>
+    <link href="http://api.npr.org/query?id=167150785&amp;apiKey=API_KEY" rel="alternate"/>
+    <link href="http://www.npr.org/blogs/alltechconsidered/2012/11/11/164876282/distracted-driving-were-all-guilty-so-what-should-we-do-about-it" rel="related" type="text/html" title=" Distracted Driving: We're All Guilty, So What Should We Do About It?"/>
+    <link href="http://media.npr.org/assets/img/2012/12/13/pedestrians_custom-c59de5330e61059f6396761a4dfab8643b308cc6.jpg" rel="related" title="He better not be talking to his mom." length="100000"/>
+  </entry>
+  <entry>
+    <title>From A Life Of Crime To Designing Jewelry, All In A Nairobi Slum </title>
+    <summary>Zakale Creations is a jewelry-designing operation that employs 30 young people — former thieves and prostitutes. The Nairobi-based operation is the brainchild of John Mucheru, himself a former mugger.</summary>
+    <id>http://api.npr.org/query?id=167120895</id>
+    <category term="127602464" label="International"/>
+    <category term="126947040" label="Kenya"/>
+    <category term="125941912" label="Africa"/>
+    <category term="103943429" label="The Two-Way"/>
+    <category term="1126" label="Africa"/>
+    <category term="1004" label="World"/>
+    <category term="1001" label="News"/>
+    <published>2012-12-13T12:16:00-05:00</published>
+    <updated>2012-12-13T12:17:00-05:00</updated>
+    <author>
+      <name>National Public Radio</name>
+      <uri>http://www.npr.org/</uri>
+    </author>
+    <contributor>
+      <name>John Burnett</name>
+    </contributor>
+    <link href="http://api.npr.org/query?id=167120895&amp;apiKey=API_KEY" rel="alternate"/>
+    <link href="http://media.npr.org/assets/img/2012/12/12/working-1f2f198931504fc70af17a09bb28a3f77080de2c.jpg" rel="related" title="Zakale Creations is a jewelry-designing operation that employs 30 young people who were previously involved in crime. The Nairobi-based operation is the brainchild of John Mucheru, himself a former mugger." length="100000"/>
+    <link href="http://media.npr.org/assets/img/2012/12/12/mucheru_vert-4fbf6208b5a39dcf8b99aa8ecabad3463e8db372.jpg" rel="related" title="John Mucheru of Zakale Creations poses with his jewelry designs in Nairobi's Huruma slum." length="100000"/>
+  </entry>
+  <entry>
+    <title>Here's Some Good News: Volunteering Is On The Rise </title>
+    <summary>A holiday reminder of how generous many Americans are: More than 64 million people volunteered through a formal organization in 2011, a new report shows. That was up from the year before and part of a trend.</summary>
+    <id>http://api.npr.org/query?id=167165264</id>
+    <category term="167165375" label="good news"/>
+    <category term="164716592" label="Two-Way Featured Post One"/>
+    <category term="157646475" label="volunteering"/>
+    <category term="127602855" label="America"/>
+    <category term="103943429" label="The Two-Way"/>
+    <category term="1091" label="Around the Nation"/>
+    <category term="1003" label="U.S."/>
+    <category term="1002" label="Home Page Top Stories"/>
+    <category term="1001" label="News"/>
+    <published>2012-12-13T12:09:00-05:00</published>
+    <updated>2012-12-13T12:33:09-05:00</updated>
+    <author>
+      <name>National Public Radio</name>
+      <uri>http://www.npr.org/</uri>
+    </author>
+    <contributor>
+      <name>Mark Memmott</name>
+    </contributor>
+    <link href="http://api.npr.org/query?id=167165264&amp;apiKey=API_KEY" rel="alternate"/>
+    <link href="http://media.npr.org/assets/img/2012/12/13/volunteers132way-a7599584b2168b2873ae249f672d829257d64800.jpg" rel="related" title="Nov. 22: Volunteers prepared  Thanksgiving dinners for people in the Queens borough of New York City, which was hit hard by Superstorm Sandy." length="100000"/>
+  </entry>
+  <entry>
+    <title>Promiscuous Males And Choosy Females? Challenging A Classic Experiment</title>
+    <summary>We've all heard them: explanations rooted in evolutionary biology for why "promiscuous" males mate with many more partners than "choosy" females. Barbara J. King traces these widespread assumptions to a famous 1948 study on fruitflies — a study that a group of modern-day scientists now say was badly flawed.</summary>
+    <id>http://api.npr.org/query?id=166953517</id>
+    <category term="167156988" label="Wyatt Anderson"/>
+    <category term="167156940" label="Yong-Kyu Kim"/>
+    <category term="167156938" label="Patricia Gowaty"/>
+    <category term="167156899" label="Sarah Hrdy"/>
+    <category term="167156864" label="Robert Trivers"/>
+    <category term="167156862" label="Discover Magazine"/>
+    <category term="167156858" label="A.J. Bateman"/>
+    <category term="155796397" label="sexuality"/>
+    <category term="140934343" label="fruit flies"/>
+    <category term="129859342" label="Science"/>
+    <category term="114424647" label="13.7: Cosmos And Culture"/>
+    <category term="1060" label="Commentary"/>
+    <published>2012-12-13T12:01:00-05:00</published>
+    <updated>2012-12-13T12:01:11-05:00</updated>
+    <author>
+      <name>National Public Radio</name>
+      <uri>http://www.npr.org/</uri>
+    </author>
+    <contributor>
+      <name>Barbara J. King</name>
+    </contributor>
+    <link href="http://api.npr.org/query?id=166953517&amp;apiKey=API_KEY" rel="alternate"/>
+    <link href="http://media.npr.org/assets/img/2012/12/13/istock-000006634650-fruit-fly_brick-2ba2bc40bc5cc957bab4ec52fedc36c04d290d67.jpg" rel="related" title="A male fruit fly (Drosophila melanogaster)" length="100000"/>
+  </entry>
+  <entry>
+    <title>The Steamy Inspiration Of Miguel's Music</title>
+    <summary>Six-time Grammy nominee Miguel is heating up the airwaves with his newest album, &lt;em&gt;Kaleidoscope Dream&lt;/em&gt;. Miguel sat down with host Michel Martin to discuss his musical style and why he wants to challenge stereotypes about R&amp;B. &lt;strong&gt;*Advisory: &lt;/strong&gt; This conversation may not be suitable for all listeners.</summary>
+    <id>http://api.npr.org/query?id=167164055</id>
+    <category term="1105" label="Music Interviews"/>
+    <category term="1039" label="Music"/>
+    <published>2012-12-13T14:07:00-05:00</published>
+    <updated>2012-12-13T14:08:52-05:00</updated>
+    <author>
+      <name>National Public Radio</name>
+      <uri>http://www.npr.org/</uri>
+    </author>
+    <contributor>
+      <name>NPR Staff</name>
+    </contributor>
+    <link href="http://api.npr.org/query?id=167164055&amp;apiKey=API_KEY" rel="alternate"/>
+    <link href="http://media.npr.org/assets/img/2012/12/13/miguel1_wide-791460d0789668dbaa029da55d20b28ae1d7fc66.jpg" rel="related" length="100000"/>
+    <link href="http://media.npr.org/assets/img/2012/12/13/miguelbwjpg_sq-53ce7fde44c7f4e16dfc7278a94a9a6afaf82159.jpg" rel="related" length="100000"/>
+    <link href="http://pd.npr.org/anon.npr-mp3/npr/tmm/2012/12/20121213_tmm_04.mp3?orgId=1&amp;topicId=1105" rel="enclosure" type="audio/mp3" title="Story Segment Audio" length="784"/>
+    <link href="http://api.npr.org/m3u/1167165903-7bb3c6.m3u?orgId=1&amp;topicId=1105" rel="enclosure" type="audio/mp3" title="Story Segment Audio" length="784"/>
+  </entry>
+</feed>
