@@ -1,5 +1,3 @@
-require "active_support/configurable"
-
 ##
 # NPR::Configuration
 #
@@ -21,24 +19,24 @@ module NPR
   #     config.requiredAssets = "text"
   #   end
   #
-  # These two methods are basically just proxies to
-  # NPR::Configuration, for simpler configuration
-  #
   def self.configure
-    yield @config ||= NPR::Configuration.new
+    yield config
   end
 
   #-------------------
   
   def self.config
-    @config
+    @config ||= NPR::Configuration.new
   end
   
   #-------------------
-  
+  # NPR::Configuration
+  #
+  # Probably doesn't need to be accessed directly.
+  # You can get the global configuration for the NPR
+  # gem by accessing +NPR.config+
+  #
   class Configuration
-    include ActiveSupport::Configurable
-    
     API_ROOT = "http://api.npr.org"
     
     API_QUERY_PATH = "/query"
@@ -75,6 +73,39 @@ module NPR
       :title
     ]
     
-    config_accessor *API_OPTIONS
+    attr_accessor *API_OPTIONS
+    
+    #-------------------
+    # Convenience method
+    def merge(hash)
+      to_hash.merge hash
+    end
+
+    #-------------------
+    # Convert this Configuration object into a Hash
+    #
+    # Why don't we inherit from OrderedOptions?
+    #
+    # Since the API options are out of our control
+    # (without having to map every API option to 
+    # internal methods), it is possible that one
+    # of the config options will conflict with
+    # something in Ruby. For example, the "sort"
+    # option that the NPR API allows would mean
+    # we'd have to overwrite Ruby's Hash#sort 
+    # method.
+    #
+    # We *could* just map out config options to
+    # the API options, but I think it's more
+    # important to keep the gem config options
+    # in perfect sync with the API options.
+    #
+    def to_hash
+      hash = {}
+      instance_variables.each do |var|
+        hash[var[1..-1].to_sym] = instance_variable_get(var)
+      end
+      hash
+    end
   end # Configuration
 end # NPR
