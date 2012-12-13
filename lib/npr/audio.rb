@@ -3,12 +3,10 @@
 #
 module NPR
   class Audio
+    attr_accessor :duration, :description, :format
+    
     def initialize(attributes={})
       @attributes = attributes
-    end
-    
-    def method_missing(method, *args, &block)
-      @attributes[method] || super
     end
   end # Audio
 end # NPR

@@ -3,12 +3,10 @@
 #
 module NPR
   class Image
+    attr_accessor :caption, :link, :producer, :provider, :copyright
+    
     def initialize(attributes={})
       @attributes = attributes
-    end
-    
-    def method_missing(method, *args, &block)
-      @attributes[method] || super
     end
   end # Image
 end # NPR
