@@ -15,15 +15,13 @@ module FakeResponse
   # If passed a block, it will clean the registry after
   # the block has been run.
   #
-  def mock_response(filename, options={})
+  def mock_response(filename, options={}, &block)
     respond_with(filename, options)
     
-    if block_given?
-      yield
-      FakeWeb.clean_registry
-    end
+    response = yield
+    FakeWeb.clean_registry
     
-    true
+    response
   end
 
   #---------------------

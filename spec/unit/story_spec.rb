@@ -15,18 +15,20 @@ describe NPR::Story do
     end
     
     it "instantiates a new story" do
-      mock_response "nprml/01_story_full_media.xml" do
-        story = NPR::Story.find(@id)
-        story.should be_a NPR::Story
+      story = mock_response "nprml/01_story_full_media.xml" do
+        NPR::Story.find(@id)
       end
+      
+      story.should be_a NPR::Story
     end
     
     it "typecasts the attributes that need it" do
-      mock_response "nprml/01_story_full_media.xml" do
-        story = NPR::Story.find(@id)
-        story.id.should be_a Fixnum
-        story.pubDate.should be_a Time
+      story = mock_response "nprml/01_story_full_media.xml" do
+        NPR::Story.find(@id)
       end
+      
+      story.id.should be_a Fixnum
+      story.pubDate.should be_a Time
     end
   end
 end
