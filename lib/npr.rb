@@ -6,10 +6,12 @@ require "npr/typecast"
 require "npr/configuration"
 require "npr/errors"
 require "npr/client"
+require "npr/query_builder"
 
 # API Objects
 require "npr/list"
 require "npr/image"
 require "npr/audio"
 require "npr/byline"
+require "npr/paragraph"
 require "npr/story"

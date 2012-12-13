@@ -63,7 +63,7 @@ module NPR
         request.params['apiKey'] = @apiKey
       end
       
-      response.body["nprml"]
+      response.body
     end
 
     #-----------------

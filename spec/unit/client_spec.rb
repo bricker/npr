@@ -28,5 +28,15 @@ describe NPR::Client do
       client = NPR::Client.new
       lambda { client.query }.should raise_error NPR::NotConfiguredError
     end
+    
+    context "nprml" do
+      it "returns a result in hash format" do
+      end
+    end
+    
+    context "json" do
+      it "returns a result in hash format" do
+      end
+    end    
   end
 end

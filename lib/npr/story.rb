@@ -24,6 +24,9 @@ module NPR
       # configure at least the apiKey using 
       # +NPR.configure+.
       #
+      # This method forces NPRML format, which will
+      # be parsed by Faraday into a hash.
+      #
       # Example:
       #
       #   NPR::Story.find(1000)
@@ -31,9 +34,26 @@ module NPR
       # TODO: API Error Handling
       #
       def find(id)
-        client = NPR::Client.new(:apiKey => NPR.config.apiKey)
+        client = NPR::Client.new(
+          :apiKey => NPR.config.apiKey,
+          :output => "nprml")
+          
         response = client.query(:id => id)
-        new(response["list"]["story"])
+        new(response["nprml"]["list"]["story"])
+      end
+      
+      #-------------------------
+      # For each class builder method defined in NPR::QueryBuilder,
+      # define a method on this class which initializes a new
+      # QueryBuilder and proxies to its corresponding method on
+      # Query Builder class.
+      #
+      # We could use ActiveSupport's delegation for this, but 
+      # this is simple enough.
+      NPR::QueryBuilder::CLASS_BUILDER_METHODS.each do |method|
+        define_method method do |args|
+          NPR::QueryBuilder.new(self).send(method, args)
+        end
       end
     end
 
