@@ -29,7 +29,6 @@ module NPR
       #   NPR::Story.find(1000)
       #
       # TODO: API Error Handling
-      # TODO: Accept multiple ID's
       #
       def find(id)
         client = NPR::Client.new(:apiKey => NPR.config.apiKey)
