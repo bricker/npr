@@ -3,7 +3,7 @@
 * list - 3002      - All Topics
 * 01   - 167019577 - Story with 1 Audio, 1 Image, 1 Byline
 * 02   - 166884441 - Multiple Images
-* 03   - 167016221 - No Images
+* 03   - 167016221 - No Results (404-ish)
 
 
 ## Adding more fixtures
