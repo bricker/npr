@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:npr="http://www.npr.org/rss/" xmlns:nprml="http://api.npr.org/nprml" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>NPR: Stories from NPR</title>
+    <link>http://www.npr.org</link>
+    <description>Assorted stories from NPR</description>
+    <language>en</language>
+    <copyright>Copyright 2012 NPR - For Personal Use Only</copyright>
+    <generator>NPR API RSS Generator 0.94</generator>
+    <lastBuildDate>Thu, 13 Dec 2012 14:53:00 -0500</lastBuildDate>
+    <image>
+      <url>http://media.npr.org/images/npr_news_123x20.gif</url>
+      <title>NPR: Stories from NPR</title>
+      <link>http://www.npr.org</link>
+    </image>
+    <item>
+      <title>Why Legos Are So Expensive — And So Popular</title>
+      <description>Legos often cost twice as much as similar blocks from a rival toymaker. So why are Legos so much more popular than other brands?</description>
+      <pubDate>Thu, 13 Dec 2012 14:53:00 -0500</pubDate>
+      <link>http://www.npr.org/blogs/money/2012/12/13/167055503/why-legos-are-so-expensive-and-so-popular?ft=1&amp;f=166956822,167055503</link>
+      <guid>http://www.npr.org/blogs/money/2012/12/13/167055503/why-legos-are-so-expensive-and-so-popular?ft=1&amp;f=166956822,167055503</guid>
+      <content:encoded><![CDATA[<p>Legos often cost twice as much as similar blocks from a rival toymaker. So why are Legos so much more popular than other brands?</p><p><a href="http://www.npr.org/templates/email/emailAFriend.php?storyId=167055503">&raquo; E-Mail This</a>&nbsp;&nbsp;&nbsp;&nbsp; <a href="http://del.icio.us/post?url=http%3A%2F%2Fwww.npr.org%2Ftemplates%2Fstory%2Fstory.php%3FstoryId%3D167055503">&raquo; Add to Del.icio.us</a></p>]]></content:encoded>
+    </item>
+    <item>
+      <title>How The Rich Feel About Paying More Taxes</title>
+      <description>Many people earning more than $250,000 a year — the 2 percent — admit they can afford to pay more in taxes. However, they don't necessarily like the idea, especially when they're made to feel like skinflints even though they're already sending significant sums to Washington.</description>
+      <pubDate>Thu, 13 Dec 2012 11:22:00 -0500</pubDate>
+      <link>http://www.npr.org/2012/12/11/166956822/how-the-rich-feel-about-paying-more-taxes?ft=1&amp;f=166956822,167055503</link>
+      <guid>http://www.npr.org/2012/12/11/166956822/how-the-rich-feel-about-paying-more-taxes?ft=1&amp;f=166956822,167055503</guid>
+      <content:encoded><![CDATA[<p>Many people earning more than $250,000 a year — the 2 percent — admit they can afford to pay more in taxes. However, they don't necessarily like the idea, especially when they're made to feel like skinflints even though they're already sending significant sums to Washington.</p><p><a href="http://www.npr.org/templates/email/emailAFriend.php?storyId=166956822">&raquo; E-Mail This</a>&nbsp;&nbsp;&nbsp;&nbsp; <a href="http://del.icio.us/post?url=http%3A%2F%2Fwww.npr.org%2Ftemplates%2Fstory%2Fstory.php%3FstoryId%3D166956822">&raquo; Add to Del.icio.us</a></p>]]></content:encoded>
+    </item>
+  </channel>
+</rss>

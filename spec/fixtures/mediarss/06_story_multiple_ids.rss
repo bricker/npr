@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:npr="http://www.npr.org/rss/" xmlns:nprml="http://api.npr.org/nprml" xmlns:media="http://search.yahoo.com/mrss/" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>NPR: Stories from NPR</title>
+    <link>http://www.npr.org</link>
+    <description>Assorted stories from NPR</description>
+    <language>en</language>
+    <copyright>Copyright 2012 NPR - For Personal Use Only</copyright>
+    <generator>NPR API RSS Generator 0.94</generator>
+    <lastBuildDate>Thu, 13 Dec 2012 14:53:00 -0500</lastBuildDate>
+    <image>
+      <url>http://media.npr.org/images/npr_news_123x20.gif</url>
+      <title>NPR: Stories from NPR</title>
+      <link>http://www.npr.org</link>
+    </image>
+    <item>
+      <title>Why Legos Are So Expensive — And So Popular</title>
+      <description>Legos often cost twice as much as similar blocks from a rival toymaker. So why are Legos so much more popular than other brands?</description>
+      <pubDate>Thu, 13 Dec 2012 14:53:00 -0500</pubDate>
+      <link>http://www.npr.org/blogs/money/2012/12/13/167055503/why-legos-are-so-expensive-and-so-popular?ft=1&amp;f=166956822,167055503</link>
+      <guid>http://www.npr.org/blogs/money/2012/12/13/167055503/why-legos-are-so-expensive-and-so-popular?ft=1&amp;f=166956822,167055503</guid>
+      <content:encoded><![CDATA[<p>Legos often cost twice as much as similar blocks from a rival toymaker. So why are Legos so much more popular than other brands?</p><p><a href="http://www.npr.org/templates/email/emailAFriend.php?storyId=167055503">&raquo; E-Mail This</a>&nbsp;&nbsp;&nbsp;&nbsp; <a href="http://del.icio.us/post?url=http%3A%2F%2Fwww.npr.org%2Ftemplates%2Fstory%2Fstory.php%3FstoryId%3D167055503">&raquo; Add to Del.icio.us</a></p>]]></content:encoded>
+      <media:group>
+        <media:content type="audio/mpeg" url="http://pd.npr.org/anon.npr-mp3/npr/atc/2012/12/20121213_atc_17.mp3?orgId=1&amp;topicId=1006" isDefault="true" medium="audio" fileSize="2361597" duration="295"/>
+        <media:content type="audio/mpeg" url="http://api.npr.org/m3u/1167199727-2d6035.m3u?orgId=1&amp;topicId=1006" isDefault="true" medium="audio" fileSize="2361597" duration="295"/>
+        <media:content type="audio/x-ms-wma" url="http://www.npr.org/templates/dmg/dmg_wmref_em.php?id=167199727&amp;type=1&amp;mtype=WM&amp;orgId=1&amp;topicId=1006" medium="audio" fileSize="100000" duration="295"/>
+      </media:group>
+      <media:content url="http://media.npr.org/assets/img/2012/12/13/lego-bd8bfadf3ae10931a86b1b0c0377ffdda6118511.jpg" fileSize="100000" type="image/jpg" medium="image">
+        <media:title>Lego vs. Mega</media:title>
+        <media:description>Lego vs. Mega</media:description>
+        <media:copyright>NPR</media:copyright>
+      </media:content>
+    </item>
+    <item>
+      <title>How The Rich Feel About Paying More Taxes</title>
+      <description>Many people earning more than $250,000 a year — the 2 percent — admit they can afford to pay more in taxes. However, they don't necessarily like the idea, especially when they're made to feel like skinflints even though they're already sending significant sums to Washington.</description>
+      <pubDate>Thu, 13 Dec 2012 11:22:00 -0500</pubDate>
+      <link>http://www.npr.org/2012/12/11/166956822/how-the-rich-feel-about-paying-more-taxes?ft=1&amp;f=166956822,167055503</link>
+      <guid>http://www.npr.org/2012/12/11/166956822/how-the-rich-feel-about-paying-more-taxes?ft=1&amp;f=166956822,167055503</guid>
+      <content:encoded><![CDATA[<p>Many people earning more than $250,000 a year — the 2 percent — admit they can afford to pay more in taxes. However, they don't necessarily like the idea, especially when they're made to feel like skinflints even though they're already sending significant sums to Washington.</p><p><a href="http://www.npr.org/templates/email/emailAFriend.php?storyId=166956822">&raquo; E-Mail This</a>&nbsp;&nbsp;&nbsp;&nbsp; <a href="http://del.icio.us/post?url=http%3A%2F%2Fwww.npr.org%2Ftemplates%2Fstory%2Fstory.php%3FstoryId%3D166956822">&raquo; Add to Del.icio.us</a></p>]]></content:encoded>
+      <media:content url="http://media.npr.org/assets/img/2012/12/13/2_percent_wide-351306ded352abaae0744bc5b0de67eafc1dda81.jpg" fileSize="100000" type="image/jpg" medium="image">
+        <media:title>How much income tax should the top 2 percent of U.S. earners pay? Just about everyone has an opinion, but the opinions that count are those of President Obama and House Speaker John Boehner.</media:title>
+        <media:description>How much income tax should the top 2 percent of U.S. earners pay? Just about everyone has an opinion, but the opinions that count are those of President Obama and House Speaker John Boehner.</media:description>
+        <media:copyright>iStockphoto.com</media:copyright>
+      </media:content>
+      <media:content url="http://media.npr.org/assets/img/2012/12/13/JeffreyFisher-7ffa28181086a95e38f694233f2c84e61e1b89f9.jpg" fileSize="100000" type="image/jpg" medium="image">
+        <media:title>Jeffrey Fisher of Florida says any tax increase ought to be accompanied by cuts to government programs.</media:title>
+        <media:description>Jeffrey Fisher of Florida says any tax increase ought to be accompanied by cuts to government programs.</media:description>
+        <media:credit role="photographer">Robert J Nelson</media:credit>
+        <media:copyright>Courtesy of Jeffrey Fisher</media:copyright>
+      </media:content>
+      <media:content url="http://media.npr.org/assets/img/2012/12/13/MarkAnderson-b3c3af4fdc78893f06579a533f2495064da41dff.jpg" fileSize="100000" type="image/jpg" medium="image">
+        <media:title>Mark Anderson of St. Louis thinks President Obama and other Democrats make being rich "sound like a bad thing," something he says is a mistake.</media:title>
+        <media:description>Mark Anderson of St. Louis thinks President Obama and other Democrats make being rich "sound like a bad thing," something he says is a mistake.</media:description>
+        <media:credit role="photographer">Alan Greenblatt</media:credit>
+        <media:copyright>NPR</media:copyright>
+      </media:content>
+      <media:content url="http://media.npr.org/assets/img/2012/12/13/StephenPrince-3321230cfed09a1c5277ce228931b15056bc0d09.jpg" fileSize="100000" type="image/jpg" medium="image">
+        <media:title>Stephen Prince of Tennessee says the conditions that create wealth are at risk if the rich are too "greedy" to pay more in taxes.</media:title>
+        <media:description>Stephen Prince of Tennessee says the conditions that create wealth are at risk if the rich are too "greedy" to pay more in taxes.</media:description>
+        <media:copyright>Courtesy of Stephen Prince</media:copyright>
+      </media:content>
+    </item>
+  </channel>
+</rss>

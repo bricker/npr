@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:nprml="http://api.npr.org/nprml">
+  <title type="text">NPR: Stories from NPR</title>
+  <subtitle type="text">Custom NPR News Feed API.  Visit http://www.npr.org/templates/apidoc/index.php for more information.</subtitle>
+  <id>http://api.npr.org/query?id=166956822,167055503</id>
+  <link rel="self" type="application/atom+xml" href="http://api.npr.org/query?id=166956822,167055503&amp;apiKey=API_KEY"/>
+  <rights>Copyright(c) 2012, NPR</rights>
+  <generator uri="http://api.npr.org/query" version="0.94">NPR API</generator>
+  <updated>2012-12-13T14:53:00-05:00</updated>
+  <entry>
+    <title>Why Legos Are So Expensive — And So Popular</title>
+    <summary>Legos often cost twice as much as similar blocks from a rival toymaker. So why are Legos so much more popular than other brands?</summary>
+    <id>http://api.npr.org/query?id=167055503</id>
+    <category term="127424471" label="Trade"/>
+    <category term="93559255" label="Planet Money"/>
+    <category term="1090" label="Story of the Day"/>
+    <category term="1006" label="Business"/>
+    <category term="1002" label="Home Page Top Stories"/>
+    <published>2012-12-13T14:53:00-05:00</published>
+    <updated>2012-12-13T20:19:03-05:00</updated>
+    <author>
+      <name>National Public Radio</name>
+      <uri>http://www.npr.org/</uri>
+    </author>
+    <contributor>
+      <name>Chana Joffe-Walt</name>
+    </contributor>
+    <link href="http://api.npr.org/query?id=167055503&amp;apiKey=API_KEY" rel="alternate"/>
+    <link href="http://media.npr.org/assets/img/2012/12/13/lego-bd8bfadf3ae10931a86b1b0c0377ffdda6118511.jpg" rel="related" title="Lego vs. Mega" length="100000"/>
+    <link href="http://pd.npr.org/anon.npr-mp3/npr/atc/2012/12/20121213_atc_17.mp3?orgId=1&amp;topicId=1006" rel="enclosure" type="audio/mp3" title="Story Segment Audio" length="295"/>
+    <link href="http://api.npr.org/m3u/1167199727-2d6035.m3u?orgId=1&amp;topicId=1006" rel="enclosure" type="audio/mp3" title="Story Segment Audio" length="295"/>
+  </entry>
+  <entry>
+    <title>How The Rich Feel About Paying More Taxes</title>
+    <summary>Many people earning more than $250,000 a year — the 2 percent — admit they can afford to pay more in taxes. However, they don't necessarily like the idea, especially when they're made to feel like skinflints even though they're already sending significant sums to Washington.</summary>
+    <id>http://api.npr.org/query?id=166956822</id>
+    <category term="1091" label="Around the Nation"/>
+    <category term="1018" label="Your Money"/>
+    <category term="1017" label="Economy"/>
+    <category term="1014" label="Politics"/>
+    <category term="1003" label="U.S."/>
+    <category term="1002" label="Home Page Top Stories"/>
+    <category term="1001" label="News"/>
+    <published>2012-12-13T11:22:00-05:00</published>
+    <updated>2012-12-13T11:30:47-05:00</updated>
+    <author>
+      <name>National Public Radio</name>
+      <uri>http://www.npr.org/</uri>
+    </author>
+    <contributor>
+      <name>Alan Greenblatt</name>
+    </contributor>
+    <link href="http://api.npr.org/query?id=166956822&amp;apiKey=API_KEY" rel="alternate"/>
+    <link href="http://media.npr.org/assets/img/2012/12/13/2_percent_wide-351306ded352abaae0744bc5b0de67eafc1dda81.jpg" rel="related" title="How much income tax should the top 2 percent of U.S. earners pay? Just about everyone has an opinion, but the opinions that count are those of President Obama and House Speaker John Boehner." length="100000"/>
+    <link href="http://media.npr.org/assets/img/2012/12/13/JeffreyFisher-7ffa28181086a95e38f694233f2c84e61e1b89f9.jpg" rel="related" title="Jeffrey Fisher of Florida says any tax increase ought to be accompanied by cuts to government programs." length="100000"/>
+    <link href="http://media.npr.org/assets/img/2012/12/13/MarkAnderson-b3c3af4fdc78893f06579a533f2495064da41dff.jpg" rel="related" title="Mark Anderson of St. Louis thinks President Obama and other Democrats make being rich &quot;sound like a bad thing,&quot; something he says is a mistake." length="100000"/>
+    <link href="http://media.npr.org/assets/img/2012/12/13/StephenPrince-3321230cfed09a1c5277ce228931b15056bc0d09.jpg" rel="related" title="Stephen Prince of Tennessee says the conditions that create wealth are at risk if the rich are too &quot;greedy&quot; to pay more in taxes." length="100000"/>
+  </entry>
+</feed>

@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nprml version="0.94">
+  <list>
+    <title><![CDATA[NPR: Stories from NPR]]></title>
+    <teaser><![CDATA[Assorted stories from NPR]]></teaser>
+    <miniTeaser><![CDATA[Custom NPR News Feed API.  Visit http://www.npr.org/templates/apidoc/index.php for more information.]]></miniTeaser>
+    <link type="api">http://api.npr.org/query?id=166956822,167055503&amp;apiKey=API_KEY</link>
+    <story id="167055503">
+      <link type="html">http://www.npr.org/blogs/money/2012/12/13/167055503/why-legos-are-so-expensive-and-so-popular?ft=3&amp;f=166956822,167055503</link>
+      <link type="api">http://api.npr.org/query?id=167055503&amp;apiKey=API_KEY</link>
+      <link type="short">http://n.pr/Ujm1o5</link>
+      <title><![CDATA[Why Legos Are So Expensive — And So Popular]]></title>
+      <partnerId>167055503</partnerId>
+      <subtitle/>
+      <shortTitle/>
+      <teaser><![CDATA[Legos often cost twice as much as similar blocks from a rival toymaker. So why are Legos so much more popular than other brands?]]></teaser>
+      <miniTeaser><![CDATA[Legos often cost twice as much as blocks from a rival toymaker.]]></miniTeaser>
+      <slug>Planet Money</slug>
+      <thumbnail>
+        <medium>http://media.npr.org/assets/img/2012/12/13/lego_sq-5697f9cc467d4cb5a52b9610454960463b261358.jpg?s=13</medium>
+        <large>http://media.npr.org/assets/img/2012/12/13/lego_sq-5697f9cc467d4cb5a52b9610454960463b261358.jpg?s=11</large>
+        <provider>NPR</provider>
+      </thumbnail>
+      <storyDate>Thu, 13 Dec 2012 15:00:00 -0500</storyDate>
+      <pubDate>Thu, 13 Dec 2012 20:19:00 -0500</pubDate>
+      <lastModifiedDate>Thu, 13 Dec 2012 20:19:03 -0500</lastModifiedDate>
+      <show>
+        <program id="2" code="ATC">All Things Considered</program>
+        <showDate>Thu, 13 Dec 2012 15:00:00 -0500</showDate>
+        <segNum>17</segNum>
+      </show>
+      <keywords/>
+      <priorityKeywords/>
+      <organization orgId="1" orgAbbr="NPR">
+        <name>National Public Radio</name>
+        <website>http://www.npr.org/</website>
+      </organization>
+      <parent id="127424471" type="category">
+        <title>Trade</title>
+        <link type="html">http://www.npr.org/templates/story/story.php?storyId=127424471&amp;ft=3&amp;f=166956822,167055503</link>
+        <link type="api">http://api.npr.org/query?id=127424471&amp;apiKey=API_KEY</link>
+      </parent>
+      <parent id="93559255" type="blog" slug="true">
+        <title>Planet Money</title>
+        <link type="html">http://www.npr.org/blogs/money/?ft=3&amp;f=166956822,167055503</link>
+        <link type="api">http://api.npr.org/query?id=93559255&amp;apiKey=API_KEY</link>
+      </parent>
+      <parent id="1090" type="topic">
+        <title>Story of the Day</title>
+        <link type="html">http://www.npr.org/sections/story-of-the-day/?ft=3&amp;f=166956822,167055503</link>
+        <link type="api">http://api.npr.org/query?id=1090&amp;apiKey=API_KEY</link>
+      </parent>
+      <parent id="1006" type="primaryTopic">
+        <title>Business</title>
+        <link type="html">http://www.npr.org/sections/business/?ft=3&amp;f=166956822,167055503</link>
+        <link type="api">http://api.npr.org/query?id=1006&amp;apiKey=API_KEY</link>
+      </parent>
+      <parent id="1006" type="topic">
+        <title>Business</title>
+        <link type="html">http://www.npr.org/sections/business/?ft=3&amp;f=166956822,167055503</link>
+        <link type="api">http://api.npr.org/query?id=1006&amp;apiKey=API_KEY</link>
+      </parent>
+      <parent id="1002" type="topic">
+        <title>Home Page Top Stories</title>
+        <link type="html">http://www.npr.org/?ft=3&amp;f=166956822,167055503</link>
+        <link type="api">http://api.npr.org/query?id=1002&amp;apiKey=API_KEY</link>
+      </parent>
+      <audio id="167199727" type="primary">
+        <title/>
+        <duration>295</duration>
+        <description/>
+        <format>
+          <mp3 type="mp3">http://pd.npr.org/anon.npr-mp3/npr/atc/2012/12/20121213_atc_17.mp3?orgId=1&amp;topicId=1006&amp;ft=3&amp;f=166956822,167055503</mp3>
+          <mp3 type="m3u">http://api.npr.org/m3u/1167199727-2d6035.m3u?orgId=1&amp;topicId=1006&amp;ft=3&amp;f=166956822,167055503</mp3>
+          <wm>http://www.npr.org/templates/dmg/dmg_wmref_em.php?id=167199727&amp;type=1&amp;mtype=WM&amp;orgId=1&amp;topicId=1006&amp;ft=3&amp;f=166956822,167055503</wm>
+          <mediastream>rtmp://flash.npr.org/ondemand/mp3:anon.npr-mp3/npr/atc/2012/12/20121213_atc_17.mp3</mediastream>
+        </format>
+        <rightsHolder/>
+        <permissions>
+          <download allow="true"/>
+          <stream allow="true"/>
+          <embed allow="false"/>
+        </permissions>
+        <stream active="false"/>
+      </audio>
+      <byline id="167184346">
+        <name>Chana Joffe-Walt</name>
+      </byline>
+      <image id="167185260" type="primary" width="200" src="http://media.npr.org/assets/img/2012/12/13/lego-bd8bfadf3ae10931a86b1b0c0377ffdda6118511.jpg?s=12" hasBorder="false">
+        <title>Lego vs. Mega</title>
+        <caption>Lego vs. Mega</caption>
+        <link url=""/>
+        <producer/>
+        <provider url="">NPR</provider>
+        <copyright/>
+        <enlargement src="http://media.npr.org/assets/img/2012/12/13/lego-bd8bfadf3ae10931a86b1b0c0377ffdda6118511.jpg">
+          <caption/>
+        </enlargement>
+        <crop type="standard" src="http://media.npr.org/assets/img/2012/12/13/lego-bd8bfadf3ae10931a86b1b0c0377ffdda6118511.jpg" height="461" width="615"/>
+        <crop type="square" src="http://media.npr.org/assets/img/2012/12/13/lego_sq-5697f9cc467d4cb5a52b9610454960463b261358.jpg" height="514" width="514"/>
+        <crop type="wide" src="http://media.npr.org/assets/img/2012/12/13/lego_wide-70c512b4fcf27f7e18adb4ed92339cfd46acdd56.jpg" height="346" width="615"/>
+        <crop type="enlargement" src="http://media.npr.org/assets/img/2012/12/13/lego-bd8bfadf3ae10931a86b1b0c0377ffdda6118511.jpg" height="461" width="615"/>
+      </image>
+      <staticGraphic id="167056260" type="infographic" src="http://media.npr.org/news/graphics/2012/12/pm-lego/pm-gr-legomega-616.jpg">
+        <title/>
+        <description/>
+        <credit>Lam Thuy Vo/NPR</credit>
+        <source>Lego, Mega Brands Inc., World Bank</source>
+        <notes>Lego is crushing Mega Bloks, a rival that sells cheaper blocks.</notes>
+        <altText>Lego vs. Mega Bloks</altText>
+        <size>4</size>
+      </staticGraphic>
+      <text>
+        <paragraph num="1"><![CDATA[I went to Toys R Us recently to buy my son a Lego set for Hanukkah. Did you know a small box of Legos costs $60? Sixty bucks for 102 plastic blocks!]]></paragraph>
+        <paragraph num="2"><![CDATA[In fact, I learned, Lego sets can sell for thousands of dollars. And despite these prices, Lego has about 70 percent of the construction-toy market. Why? Why doesn't some competitor sell plastic blocks for less? Lego's patents expired a while ago. How hard could it be to make a cheap knockoff?]]></paragraph>
+        <paragraph num="3"><![CDATA[Luke, a 9-year-old Lego expert, set me straight.]]></paragraph>
+        <paragraph num="4"><![CDATA["They pay attention to so much detail," he said. "I never saw a Lego piece ... that couldn't go together with another one."]]></paragraph>
+        <paragraph num="5"><![CDATA[Lego goes to great lengths to make its pieces really, really well, says David Robertson, who is working on a book about Lego.]]></paragraph>
+        <paragraph num="6"><![CDATA[Inside every Lego brick, there are three numbers, which identify exactly which mold the brick came from and what position it was in in that mold. That way, if there's a bad brick somewhere, the company can go back and fix the mold.]]></paragraph>
+        <paragraph num="7"><![CDATA[For decades this is what kept Lego ahead. It's actually pretty hard to make millions of plastic blocks that all fit together.]]></paragraph>
+        <paragraph num="8"><![CDATA[But over the past several years, a competitor has emerged: Mega Bloks. Plastic blocks that look just like Legos, snap onto Legos and are often half the price.]]></paragraph>
+        <paragraph num="9"><![CDATA[So Lego has tried other ways to stay ahead.]]></paragraph>
+        <paragraph num="10"><![CDATA[The company tried to argue in court that no other company had the legal right to make stacking blocks that look like Legos.]]></paragraph>
+        <paragraph num="11"><![CDATA["That didn't fly," Robertson says. "Every single country that Lego tried to make that argument in decided against Lego."]]></paragraph>
+        <paragraph num="12"><![CDATA[But Lego did find a successful way to do something Mega Bloks could not copy: It bought the exclusive rights to Star Wars. If you want to build a Death Star out of plastic blocks, Lego is now your only option.]]></paragraph>
+        <paragraph num="13"><![CDATA[The Star Wars blocks were wildly successful. So Lego kept going — it licensed Indiana Jones, Winnie the Pooh, Toy Story and Harry Potter.]]></paragraph>
+        <paragraph num="14"><![CDATA[Sales of these products have been huge for Lego. More important, the experience has taught the company that what kids wanted to do with the blocks was tell stories. Lego makes or licenses the stories they want to tell.]]></paragraph>
+        <paragraph num="15"><![CDATA[And kids know the difference.]]></paragraph>
+        <paragraph num="16"><![CDATA["If you were talking to a friend you wouldn't say, 'Oh my God, I just got a big set of Mega Bloks,' " Luke says. "When you say Legos they would probably be like, 'Awesome can we go to your house and play?' "]]></paragraph>
+        <paragraph num="17"><![CDATA[Lego made almost $3.5 billion in revenue last year. Mega made a tenth of that.]]></paragraph>
+        <paragraph num="18"><![CDATA[But Mega Bloks may yet gain on Lego.]]></paragraph>
+        <paragraph num="19"><![CDATA[Mega now owns the rights to Thomas the Tank Engine, Hello Kitty, and the video game Halo. And, on shelves for the first time ever this week: Mega Bloks Barbies. [Copyright 2012 National Public Radio]]]></paragraph>
+      </text>
+      <textWithHtml>
+        <paragraph num="1"><![CDATA[I went to Toys R Us recently to buy my son a Lego set for Hanukkah. Did you know a small box of Legos costs $60? Sixty bucks for 102 plastic blocks!]]></paragraph>
+        <paragraph num="2"><![CDATA[In fact, I learned, Lego sets can sell for thousands of dollars. And despite these prices, Lego has about 70 percent of the construction-toy market. Why? Why doesn't some competitor sell plastic blocks for less? Lego's patents expired a while ago. How hard could it be to make a cheap knockoff?]]></paragraph>
+        <paragraph num="3"><![CDATA[Luke, a 9-year-old Lego expert, set me straight.]]></paragraph>
+        <paragraph num="4"><![CDATA["They pay attention to so much detail," he said. "I never saw a Lego piece ... that couldn't go together with another one."]]></paragraph>
+        <paragraph num="5"><![CDATA[Lego goes to great lengths to make its pieces really, really well, says David Robertson, who is working on a book about Lego.]]></paragraph>
+        <paragraph num="6"><![CDATA[Inside every Lego brick, there are three numbers, which identify exactly which mold the brick came from and what position it was in in that mold. That way, if there's a bad brick somewhere, the company can go back and fix the mold.]]></paragraph>
+        <paragraph num="7"><![CDATA[For decades this is what kept Lego ahead. It's actually pretty hard to make millions of plastic blocks that all fit together.]]></paragraph>
+        <paragraph num="8"><![CDATA[But over the past several years, a competitor has emerged: Mega Bloks. Plastic blocks that look just like Legos, snap onto Legos and are often half the price.]]></paragraph>
+        <paragraph num="9"><![CDATA[So Lego has tried other ways to stay ahead.]]></paragraph>
+        <paragraph num="10"><![CDATA[The company tried to argue in court that no other company had the legal right to make stacking blocks that look like Legos.]]></paragraph>
+        <paragraph num="11"><![CDATA["That didn't fly," Robertson says. "Every single country that Lego tried to make that argument in decided against Lego."]]></paragraph>
+        <paragraph num="12"><![CDATA[But Lego did find a successful way to do something Mega Bloks could not copy: It bought the exclusive rights to <em>Star Wars.</em> If you want to build a Death Star out of plastic blocks, Lego is now your only option.]]></paragraph>
+        <paragraph num="13"><![CDATA[The <em>Star Wars</em> blocks were wildly successful. So Lego kept going — it licensed Indiana Jones, Winnie the Pooh, <em>Toy Story</em> and Harry Potter.]]></paragraph>
+        <paragraph num="14"><![CDATA[Sales of these products have been huge for Lego. More important, the experience has taught the company that what kids wanted to do with the blocks was tell stories. Lego makes or licenses the stories they want to tell.]]></paragraph>
+        <paragraph num="15"><![CDATA[And kids know the difference.]]></paragraph>
+        <paragraph num="16"><![CDATA["If you were talking to a friend you wouldn't say, 'Oh my God, I just got a big set of Mega Bloks,' " Luke says. "When you say Legos they would probably be like, 'Awesome can we go to your house and play?' "]]></paragraph>
+        <paragraph num="17"><![CDATA[Lego made almost $3.5 billion in revenue last year. Mega made a tenth of that.]]></paragraph>
+        <paragraph num="18"><![CDATA[But Mega Bloks may yet gain on Lego.]]></paragraph>
+        <paragraph num="19"><![CDATA[Mega now owns the rights to Thomas the Tank Engine, Hello Kitty, and the video game Halo. And, on shelves for the first time ever this week: Mega Bloks Barbies.  <div class="fullattribution">Copyright 2012 National Public Radio. To see more, visit http://www.npr.org/.<img src="http://www.google-analytics.com/__utm.gif?utmac=UA-5828686-4&utmdt=Why+Legos+Are+So+Expensive+%E2%80%94+And+So+Popular&utme=8(APIKey)9(API_KEY)"/></div>]]></paragraph>
+      </textWithHtml>
+      <fullText><![CDATA[<div class="storytitle">
+      <h1>Why Legos Are So Expensive — And So Popular</h1>
+   <input type="hidden" id="title167055503" value="Why Legos Are So Expensive — And So Popular"></input>
+   <input type="hidden" id="modelShortUrl167055503" value="http://n.pr/Ujm4jM"></input>
+   <input type="hidden" id="modelFullUrl167055503" value="http://www.npr.org/blogs/money/2012/12/13/167055503/why-legos-are-so-expensive-and-so-popular"></input>
+</div>
+
+<!-- END CLASS="STORYTITLE" -->
+<div id="story-meta">
+      <div id="storybyline" class="  linkLocation">
+            <div class="bucketwrap byline" id="res167184345" previewTitle="bylines">
+                  <p class="byline">by <span>Chana Joffe-Walt</span></p>
+      </div>
+      
+<!-- END CLASS="BUCKETWRAP BYLINE" ID="RES167184345" PREVIEWTITLE="BYLINES" -->
+   </div>
+   
+<!-- END ID="STORYBYLINE" CLASS="  LINKLOCATION" -->
+   <div class="dateblock">
+            <time datetime="2012-12-13"><span class="date">December 13, 2012</span><span class="time"> 2:53 PM</span></time>
+   </div>
+</div>
+
+<!-- END ID="STORY-META" -->
+<div id="primaryaudio" class="storylocation linkLocation">
+      <div id="res167199727" class="bucketwrap primary resaudio ">
+            <p class="date">December 13, 2012</p>      <div class="listenicon">
+                  <a class="listen" href="http://www.npr.org/templates/player/mediaPlayer.html?action=1&t=1&islist=false&id=167055503&m=167199727&d=null"></a>
+      </div>
+      
+<!-- END CLASS="LISTENICON" -->
+      <div id="avcontent167199727" class="avcontent listen shorttitle">
+                  <span id="mediaTimeTotal167199727" class="media-time-total"><span id="mediaTimeCurrent167199727" class="media-time-current"></span></span>         <h3><a href="http://www.npr.org/templates/player/mediaPlayer.html?action=1&t=1&islist=false&id=167055503&m=167199727&d=null">Listen to the Story</a></h3>
+         <div class="inner">
+                        <p class="byline"><a class="program" href="http://www.npr.org/programs/all-things-considered/">All Things Considered</a></p>            <div class="duration">
+                              <span id="durationCurrent167199727" class="current"></span>               <span class="total">4 min 55 sec</span>
+            </div>
+         </div>
+         
+<!-- END CLASS="INNER" -->
+      </div>
+      
+<!-- END ID="AVCONTENT167199727" CLASS="AVCONTENT LISTEN SHORTTITLE" -->
+      <ul class="audiotools">
+                  <li><a class="add" href="http://www.npr.org/templates/player/mediaPlayer.html?action=2&t=1&islist=false&id=167055503&m=167199727&d=null"><span>Playlist</span></a></li>
+         <li><a class="download" href="http://pd.npr.org/anon.npr-mp3/npr/atc/2012/12/20121213_atc_17.mp3?dl=1"><span>Download</span></a></li>
+         <li><a class="pending" title="Transcript Pending" href="#"><span>Transcript</span></a></li>
+      </ul>
+      <div class="spacer">
+         &nbsp;
+      </div>
+   </div>
+   
+<!-- END ID="RES167199727" CLASS="BUCKETWRAP PRIMARY RESAUDIO " -->
+</div>
+
+<!-- END ID="PRIMARYAUDIO" CLASS="STORYLOCATION LINKLOCATION" -->
+<div id="storytext" class="storytext storylocation linkLocation">
+      <div id="res167056260" class="bucketwrap graphic graphic624 nobar">
+            <div class="bucket">
+                  <div class="graphicwrapper">
+                        <img src="/news/graphics/2012/12/pm-lego/pm-gr-legomega-616.jpg" alt="Lego vs. Mega Bloks" />
+         </div>
+         
+<!-- END CLASS="GRAPHICWRAPPER" -->
+         <div class="notes">
+                        <h4>Notes</h4>
+            Lego is crushing Mega Bloks, a rival that sells cheaper blocks.
+         </div>
+         
+<!-- END CLASS="NOTES" -->
+         <div class="footer">
+                        <p>Source: Lego, Mega Brands Inc., World Bank</p>            <p>Credit: Lam Thuy Vo/NPR</p>
+         </div>
+         
+<!-- END CLASS="FOOTER" -->
+      </div>
+      
+<!-- END CLASS="BUCKET" -->
+   </div>
+   
+<!-- END ID="RES167056260" CLASS="BUCKETWRAP GRAPHIC GRAPHIC624 NOBAR" -->
+   <p>I went to Toys R Us recently to buy my son a Lego set for Hanukkah. Did you know a small box of Legos costs $60? Sixty bucks for 102 plastic blocks!</p>   <p>In fact, I learned, Lego sets can sell for thousands of dollars. And despite these prices, Lego has about 70 percent of the construction-toy market. Why? Why doesn't some competitor sell plastic blocks for less? Lego's patents expired a while ago. How hard could it be to make a cheap knockoff?</p>   <p>Luke, a 9-year-old Lego expert, set me straight.</p>   <p>"They pay attention to so much detail," he said. "I never saw a Lego piece ... that couldn't go together with another one."</p>   <p>Lego goes to great lengths to make its pieces really, really well, says David Robertson, who is working on a book about Lego.</p>   <p>Inside every Lego brick, there are three numbers, which identify exactly which mold the brick came from and what position it was in in that mold. That way, if there's a bad brick somewhere, the company can go back and fix the mold.</p>   <p>For decades this is what kept Lego ahead. It's actually pretty hard to make millions of plastic blocks that all fit together.</p>   <p>But over the past several years, a competitor has emerged: Mega Bloks. Plastic blocks that look just like Legos, snap onto Legos and are often half the price.</p>   <p>So Lego has tried other ways to stay ahead.</p>   <p>The company tried to argue in court that no other company had the legal right to make stacking blocks that look like Legos.</p>   <p>"That didn't fly," Robertson says. "Every single country that Lego tried to make that argument in decided against Lego."</p>   <p>But Lego did find a successful way to do something Mega Bloks could not copy: It bought the exclusive rights to <em>Star Wars.</em> If you want to build a Death Star out of plastic blocks, Lego is now your only option.</p>   <p>The <em>Star Wars</em> blocks were wildly successful. So Lego kept going — it licensed Indiana Jones, Winnie the Pooh, <em>Toy Story</em> and Harry Potter.</p>   <p>Sales of these products have been huge for Lego. More important, the experience has taught the company that what kids wanted to do with the blocks was tell stories. Lego makes or licenses the stories they want to tell.</p>   <p>And kids know the difference.</p>   <p>"If you were talking to a friend you wouldn't say, 'Oh my God, I just got a big set of Mega Bloks,' " Luke says. "When you say Legos they would probably be like, 'Awesome can we go to your house and play?' "</p>   <p>Lego made almost $3.5 billion in revenue last year. Mega made a tenth of that.</p>   <p>But Mega Bloks may yet gain on Lego.</p>   <p>Mega now owns the rights to Thomas the Tank Engine, Hello Kitty, and the video game Halo. And, on shelves for the first time ever this week: Mega Bloks Barbies.</p>
+</div>
+<div class="fullattribution">Copyright 2012 National Public Radio. To see more, visit http://www.npr.org/.<img src="http://www.google-analytics.com/__utm.gif?utmac=UA-5828686-4&utmdt=Why+Legos+Are+So+Expensive+%E2%80%94+And+So+Popular&utme=8(APIKey)9(API_KEY)"/></div>]]></fullText>
+    </story>
+    <story id="166956822">
+      <link type="html">http://www.npr.org/2012/12/11/166956822/how-the-rich-feel-about-paying-more-taxes?ft=3&amp;f=166956822,167055503</link>
+      <link type="api">http://api.npr.org/query?id=166956822&amp;apiKey=API_KEY</link>
+      <link type="short">http://n.pr/UePHCE</link>
+      <title><![CDATA[How The Rich Feel About Paying More Taxes]]></title>
+      <partnerId>166956822</partnerId>
+      <subtitle/>
+      <shortTitle/>
+      <teaser><![CDATA[Many people earning more than $250,000 a year — the 2 percent — admit they can afford to pay more in taxes. However, they don't necessarily like the idea, especially when they're made to feel like skinflints even though they're already sending significant sums to Washington.]]></teaser>
+      <miniTeaser><![CDATA[Many "2 percenters" say they can afford it but want the government's books in better order first.]]></miniTeaser>
+      <slug>U.S.</slug>
+      <thumbnail>
+        <medium>http://media.npr.org/assets/img/2012/12/13/2_percent_sq-11ba8a8cb3610ad2c3740ffd6116473304176d6d.jpg?s=13</medium>
+        <large>http://media.npr.org/assets/img/2012/12/13/2_percent_sq-11ba8a8cb3610ad2c3740ffd6116473304176d6d.jpg?s=11</large>
+        <provider>iStockphoto.com</provider>
+      </thumbnail>
+      <storyDate>Thu, 13 Dec 2012 11:22:00 -0500</storyDate>
+      <pubDate>Thu, 13 Dec 2012 11:30:00 -0500</pubDate>
+      <lastModifiedDate>Thu, 13 Dec 2012 11:30:47 -0500</lastModifiedDate>
+      <keywords/>
+      <priorityKeywords/>
+      <organization orgId="1" orgAbbr="NPR">
+        <name>National Public Radio</name>
+        <website>http://www.npr.org/</website>
+      </organization>
+      <parent id="1091" type="topic">
+        <title>Around the Nation</title>
+        <link type="html">http://www.npr.org/sections/around-the-nation/?ft=3&amp;f=166956822,167055503</link>
+        <link type="api">http://api.npr.org/query?id=1091&amp;apiKey=API_KEY</link>
+      </parent>
+      <parent id="1018" type="topic">
+        <title>Your Money</title>
+        <link type="html">http://www.npr.org/sections/your-money/?ft=3&amp;f=166956822,167055503</link>
+        <link type="api">http://api.npr.org/query?id=1018&amp;apiKey=API_KEY</link>
+      </parent>
+      <parent id="1017" type="topic">
+        <title>Economy</title>
+        <link type="html">http://www.npr.org/sections/economy/?ft=3&amp;f=166956822,167055503</link>
+        <link type="api">http://api.npr.org/query?id=1017&amp;apiKey=API_KEY</link>
+      </parent>
+      <parent id="1014" type="topic">
+        <title>Politics</title>
+        <link type="html">http://www.npr.org/sections/politics/?ft=3&amp;f=166956822,167055503</link>
+        <link type="api">http://api.npr.org/query?id=1014&amp;apiKey=API_KEY</link>
+      </parent>
+      <parent id="1003" type="primaryTopic" slug="true">
+        <title>U.S.</title>
+        <link type="html">http://www.npr.org/sections/us/?ft=3&amp;f=166956822,167055503</link>
+        <link type="api">http://api.npr.org/query?id=1003&amp;apiKey=API_KEY</link>
+      </parent>
+      <parent id="1003" type="topic">
+        <title>U.S.</title>
+        <link type="html">http://www.npr.org/sections/us/?ft=3&amp;f=166956822,167055503</link>
+        <link type="api">http://api.npr.org/query?id=1003&amp;apiKey=API_KEY</link>
+      </parent>
+      <parent id="1002" type="topic">
+        <title>Home Page Top Stories</title>
+        <link type="html">http://www.npr.org/?ft=3&amp;f=166956822,167055503</link>
+        <link type="api">http://api.npr.org/query?id=1002&amp;apiKey=API_KEY</link>
+      </parent>
+      <parent id="1001" type="topic">
+        <title>News</title>
+        <link type="html">http://www.npr.org/sections/news/?ft=3&amp;f=166956822,167055503</link>
+        <link type="api">http://api.npr.org/query?id=1001&amp;apiKey=API_KEY</link>
+      </parent>
+      <byline id="167149285">
+        <name>Alan Greenblatt</name>
+      </byline>
+      <image id="167158922" type="primary" width="200" src="http://media.npr.org/assets/img/2012/12/13/2_percent_wide-351306ded352abaae0744bc5b0de67eafc1dda81.jpg?s=12" hasBorder="false">
+        <title>How much income tax should the top 2 percent of U.S. earners pay? Just about everyone has an opinion, but the opinions that count are those of President Obama and House Speaker John Boehner.</title>
+        <caption>How much income tax should the top 2 percent of U.S. earners pay? Just about everyone has an opinion, but the opinions that count are those of President Obama and House Speaker John Boehner.</caption>
+        <link url=""/>
+        <producer/>
+        <provider url="">iStockphoto.com</provider>
+        <copyright/>
+        <crop type="standard" src="http://media.npr.org/assets/img/2012/12/13/2_percent-8bf36cb5737784614238be9a03e9b82f04c0e9f9.jpg" height="1131" width="1509"/>
+        <crop type="square" src="http://media.npr.org/assets/img/2012/12/13/2_percent_sq-11ba8a8cb3610ad2c3740ffd6116473304176d6d.jpg" height="882" width="882"/>
+        <crop type="wide" src="http://media.npr.org/assets/img/2012/12/13/2_percent_wide-351306ded352abaae0744bc5b0de67eafc1dda81.jpg" height="853" width="1517"/>
+      </image>
+      <image id="167150395" type="standard" width="200" src="http://media.npr.org/assets/img/2012/12/13/JeffreyFisher-7ffa28181086a95e38f694233f2c84e61e1b89f9.jpg?s=12" hasBorder="false">
+        <title>Jeffrey Fisher of Florida says any tax increase ought to be accompanied by cuts to government programs.</title>
+        <caption>Jeffrey Fisher of Florida says any tax increase ought to be accompanied by cuts to government programs.</caption>
+        <link url=""/>
+        <producer>Robert J Nelson</producer>
+        <provider url="">Courtesy of Jeffrey Fisher</provider>
+        <copyright/>
+        <enlargement src="http://media.npr.org/assets/img/2012/12/13/JeffreyFisher-7ffa28181086a95e38f694233f2c84e61e1b89f9.jpg">
+          <caption/>
+        </enlargement>
+        <crop type="standard" src="http://media.npr.org/assets/img/2012/12/13/JeffreyFisher-7ffa28181086a95e38f694233f2c84e61e1b89f9.jpg" height="1248" width="1662"/>
+        <crop type="square" src="http://media.npr.org/assets/img/2012/12/13/JeffreyFisher_sq-3235cbbcec1f775af971b7b2ada81b7d2792a95c.jpg" height="1417" width="1417"/>
+        <crop type="enlargement" src="http://media.npr.org/assets/img/2012/12/13/JeffreyFisher-7ffa28181086a95e38f694233f2c84e61e1b89f9.jpg" height="1248" width="1662"/>
+        <crop type="vertical" src="http://media.npr.org/assets/img/2012/12/13/JeffreyFisher_vert-4ffcde6cf39b29aacaa6fbc5b91e53368669c2d0.jpg" height="2216" width="1662"/>
+      </image>
+      <image id="167155268" type="standard" width="200" src="http://media.npr.org/assets/img/2012/12/13/MarkAnderson-b3c3af4fdc78893f06579a533f2495064da41dff.jpg?s=12" hasBorder="false">
+        <title>Mark Anderson of St. Louis thinks President Obama and other Democrats make being rich "sound like a bad thing," something he says is a mistake.</title>
+        <caption>Mark Anderson of St. Louis thinks President Obama and other Democrats make being rich "sound like a bad thing," something he says is a mistake.</caption>
+        <link url=""/>
+        <producer>Alan Greenblatt</producer>
+        <provider url="">NPR</provider>
+        <copyright/>
+        <enlargement src="http://media.npr.org/assets/img/2012/12/13/MarkAnderson-b3c3af4fdc78893f06579a533f2495064da41dff.jpg">
+          <caption/>
+        </enlargement>
+        <crop type="standard" src="http://media.npr.org/assets/img/2012/12/13/MarkAnderson-b3c3af4fdc78893f06579a533f2495064da41dff.jpg" height="2045" width="2728"/>
+        <crop type="square" src="http://media.npr.org/assets/img/2012/12/13/MarkAnderson_sq-3101093f8e25ba58b70189a2536808eb9961fd58.jpg" height="970" width="970"/>
+        <crop type="wide" src="http://media.npr.org/assets/img/2012/12/13/MarkAnderson_wide-46b65267c210fb457957005d49fc66114917df92.jpg" height="1685" width="3000"/>
+        <crop type="enlargement" src="http://media.npr.org/assets/img/2012/12/13/MarkAnderson-b3c3af4fdc78893f06579a533f2495064da41dff.jpg" height="2045" width="2728"/>
+        <crop type="custom" src="http://media.npr.org/assets/img/2012/12/13/MarkAnderson_custom-7ad50b69ef3101c9e4417376681e6cac4bbe45c7.jpg" height="2238" width="2994"/>
+        <crop type="slide" src="http://media.npr.org/assets/img/2012/12/13/MarkAnderson_slide-f80a9ee7540deff5de27527283345e7bb6b9b9df.jpg" height="1998" width="3000"/>
+      </image>
+      <image id="167150622" type="standard" width="200" src="http://media.npr.org/assets/img/2012/12/13/StephenPrince-3321230cfed09a1c5277ce228931b15056bc0d09.jpg?s=12" hasBorder="false">
+        <title>Stephen Prince of Tennessee says the conditions that create wealth are at risk if the rich are too "greedy" to pay more in taxes.</title>
+        <caption>Stephen Prince of Tennessee says the conditions that create wealth are at risk if the rich are too "greedy" to pay more in taxes.</caption>
+        <link url=""/>
+        <producer/>
+        <provider url="">Courtesy of Stephen Prince</provider>
+        <copyright/>
+        <enlargement src="http://media.npr.org/assets/img/2012/12/13/StephenPrince-3321230cfed09a1c5277ce228931b15056bc0d09.jpg">
+          <caption/>
+        </enlargement>
+        <crop type="standard" src="http://media.npr.org/assets/img/2012/12/13/StephenPrince-3321230cfed09a1c5277ce228931b15056bc0d09.jpg" height="575" width="767"/>
+        <crop type="square" src="http://media.npr.org/assets/img/2012/12/13/StephenPrince_sq-f18c86f792befe340b75b1c2827a3830f7175e40.jpg" height="649" width="649"/>
+        <crop type="enlargement" src="http://media.npr.org/assets/img/2012/12/13/StephenPrince-3321230cfed09a1c5277ce228931b15056bc0d09.jpg" height="575" width="767"/>
+        <crop type="vertical" src="http://media.npr.org/assets/img/2012/12/13/StephenPrince_vert-0ed11d29ccba24a4615ddd9913fa4a04ff3fe63d.jpg" height="945" width="709"/>
+      </image>
+      <text>
+        <paragraph num="1"><![CDATA[Stephen Prince has plenty of money, and he doesn't mind sending more of it to the federal government.]]></paragraph>
+        <paragraph num="2"><![CDATA["There's nothing in history that supports the view that if you give the wealthy their money back, they'll invest it," says Prince, who owns a company based in Nolensville, Tenn., that makes gift cards. "We invest anyway — that's what the wealthy do."]]></paragraph>
+        <paragraph num="3"><![CDATA[President Obama has made it clear he will demand that taxes go up for the top 2 percent of earners as part of any new budget deal. Presidential statements, congressional debate and protests on Wall Street and around the country have all made the case that the rich must pay more in order to help both the budget and the economy.]]></paragraph>
+        <paragraph num="4"><![CDATA[But how do the top earners themselves feel about that idea?]]></paragraph>
+        <paragraph num="5"><![CDATA[Some, like Prince, say they can readily afford to pay more. Others think it's wrong to call on them to pay higher rates — even as top earners account for a huge percentage of personal income tax receipts. Mainly, they say they are tired of being singled out and accused of not paying their fair share.]]></paragraph>
+        <paragraph num="6"><![CDATA["I worked hard and I had some success, and I think that's how it's supposed to be in this country," says Edward Kfoury, a 74-year-old former IBM director who now owns "a couple of businesses" in Maine. "I don't like being called a name and being called a bastard and all these other things."]]></paragraph>
+        <paragraph num="7"><![CDATA['A Dark Path']]></paragraph>
+        <paragraph num="8"><![CDATA[Prince, who is 61, lives in a gated golf community near Nashville, Tenn., and owns a condo in New York. Not only can he afford to pay more, he says, but he also believes people in his bracket need to pony up to support essential programs such as education and roads.]]></paragraph>
+        <paragraph num="9"><![CDATA["Almost all of my friends don't have one mansion, they have two," he says. "Many of them have three."]]></paragraph>
+        <paragraph num="10"><![CDATA[He recently joined a group of 225 self-styled "Patriotic Millionaires," which advocates that high-income individuals pay higher taxes.]]></paragraph>
+        <paragraph num="11"><![CDATA["Without willingness to support our central government, we're going down a dark path," Prince says. The conditions that create wealth — including an educated workforce and a broad customer base — are at risk if the rich are too "greedy" to pay more in taxes, he argues.]]></paragraph>
+        <paragraph num="12"><![CDATA[How Much Is Enough?]]></paragraph>
+        <paragraph num="13"><![CDATA[Not everyone whose taxes would go up under President Obama's "fiscal cliff" proposal lives in a mansion, however. Particularly in expensive parts of the country such as New York City and San Francisco, $250,000 doesn't go as far as it once did.]]></paragraph>
+        <paragraph num="14"><![CDATA["My wife and I collectively make over that," says Bernie Grimm, an attorney in Washington, D.C., "but with three kids and two in college, that's not a lot of money."]]></paragraph>
+        <paragraph num="15"><![CDATA[As New York City Mayor Michael Bloomberg once pointed out, life in such places is itself a "luxury product." Grimm, who is 57, readily concedes that his family is able to live comfortably.]]></paragraph>
+        <paragraph num="16"><![CDATA[People who aren't able to make ends meet on a medium six-figure income are arguably just not being smart with their money.]]></paragraph>
+        <paragraph num="17"><![CDATA["There are a lot of people in my income category who are living paycheck to paycheck," says Mark Anderson, a 29-year-old mortgage broker in St. Louis. "It's just a different level of credit card debt."]]></paragraph>
+        <paragraph num="18"><![CDATA[Anderson says he and his wife, a pathologist, fall into the 2 percent category but not by much. He indulges himself in "the latest and greatest that Apple has to offer" and lives in a sizable house in a good neighborhood. Beyond that, he says, he and his wife aren't extravagant — they drive Subarus rather than Jaguars.]]></paragraph>
+        <paragraph num="19"><![CDATA[Singling Out Success]]></paragraph>
+        <paragraph num="20"><![CDATA[Anderson recognizes that the kind of tax increases Obama proposes aren't going to impinge on his life materially, and he supports them philosophically. But he adds that he thinks Obama and other Democrats make being rich "sound like a bad thing," which he says is a mistake.]]></paragraph>
+        <paragraph num="21"><![CDATA[The top 2 percent of earners already pay 35 percent of all federal taxes, according to the Tax Policy Center. In terms of personal income taxes, the top 1 percent alone pay 37.4 percent of total receipts, according to the Tax Foundation — double the share they paid back in 1979. Kfoury, who is president of a land trust in Maine, points out that there are years when his personal tax bill has run into seven figures.]]></paragraph>
+        <paragraph num="22"><![CDATA["What would make me feel a lot better is if I heard the president say, 'I want to thank the rich people who, because of our progressive tax system, pay the most — but we don't have enough money, so we're asking the wealthy people to help the country out by paying more than their fair share,' " says Martin Krall, a 71-year-old "semi-retired" attorney and media executive who lives in Palm Beach Gardens, Fla.]]></paragraph>
+        <paragraph num="23"><![CDATA["Instead, you're made to feel like you're a bad guy," Krall says. "People resent the notion that somehow they've done something wrong by becoming successful."]]></paragraph>
+        <paragraph num="24"><![CDATA[Get Your Fiscal House In Order]]></paragraph>
+        <paragraph num="25"><![CDATA[Even Prince, the Tennessee millionaire, says the president "has done a horrible job of telling the story or recrafting the message."]]></paragraph>
+        <paragraph num="26"><![CDATA[But for some of the well-to-do, it's not just a question of being asked nicely. Some argue that the federal government itself should get its books in better order before it comes asking them for more.]]></paragraph>
+        <paragraph num="27"><![CDATA["If you have tax increases and parallel cost-cutting, that's fine with me," says Grimm, the D.C. lawyer.]]></paragraph>
+        <paragraph num="28"><![CDATA[Grimm says he has always endorsed social programs, worked in a public defender's office and once set up a reading program at a local jail. But he believes there's plenty of waste in government — including domestic programs he worries are leaving some individuals dependent on government largesse.]]></paragraph>
+        <paragraph num="29"><![CDATA[Jeff Fisher, another 57-year-old lawyer, agrees that any increase in taxes for people in his income category must be accompanied by cuts to government programs. "It's got to be the two together," he says.]]></paragraph>
+        <paragraph num="30"><![CDATA[But if he has to pay higher taxes in order to help bring the federal budget closer to balance, Fisher recognizes that he can afford it.]]></paragraph>
+        <paragraph num="31"><![CDATA["Yeah, it's going to cost me a bunch of money each year, but it's not going to make a material change in my life," Fisher says. "I'm a divorce lawyer in Palm Beach, Fla., so I do very well." [Copyright 2012 National Public Radio]]]></paragraph>
+      </text>
+      <textWithHtml>
+        <paragraph num="1"><![CDATA[Stephen Prince has plenty of money, and he doesn't mind sending more of it to the federal government.]]></paragraph>
+        <paragraph num="2"><![CDATA["There's nothing in history that supports the view that if you give the wealthy their money back, they'll invest it," says Prince, who owns a company based in Nolensville, Tenn., that makes gift cards. "We invest anyway — that's what the wealthy do."]]></paragraph>
+        <paragraph num="3"><![CDATA[President Obama has made it clear he will demand that taxes go up for the top 2 percent of earners as part of any new budget deal. Presidential statements, congressional debate and protests on Wall Street and around the country have all made the case that the rich must pay more in order to help both the budget and the economy.]]></paragraph>
+        <paragraph num="4"><![CDATA[But how do the top earners themselves feel about that idea?]]></paragraph>
+        <paragraph num="5"><![CDATA[Some, like Prince, say they can readily afford to pay more. Others think it's wrong to call on them to pay higher rates — even as top earners account for a huge percentage of personal income tax receipts. Mainly, they say they are tired of being singled out and accused of not paying their fair share.]]></paragraph>
+        <paragraph num="6"><![CDATA["I worked hard and I had some success, and I think that's how it's supposed to be in this country," says Edward Kfoury, a 74-year-old former IBM director who now owns "a couple of businesses" in Maine. "I don't like being called a name and being called a bastard and all these other things."]]></paragraph>
+        <paragraph num="7"><![CDATA[<strong>'A Dark Path'</strong>]]></paragraph>
+        <paragraph num="8"><![CDATA[Prince, who is 61, lives in a gated golf community near Nashville, Tenn., and owns a condo in New York. Not only can he afford to pay more, he says, but he also believes people in his bracket need to pony up to support essential programs such as education and roads.]]></paragraph>
+        <paragraph num="9"><![CDATA["Almost all of my friends don't have one mansion, they have two," he says. "Many of them have three."]]></paragraph>
+        <paragraph num="10"><![CDATA[He recently joined a group of 225 self-styled "<a href="http://patrioticmillionaires.net/">Patriotic Millionaires</a>," which advocates that high-income individuals pay higher taxes.]]></paragraph>
+        <paragraph num="11"><![CDATA["Without willingness to support our central government, we're going down a dark path," Prince says. The conditions that create wealth — including an educated workforce and a broad customer base — are at risk if the rich are too "greedy" to pay more in taxes, he argues.]]></paragraph>
+        <paragraph num="12"><![CDATA[<strong>How Much Is Enough?</strong>]]></paragraph>
+        <paragraph num="13"><![CDATA[Not everyone whose taxes would go up under President Obama's "fiscal cliff" proposal lives in a mansion, however. Particularly in expensive parts of the country such as New York City and San Francisco, $250,000 doesn't go as far as it once did.]]></paragraph>
+        <paragraph num="14"><![CDATA["My wife and I collectively make over that," says Bernie Grimm, an attorney in Washington, D.C., "but with three kids and two in college, that's not a lot of money."]]></paragraph>
+        <paragraph num="15"><![CDATA[As New York City Mayor Michael Bloomberg once pointed out, life in such places is itself a "luxury product." Grimm, who is 57, readily concedes that his family is able to live comfortably.]]></paragraph>
+        <paragraph num="16"><![CDATA[People who aren't able to make ends meet on a medium six-figure income are arguably just not being smart with their money.]]></paragraph>
+        <paragraph num="17"><![CDATA["There are a lot of people in my income category who are living paycheck to paycheck," says Mark Anderson, a 29-year-old mortgage broker in St. Louis. "It's just a different level of credit card debt."]]></paragraph>
+        <paragraph num="18"><![CDATA[Anderson says he and his wife, a pathologist, fall into the 2 percent category but not by much. He indulges himself in "the latest and greatest that Apple has to offer" and lives in a sizable house in a good neighborhood. Beyond that, he says, he and his wife aren't extravagant — they drive Subarus rather than Jaguars.]]></paragraph>
+        <paragraph num="19"><![CDATA[<strong>Singling Out Success</strong>]]></paragraph>
+        <paragraph num="20"><![CDATA[Anderson recognizes that the kind of tax increases Obama proposes aren't going to impinge on his life materially, and he supports them philosophically. But he adds that he thinks Obama and other Democrats make being rich "sound like a bad thing," which he says is a mistake.]]></paragraph>
+        <paragraph num="21"><![CDATA[The top 2 percent of earners already pay 35 percent of all federal taxes, according to the <a href="http://www.taxpolicycenter.org/numbers/displayatab.cfm?Docid=3630&amp;DocTypeID=1">Tax Policy Center</a>. In terms of personal income taxes, the top 1 percent alone pay 37.4 percent of total receipts, according to the <a href="http://taxfoundation.org/article/summary-latest-federal-income-tax-data-2012#table1">Tax Foundation</a> — double the share they paid back in 1979. Kfoury, who is president of a land trust in Maine, points out that there are years when his personal tax bill has run into seven figures.]]></paragraph>
+        <paragraph num="22"><![CDATA["What would make me feel a lot better is if I heard the president say, 'I want to thank the rich people who, because of our progressive tax system, pay the most — but we don't have enough money, so we're asking the wealthy people to help the country out by paying more than their fair share,' " says Martin Krall, a 71-year-old "semi-retired" attorney and media executive who lives in Palm Beach Gardens, Fla.]]></paragraph>
+        <paragraph num="23"><![CDATA["Instead, you're made to feel like you're a bad guy," Krall says. "People resent the notion that somehow they've done something wrong by becoming successful."]]></paragraph>
+        <paragraph num="24"><![CDATA[<strong>Get Your Fiscal House In Order</strong>]]></paragraph>
+        <paragraph num="25"><![CDATA[Even Prince, the Tennessee millionaire, says the president "has done a horrible job of telling the story or recrafting the message."]]></paragraph>
+        <paragraph num="26"><![CDATA[But for some of the well-to-do, it's not just a question of being asked nicely. Some argue that the federal government itself should get its books in better order before it comes asking them for more.]]></paragraph>
+        <paragraph num="27"><![CDATA["If you have tax increases and parallel cost-cutting, that's fine with me," says Grimm, the D.C. lawyer.]]></paragraph>
+        <paragraph num="28"><![CDATA[Grimm says he has always endorsed social programs, worked in a public defender's office and once set up a reading program at a local jail. But he believes there's plenty of waste in government — including domestic programs he worries are leaving some individuals dependent on government largesse.]]></paragraph>
+        <paragraph num="29"><![CDATA[Jeff Fisher, another 57-year-old lawyer, agrees that any increase in taxes for people in his income category must be accompanied by cuts to government programs. "It's got to be the two together," he says.]]></paragraph>
+        <paragraph num="30"><![CDATA[But if he has to pay higher taxes in order to help bring the federal budget closer to balance, Fisher recognizes that he can afford it.]]></paragraph>
+        <paragraph num="31"><![CDATA["Yeah, it's going to cost me a bunch of money each year, but it's not going to make a material change in my life," Fisher says. "I'm a divorce lawyer in Palm Beach, Fla., so I do very well."  <div class="fullattribution">Copyright 2012 National Public Radio. To see more, visit http://www.npr.org/.<img src="http://www.google-analytics.com/__utm.gif?utmac=UA-5828686-4&utmdt=How+The+Rich+Feel+About+Paying+More+Taxes&utme=8(APIKey)9(API_KEY)"/></div>]]></paragraph>
+      </textWithHtml>
+    </story>
+  </list>
+</nprml>
