@@ -9,7 +9,7 @@ module NPR
       #---------------------
     
       def initialize(json)
-        @content = json["$type"]
+        @content = json["$text"]
         @type    = json["type"]
       end
 
