@@ -74,6 +74,15 @@ module NPR
     ]
     
     attr_accessor *API_OPTIONS
+
+    #-------------------
+    # You can pass in a hash of options to 
+    # Configuration.new
+    def initialize(options={})
+      options.each do |key, value|
+        send "#{key}=", value
+      end
+    end
     
     #-------------------
     # Convenience method
