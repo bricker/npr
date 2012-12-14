@@ -19,7 +19,7 @@ module NPR
 
       #------------------
     
-      def initializer(json={})
+      def initialize(json)
         @id    = json["id"]
         @level = json["level"]
       
