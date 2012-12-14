@@ -21,7 +21,19 @@ work with others):
 
 * `faraday >= 0.8.0` (HTTP requests)
 * `faraday_middleware >= 0.9.0` (response processing)
-    * `json >= 1.7.5` (JSON parsing)
+
+**NOTE** If you are running **Ruby < 1.9**, you will have to install 
+the [json gem](http://rubygems.org/gems/json):
+
+You you Gemfile:
+
+    gem 'json', '~> 1.7.5'
+    
+From the command line:
+
+    $ gem install json
+
+Ruby 1.9+ comes with JSON support built-in!
 
 
 ## Installation
