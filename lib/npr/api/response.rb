@@ -11,11 +11,11 @@ module NPR
       def initialize(response)
         @raw      = response
         @version  = response.body["version"]
-        @list     = NPR::List.new(response.body["list"])
+        @list     = NPR::Entity::List.new(response.body["list"])
         
         messages = []
         Array.wrap(response.body["message"]).each do |message|
-          messages.push NPR::Message.new(message)
+          messages.push NPR::API::Message.new(message)
         end
         
         @messages = messages

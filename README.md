@@ -87,14 +87,14 @@ naturally to you!
 To find a story by ID:
 
 ```ruby
-NPR::Story.find(1999) #=> NPR::Story
+NPR::Entity::Story.find(1999) #=> NPR::Entity::Story
 ```
 
 You can also query directly on an `NPR::Client` object:
 
 ```ruby
 client = NPR::Client.new(apiKey: NPR.config.apiKey)
-client.query(id: 63985) #=> NPR::Story
+client.query(id: 63985) #=> NPR::Entity::Story
 ```
 
 The params that get passed into the `#query` method map directly to

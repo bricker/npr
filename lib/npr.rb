@@ -1,29 +1,61 @@
+##
+# NPR
+#
+module NPR
+  #------------------
+  # Attributes that are being typecast to Ruby classes
+  ATTR_TYPES = {
+    "id"               => Fixnum,
+    "partnerId"        => Fixnum,
+    "storyDate"        => Time, 
+    "pubDate"          => Time,
+    "lastModifiedDate" => Time
+  }
+  
+  #------------------
+  # How to typecast
+  CASTERS = {
+    Fixnum => lambda { |a| a.to_i },
+    Time   => lambda { |a| Time.parse(a) }
+  }
+end
+
+#------------------
 # Dependencies
-require "npr/core_ext/object/cast_to"
 require "npr/core_ext/array/wrap"
 require 'faraday'
 require 'faraday_middleware'
 
+#------------------
 # Internal
 require "npr/version"
 require "npr/configuration"
 require "npr/errors"
-require "npr/api"
-require "npr/api/client"
-require "npr/api/response"
-require "npr/query_builder"
+require "npr/concern"
+require "npr/concern/attr_typecast"
+require "npr/concern/shallow_attributes"
+require "npr/concern/relation"
 
-# API Objects
-require "npr/base"
-require "npr/message"
-require "npr/link"
-require "npr/image"
-require "npr/audio"
-require "npr/byline"
-require "npr/organization"
-require "npr/program"
-require "npr/pull_quote"
-require "npr/related_link"
-require "npr/paragraph"
-require "npr/story"
-require "npr/list"
+#------------------
+# API handlers
+require "npr/api"
+require "npr/api/query_builder"
+require "npr/api/client"
+require "npr/api/message"
+require "npr/api/response"
+
+#------------------
+# NPR Entities
+require "npr/entity"
+require "npr/entity/base"
+require "npr/entity/link"
+require "npr/entity/image"
+require "npr/entity/audio"
+require "npr/entity/byline"
+require "npr/entity/organization"
+require "npr/entity/program"
+require "npr/entity/pull_quote"
+require "npr/entity/related_link"
+require "npr/entity/paragraph"
+require "npr/entity/story"
+require "npr/entity/list"
