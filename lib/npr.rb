@@ -2,24 +2,7 @@
 # NPR
 #
 module NPR
-  #------------------
-  # Attributes that are being typecast to Ruby classes
-  ATTR_TYPES = {
-    "id"               => Fixnum,
-    "partnerId"        => Fixnum,
-    "storyDate"        => Time, 
-    "pubDate"          => Time,
-    "lastModifiedDate" => Time,
-    "showDate"         => Time,
-    "segNum"           => Fixnum
-  }
-  
-  #------------------
-  # How to typecast
-  CASTERS = {
-    Fixnum => lambda { |a| a.to_i },
-    Time   => lambda { |a| Time.parse(a) }
-  }
+
 end
 
 #------------------
