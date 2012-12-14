@@ -8,10 +8,10 @@ module NPR
 
       #---------------------
     
-      def initialize(json={})
+      def initialize(json)
+        @id      = json["id"].to_i
         @content = json["$text"]
         @code    = json["code"]
-        @content = json["content"]
       end
 
       #---------------------
