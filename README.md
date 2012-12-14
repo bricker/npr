@@ -87,14 +87,18 @@ naturally to you!
 To find a story by ID:
 
 ```ruby
-NPR::Entity::Story.find(1999) #=> NPR::Entity::Story
+NPR::Entity::Story.find(1999) #=> NPR::Story
 ```
 
-You can also query directly on an `NPR::Client` object:
+`NPR::Story#find` will either return a Story object if it was found,
+or an array of Messages from the NPR API.
+
+You can also query directly on an `NPR::API::Client` object, if you're
+feeling adventurous:
 
 ```ruby
-client = NPR::Client.new(apiKey: NPR.config.apiKey)
-client.query(id: 63985) #=> NPR::Entity::Story
+client = NPR::API::Client.new(apiKey: NPR.config.apiKey)
+client.query(sort: "edit assigned", numResults: "12")
 ```
 
 The params that get passed into the `#query` method map directly to
@@ -105,8 +109,11 @@ for all of the options.
 
 ## TODO
 
-* Abstract attributes so they're not tied directly to the API response
-* Support more attributes natively
+* More Documentation
+* Abstract attributes so they're not tied directly to the API response.
+Also to make them more Ruby-conventional (i.e. snake_case)
+    * Example: "apiKey" => :api_key
+* Support more attributes/relations natively
 * Support a way to return raw formats of:
     * HTML / Javascript (for views)
     * JSON
