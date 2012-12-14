@@ -66,7 +66,7 @@ module NPR
         # it's first accessed.
         attr_writer name
         define_method name do
-          instance_variable_get("@#{name}") || []
+          instance_variable_get("@#{name}") || instance_variable_set("@#{name}", [])
         end
         
         _relations.push relation
