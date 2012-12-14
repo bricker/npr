@@ -105,8 +105,8 @@ for all of the options.
 
 ## TODO
 
-* Specs
-* Documentation
+* Abstract attributes so they're not tied directly to the API response
+* Support more attributes natively
 * Support a way to return raw formats of:
     * HTML / Javascript (for views)
     * JSON
