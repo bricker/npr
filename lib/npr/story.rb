@@ -99,22 +99,17 @@ module NPR
       "textWithHtml", 
     ]
     attr_accessor *ATTR_AS_IS
-
+    attr_accessor :id
+    
     #------------------
-    # Relations
-    # 
-    # * The key is the relation name
-    # * The value is an array of [JSON key, class]
-    RELATIONS = {
-      "images"        => ["image", NPR::Image],
-      "bylines"       => ["byline", NPR::Byline],
-      "audio"         => ["audio", NPR::Audio],
-      "organizations" => ["organization", NPR::Organization],
-      "links"         => ["link", NPR::Link],
-      "related_links" => ["relatedLink", NPR::RelatedLink],
-      "pull_quotes"   => ["pullQuote", NPR::PullQuote]
-    }
-    attr_accessor *RELATIONS.keys
+    
+    has_many "images",        :key => "image",        :class_name => NPR::Image
+    has_many "bylines",       :key => "byline",       :class_name => NPR::Image
+    has_many "audio",         :key => "audio",        :class_name => NPR::Image
+    has_many "organizations", :key => "organization", :class_name => NPR::Organization
+    has_many "links",         :key => "link",         :class_name => NPR::Link
+    has_many "related_links", :key => "relatedLink",  :class_name => NPR::RelatedLink
+    has_many "pull_quotes",   :key => "pullQuote",    :class_name => NPR::PullQuote
     
     #------------------
     
@@ -133,35 +128,16 @@ module NPR
       "priorityKeywords",
       "fullText"
     )
-    
-    #------------------
-    # Attributes that are being typecast to Ruby classes
-    ATTR_TYPECAST = {
-      "id"               => Fixnum,
-      "partnerId"        => Fixnum,
-      "storyDate"        => Time, 
-      "pubDate"          => Time,
-      "lastModifiedDate" => Time
-    }
-    attr_accessor *ATTR_TYPECAST.keys
-    
+        
     #-------------------------
     # For now, "associations" are just arrays.
     # This will be replaced with a more "ActiveRecord" 
     # style behavior.
-    def initialize(json={})
+    def initialize(json)
       self.id = json["id"].to_i
       
       extract_shallow_attributes(json)
-
-      # Setup associations
-      RELATIONS.each do |name, info|
-        key, klass = info
-        collection = []
-        
-        Array.wrap(json[key]).each { |obj| collection << klass.new(obj) }
-        send "#{name}=", collection
-      end
+      create_relations(json)
     end
     
     #-------------------------
@@ -173,18 +149,6 @@ module NPR
         primary = self.images.find { |i| i["type"] == "primary"}
         primary || self.images.first
       end
-    end
-    
-    #-------------------------
-    
-    private
-    
-    def attr_typecast(key, value)
-      if type = ATTR_TYPECAST[key]
-        value.cast_to(type)
-      else
-        value
-      end
-    end
+    end    
   end # Story
 end # NPR
