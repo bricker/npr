@@ -42,6 +42,11 @@ describe NPR::Entity::Story do
       # TODO Get a fixtute with pull quotes
       @story.pull_quotes.should eq []
     end
+    
+    it "sets up shows" do
+      @story.shows.should_not be_empty
+      @story.shows.first.should be_a NPR::Entity::Show
+    end
   end
   
   #--------------------------
