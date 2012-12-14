@@ -102,7 +102,8 @@ module NPR
       has_many "links",         :key => "link",         :class_name => NPR::Entity::Link
       has_many "related_links", :key => "relatedLink",  :class_name => NPR::Entity::RelatedLink
       has_many "pull_quotes",   :key => "pullQuote",    :class_name => NPR::Entity::PullQuote
-    
+      has_many "shows",         :key => "show",         :class_name => NPR::Entity::Show
+      
       #------------------
     
       shallow_attribute(
