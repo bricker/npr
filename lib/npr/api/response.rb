@@ -1,7 +1,8 @@
 ##
 # NPR::API::Response
 #
-# Pass in the full response from Faraday
+# Wrapper around a Faraday response object
+# Pass in the full response object from Faraday
 #
 module NPR
   module API
@@ -13,10 +14,12 @@ module NPR
       
       def initialize(response)
         create_relations(response)
-        
         @raw      = response
         @version  = response.body["version"]
-        @list     = NPR::Entity::List.new(response.body["list"])
+        
+        if response.body["list"]
+          @list = NPR::Entity::List.new(response.body["list"])
+        end
         
         Array.wrap(response.body["message"]).each do |message|
           @messages.push NPR::API::Message.new(message)
