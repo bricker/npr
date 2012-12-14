@@ -9,7 +9,9 @@ module NPR
     "partnerId"        => Fixnum,
     "storyDate"        => Time, 
     "pubDate"          => Time,
-    "lastModifiedDate" => Time
+    "lastModifiedDate" => Time,
+    "showDate"         => Time,
+    "segNum"           => Fixnum
   }
   
   #------------------
@@ -52,9 +54,10 @@ require "npr/entity/link"
 require "npr/entity/image"
 require "npr/entity/audio"
 require "npr/entity/byline"
+require "npr/entity/pull_quote"
 require "npr/entity/organization"
 require "npr/entity/program"
-require "npr/entity/pull_quote"
+require "npr/entity/show"
 require "npr/entity/related_link"
 require "npr/entity/paragraph"
 require "npr/entity/story"
