@@ -55,8 +55,10 @@ ext_map.keys.each do |output|
   uri = URI.parse("http://api.npr.org/query?apiKey=#{options[:key]}&id=#{options[:id]}&output=#{output}")
   response = Net::HTTP.get_response(uri).body
   
-  # Remove API Key from responses  
-  response.gsub!(/#{options[:key]}/, "API_KEY")
+  # Remove API Key from responses
+  if !options[:key].empty? && !options[:key].nil?
+    response.gsub!(/#{options[:key]}/, "API_KEY")
+  end
   
   file = "#{output}/#{options[:filename]}.#{ext_map[output]}"
   File.open(file, "w") { |f| f.puts response }
