@@ -27,7 +27,6 @@ module NPR
         #
         #   NPR::Entity::Story.find(1000)
         #
-        # TODO: API Error handling
         def find(id)
           response = query_by_id(id)
         
@@ -41,21 +40,13 @@ module NPR
         #-------------------------
         # Same as above, but returns +nil+ if a single story isn't
         # returned.
-        #
-        # Note that right now this method only checks if one story
-        # was returned. If any more or less, then it assumes
-        # there was a problem.
-        #
-        # TODO: Actually check the messages to handle the response
-        # more accurately.
         def find_by_id(id)
           response = query_by_id(id)
-        
-          stories = response.list.stories
-          if stories.size == 1
-            stories.first
-          else
+          
+          if !response.messages.empty?
             nil
+          else
+            response.list.stories.first
           end
         end
 
@@ -153,4 +144,14 @@ module NPR
       end
     end # Story
   end # Entity
+  
+  # Alias
+  # This is a shorthand so that users of this library
+  # can work with just NPR::Story, but allowing us to
+  # keep everything organized properly.
+  #
+  # The other classes under Entity aren't part of the 
+  # library's public API, so they don't need to be
+  # aliased.
+  Story = NPR::Entity::Story
 end # NPR
