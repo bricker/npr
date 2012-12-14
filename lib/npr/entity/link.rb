@@ -5,10 +5,10 @@ module NPR
   module Entity
     class Link < Base
       attr_reader :type, :content
-
+      
       #---------------------
     
-      def initialize(json={})
+      def initialize(json)
         @content = json["$type"]
         @type    = json["type"]
       end
