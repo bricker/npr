@@ -22,9 +22,9 @@ end
 
 #------------------
 # Dependencies
-require "npr/core_ext/array/wrap"
 require 'faraday'
 require 'faraday_middleware'
+require "npr/core_ext/array/wrap"
 
 #------------------
 # Internal
