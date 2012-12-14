@@ -5,26 +5,22 @@ describe NPR::Story do
     before :all do
       NPR.config.apiKey = "key"
     end
-    
-    before :each do
-      @id = 167019577
-    end
-    
+        
     after :all do
       NPR.config.apiKey = nil
     end
     
     it "instantiates a new story" do
-      story = mock_response "nprml/01_story_full_media.xml" do
-        NPR::Story.find(@id)
+      story = mock_response "json/01_story_full_media.json" do
+        NPR::Story.find(167019577)
       end
       
       story.should be_a NPR::Story
     end
     
     it "typecasts the attributes that need it" do
-      story = mock_response "nprml/01_story_full_media.xml" do
-        NPR::Story.find(@id)
+      story = mock_response "json/01_story_full_media.json" do
+        NPR::Story.find(167019577)
       end
       
       story.id.should be_a Fixnum

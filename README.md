@@ -19,10 +19,9 @@ work with others):
 
 ## Dependencies
 
-* `activesupport >= 3.0.0`
 * `faraday >= 0.8.0` (HTTP requests)
 * `faraday_middleware >= 0.9.0` (response processing)
-    * `multi_xml >= 0.5.1` (XML parsing)
+    * `json >= 1.7.5` (JSON parsing)
 
 
 ## Installation

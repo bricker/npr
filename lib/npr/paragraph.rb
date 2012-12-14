@@ -6,6 +6,20 @@
 # a single paragraph for a story.
 #
 module NPR
-  class Paragraph
+  class Paragraph < Base
+    attr_reader :num, :content
+
+    #---------------------
+    
+    def initialize(json={})
+      @content = json["$text"]
+      @num     = json["num"]
+    end
+
+    #---------------------
+    
+    def to_s
+      @content
+    end
   end
 end

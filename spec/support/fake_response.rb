@@ -28,10 +28,12 @@ module FakeResponse
   # Register the NPR root with FakeWeb, and set its 
   # response body to the contents of the requested file.
   def respond_with(filename, options)
+    content_type = options[:content_type] || "application/json"
+    
     FakeWeb.register_uri(:get, 
       %r{^#{NPR::Configuration::API_ROOT}}, 
       { :body => load_fixture(filename),
-        :content_type => "text/xml" 
+        :content_type => content_type
       }.merge(options))
   end
   

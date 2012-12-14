@@ -2,9 +2,7 @@
 # NPR::Story
 #
 module NPR
-  class Story
-    include NPR::Typecast
-    
+  class Story < Base
     #-------------------------
     
     class << self
@@ -24,24 +22,42 @@ module NPR
       # configure at least the apiKey using 
       # +NPR.configure+.
       #
-      # This method forces NPRML format, which will
-      # be parsed by Faraday into a hash.
-      #
       # Example:
       #
       #   NPR::Story.find(1000)
       #
-      # TODO: API Error Handling
-      #
+      # TODO: API Error handling
       def find(id)
-        client = NPR::Client.new(
-          :apiKey => NPR.config.apiKey,
-          :output => "nprml")
-          
-        response = client.query(:id => id)
-        new(response["nprml"]["list"]["story"])
+        response = query_by_id(id)
+        
+        if !response.messages.empty?
+          response.messages
+        else
+          response.list.stories.first
+        end
       end
-      
+        
+      #-------------------------
+      # Same as above, but returns +nil+ if a single story isn't
+      # returned.
+      #
+      # Note that right now this method only checks if one story
+      # was returned. If any more or less, then it assumes
+      # there was a problem.
+      #
+      # TODO: Actually check the messages to handle the response
+      # more accurately.
+      def find_by_id(id)
+        response = query_by_id(id)
+        
+        stories = response.list.stories
+        if stories.size == 1
+          stories.first
+        else
+          nil
+        end
+      end
+
       #-------------------------
       # For each class builder method defined in NPR::QueryBuilder,
       # define a method on this class which initializes a new
@@ -55,42 +71,69 @@ module NPR
           NPR::QueryBuilder.new(self).send(method, args)
         end
       end
+      
+      #-------------------------
+        
+      private
+      
+      def query_by_id(id)
+        client = NPR::API::Client.new(
+          :apiKey => NPR.config.apiKey,
+          :output => "json")
+
+        client.query(:id => id)
+      end
     end
 
     #-------------------------
     # Association accessors
-    # the :_attr methods are what was received
-    # from the API. The normal :attr ones are
-    # the actual association, which should be used
-    # instead of the raw data
-    attr_accessor :images, :audio, :bylines
-    attr_accessor :_byline, :_image, :_audio
     
     # Attributes that we are using as-is
     # Use strings so that we don't have to
     # convert between Strings and Symbols.
     ATTR_AS_IS = [
-      "title", 
-      "subtitle", 
-      "shortTitle",
-      "teaser", 
-      "miniTeaser", 
-      "slug", 
       "thumbnail", 
-      "keywords", 
-      "priorityKeywords", 
       "parent", 
-      "organization", 
-      "link", 
       "container",
       "text", 
       "textWithHtml", 
-      "fullText",
-      "relatedLink", 
-      "pullQuote"
     ]
     attr_accessor *ATTR_AS_IS
 
+    #------------------
+    # Relations
+    # 
+    # * The key is the relation name
+    # * The value is an array of [JSON key, class]
+    RELATIONS = {
+      "images"        => ["image", NPR::Image],
+      "bylines"       => ["byline", NPR::Byline],
+      "audio"         => ["audio", NPR::Audio],
+      "organizations" => ["organization", NPR::Organization],
+      "links"         => ["link", NPR::Link],
+      "related_links" => ["relatedLink", NPR::RelatedLink],
+      "pull_quotes"   => ["pullQuote", NPR::PullQuote]
+    }
+    attr_accessor *RELATIONS.keys
+    
+    #------------------
+    
+    shallow_attribute(
+      "title",
+      "partnerId",
+      "subtitle",
+      "shortTitle",
+      "teaser",
+      "miniTeaser",
+      "slug",
+      "storyDate",
+      "pubDate",
+      "lastModifiedDate",
+      "keywords",
+      "priorityKeywords",
+      "fullText"
+    )
+    
     #------------------
     # Attributes that are being typecast to Ruby classes
     ATTR_TYPECAST = {
@@ -106,36 +149,18 @@ module NPR
     # For now, "associations" are just arrays.
     # This will be replaced with a more "ActiveRecord" 
     # style behavior.
-    def initialize(attributes={})
-      @images     = []
-      @audio      = []
-      @bylines    = []
+    def initialize(json={})
+      self.id = json["id"].to_i
       
-      # Special-case setters
-      %w{ image byline audio }.each do |key|
-        self.send "_#{key}=", attributes[key]
-      end
-      
-      Array.wrap(self._image).each do |image|
-        self.images.push NPR::Image.new(image)
-      end
-      
-      Array.wrap(self._audio).each do |audio|
-        self.audio.push NPR::Audio.new(audio)
-      end
-      
-      Array.wrap(self._byline).each do |byline|
-        self.bylines.push NPR::Byline.new(byline)
-      end
-      
-      ATTR_TYPECAST.each do |key, type|
-        attribute = attributes[key]
-        self.send "#{key}=", typecast(attribute, type)
-      end
-      
-      ATTR_AS_IS.each do |key|
-        attribute = attributes[key]
-        self.send "#{key}=", attribute
+      extract_shallow_attributes(json)
+
+      # Setup associations
+      RELATIONS.each do |name, info|
+        key, klass = info
+        collection = []
+        
+        Array.wrap(json[key]).each { |obj| collection << klass.new(obj) }
+        send "#{name}=", collection
       end
     end
     
@@ -147,6 +172,18 @@ module NPR
       @primary_image ||= begin
         primary = self.images.find { |i| i["type"] == "primary"}
         primary || self.images.first
+      end
+    end
+    
+    #-------------------------
+    
+    private
+    
+    def attr_typecast(key, value)
+      if type = ATTR_TYPECAST[key]
+        value.cast_to(type)
+      else
+        value
       end
     end
   end # Story

@@ -2,13 +2,6 @@
 # NPR::Byline
 #
 module NPR
-  class Byline
-    def initialize(attributes={})
-      @attributes = attributes
-    end
-    
-    def method_missing(method, *args, &block)
-      @attributes[method] || super
-    end
+  class Byline < Base
   end # Byline
 end # NPR

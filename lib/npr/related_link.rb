@@ -2,7 +2,7 @@
 # NPR::RelatedLink
 #
 module NPR
-  class RelatedLink
+  class RelatedLink < Base
     attr_accessor :caption, :link
   end
 end
