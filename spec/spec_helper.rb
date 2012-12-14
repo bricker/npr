@@ -14,6 +14,7 @@ FakeWeb.allow_net_connect = false
 # Configuration
 RSpec.configure do |config|
   config.include FakeResponse
+  config.include ConfigHelper
   
   config.before do
     FakeWeb.clean_registry

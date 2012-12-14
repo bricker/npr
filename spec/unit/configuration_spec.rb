@@ -26,6 +26,15 @@ describe NPR::Configuration do
   
   #------------------
   
+  describe "with options" do
+    it "assigns the passed-in options using the setter" do
+      config = NPR::Configuration.new(:apiKey => "hello")
+      config.apiKey.should eq "hello"
+    end
+  end
+  
+  #------------------
+  
   describe "#to_hash" do
     it "converts the config to a hash" do
       config = NPR::Configuration.new
