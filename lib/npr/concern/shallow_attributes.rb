@@ -62,7 +62,7 @@ module NPR
       def extract_shallow_attributes(json)
         self.class._shallow_attributes.each do |key|
           if node = json[key]
-            send "#{key}=", attr_typecast(key, node["$text"])
+            send "#{key}=", attr_typecast(key, node["$text"].to_s)
           end
         end
       end
