@@ -1,6 +1,8 @@
 # Dependencies
 require "npr/core_ext/object/cast_to"
 require "npr/core_ext/array/wrap"
+require 'faraday'
+require 'faraday_middleware'
 
 # Internal
 require "npr/version"
