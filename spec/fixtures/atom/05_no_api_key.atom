@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title>An unexpected error has occurred</title>
+  <subtitle>Please visit http://www.npr.org/contact/ and select the office 'Online / Technical Support' to contact us for assistance.</subtitle>
+  <id>http://www.npr.org/query</id>
+  <updated>2008-01-01T01:00:00Z</updated>
+
+</feed>

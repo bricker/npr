@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<rss xmlns:npr="http://www.npr.org/podcasts/" version="2.0">
+ <channel>
+   <title>Podcast Error</title>
+   <link>http://www.npr.org/podcasts/index.html</link>
+   <description>Podcast Error</description>
+   <copyright>
+   Copyright 2005 NPR - For Personal Use Only
+   </copyright>
+   <generator>NPR/RSS Generator 2.0</generator>
+   <lastBuildDate>Wed, 5 May 2005 00:00:00 EDT</lastBuildDate>
+   <image>   <title>Podcast Error</title>
+    <url>http://www.npr.org/images/npr_news_123x20.gif</url>
+    <link>
+http://www.npr.org/podcasts/index.html</link>
+   </image>
+   <item>
+    <title>NPR Podcast Error</title>
+    <description>
+    This is an invalid Podcast feed address. For the most up-to-date list, please go to:  http://www.npr.org/podcasts/ 
+    </description>
+    <link>
+http://www.npr.org/podcasts/index.html
+    </link>
+    <guid>
+http://www.npr.org/podcasts/index.html
+    </guid>
+    <pubDate>Wed, 15 May 2005 03:00:00 EDT</pubDate>
+   </item>
+ </channel>
+</rss>
