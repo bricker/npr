@@ -13,7 +13,7 @@ A simple Ruby client for the
 This gem is tested with these versions (but may 
 work with others):
 
-* Ruby 1.8.7, 1.9.2, 1.9.3
+* Ruby 1.8.7, 1.9.2, 1.9.3, ruby-head
 * NPR API version 0.94
 
 
