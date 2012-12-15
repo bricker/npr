@@ -152,11 +152,11 @@ module NPR
       
       def build_text
         if @_json["text"]
-          @text = NPR::Entity::Text.new(@_json)
+          @text = NPR::Entity::Text.new(@_json["text"])
         end
         
         if @_json["textWithHtml"]
-          @textWithHtml = NPR::Entity::TextWithHtml.new(@_json)
+          @textWithHtml = NPR::Entity::Text.new(@_json["textWithHtml"])
         end
       end
     end # Story
