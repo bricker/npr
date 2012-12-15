@@ -11,6 +11,8 @@ module NPR
       
       has_many "messages", :key => "message", :class_name => NPR::API::Message
       attr_reader :raw, :version, :messages, :list
+
+      #--------------------------
       
       def initialize(response)
         create_relations(response)

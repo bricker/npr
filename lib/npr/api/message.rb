@@ -10,11 +10,6 @@ module NPR
       include NPR::Concern::ShallowAttributes
       
       attr_accessor :id, :level
-    
-      #------------------
-      # Attributes that don't have any nested information.
-      # For these, we just look directly at the JSON for
-      # "$text" and set the value to that
       shallow_attribute "text", "timestamp"
 
       #------------------
