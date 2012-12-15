@@ -86,9 +86,7 @@ module NPR
       ATTR_AS_IS = [
         "thumbnail", 
         "parent", 
-        "container",
-        "text", 
-        "textWithHtml"
+        "container"
       ]
       attr_accessor *ATTR_AS_IS
       attr_accessor :id, :text, :textWithHtml
