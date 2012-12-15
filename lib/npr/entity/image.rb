@@ -4,10 +4,7 @@
 module NPR
   module Entity
     class Image < Base
-      attr_accessor :id, :type, :width, :src, :hasBorder, :link, :provider
-      
-      #-------------
-      
+      attr_accessor :id, :type, :width, :src, :hasBorder, :link, :provider      
       shallow_attribute "title", "caption", "producer", "copyright"
 
       #-------------
@@ -19,9 +16,9 @@ module NPR
         @type      = json["type"]
         @width     = json["width"].to_i
         @src       = json["src"]
-        @hasBorder = json["hasBorder"] == "true" ? true : false
+        @hasBorder = json["hasBorder"] == "true"
         
-        if json["link"] && json["link"]["url"]
+        if json["link"]
           @link = json["link"]["url"]
         end
         

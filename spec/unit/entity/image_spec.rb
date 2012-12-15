@@ -46,5 +46,28 @@ describe NPR::Entity::Image do
     JSON
   end
   
-  it ""
+  before :each do
+    @image = NPR::Entity::Image.new(@fixture)
+  end
+  
+  it "sets attributes" do
+    @image.id.should eq 167273389
+    @image.type.should eq "standard"
+    @image.width.should eq 200
+    @image.src.should match /media\.npr/
+    @image.hasBorder.should eq false
+    @image.link.should eq ""
+  end
+  
+  it "sets provider" do
+    @image.provider.url.should eq ""
+    @image.provider.to_s.should match /Brendan./
+  end
+  
+  it "sets shallow attributes" do
+    @image.title.should match /Jason/
+    @image.caption.should match /Geri/
+    @image.producer.should eq ""
+    @image.copyright.should eq ""
+  end
 end
