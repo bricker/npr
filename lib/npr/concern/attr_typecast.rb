@@ -14,7 +14,8 @@ module NPR
     "lastModifiedDate" => Time,
     "showDate"         => Time,
     "date"             => Time,
-    "segNum"           => Fixnum
+    "segNum"           => Fixnum,
+    "num"              => Fixnum
   }
   
   #------------------

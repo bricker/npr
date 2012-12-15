@@ -4,7 +4,7 @@
 module NPR
   module Entity
     class Link < Base
-      attr_reader :type, :content
+      attr_accessor :type, :content
       
       #---------------------
     

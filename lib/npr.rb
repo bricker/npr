@@ -2,7 +2,6 @@
 # NPR
 #
 module NPR
-
 end
 
 #------------------
@@ -34,14 +33,15 @@ require "npr/api/response"
 require "npr/entity"
 require "npr/entity/base"
 require "npr/entity/link"
+require "npr/entity/organization"
+require "npr/entity/pull_quote"
+require "npr/entity/related_link"
 require "npr/entity/image"
 require "npr/entity/audio"
 require "npr/entity/byline"
-require "npr/entity/pull_quote"
-require "npr/entity/organization"
 require "npr/entity/program"
 require "npr/entity/show"
-require "npr/entity/related_link"
 require "npr/entity/paragraph"
+require "npr/entity/text"
 require "npr/entity/story"
 require "npr/entity/list"

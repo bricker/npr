@@ -8,13 +8,13 @@
 module NPR
   module Entity
     class Paragraph < Base
-      attr_reader :num, :content
+      attr_accessor :num, :content
 
       #---------------------
     
-      def initialize(json={})
+      def initialize(json)
         @content = json["$text"]
-        @num     = json["num"]
+        @num     = json["num"].to_i
       end
 
       #---------------------

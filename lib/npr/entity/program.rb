@@ -4,7 +4,7 @@
 module NPR
   module Entity
     class Program < Base
-      attr_reader :id, :code, :content
+      attr_accessor :id, :code, :content
 
       #---------------------
     

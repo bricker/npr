@@ -88,10 +88,10 @@ module NPR
         "parent", 
         "container",
         "text", 
-        "textWithHtml", 
+        "textWithHtml"
       ]
       attr_accessor *ATTR_AS_IS
-      attr_accessor :id
+      attr_accessor :id, :text, :textWithHtml
     
       #------------------
     
@@ -123,14 +123,14 @@ module NPR
       )
         
       #-------------------------
-      # For now, "associations" are just arrays.
-      # This will be replaced with a more "ActiveRecord" 
-      # style behavior.
+
       def initialize(json)
-        self.id = json["id"].to_i
-      
-        extract_shallow_attributes(json)
-        create_relations(json)
+        @_json = json
+        @id    = @_json["id"].to_i
+        
+        build_text
+        extract_shallow_attributes(@_json)
+        create_relations(@_json)
       end
     
       #-------------------------
@@ -143,10 +143,26 @@ module NPR
           primary || self.images.first
         end
       end
+
+      #-------------------------
+      
+      private
+      
+      #-------------------------
+      
+      def build_text
+        if @_json["text"]
+          @text = NPR::Entity::Text.new(@_json)
+        end
+        
+        if @_json["textWithHtml"]
+          @textWithHtml = NPR::Entity::TextWithHtml.new(@_json)
+        end
+      end
     end # Story
   end # Entity
 
-  #-------------------------  
+  #-------------------------
   # Alias
   # This is a shorthand so that users of this library
   # can work with just NPR::Story, but allowing us to

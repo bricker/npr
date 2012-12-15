@@ -20,12 +20,11 @@ module NPR
       #------------------
     
       def initialize(json)
-        @id    = json["id"]
-        @level = json["level"]
+        @_json = json
+        @id    = @_json["id"]
+        @level = @_json["level"]
       
-        # Setup the shallow attributes
-        # Set them and typecast them if necessary
-        extract_shallow_attributes(json)
+        extract_shallow_attributes(@_json)
       end
 
       #------------------

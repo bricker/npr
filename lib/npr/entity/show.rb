@@ -8,11 +8,11 @@ module NPR
       shallow_attribute "showDate", "segNum"
       
       def initialize(json)
+        extract_shallow_attributes(json)
+        
         if program = json["program"]
           @program = NPR::Entity::Program.new(program)
-        end
-        
-        extract_shallow_attributes(json)
+        end        
       end
     end # Show
   end # Entity
