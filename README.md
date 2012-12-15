@@ -87,7 +87,7 @@ naturally to you!
 To find a story by ID:
 
 ```ruby
-NPR::Entity::Story.find(1999) #=> NPR::Story
+NPR::Story.find(1999) #=> NPR::Story
 ```
 
 `NPR::Story#find` will either return a Story object if it was found,
@@ -98,7 +98,7 @@ feeling adventurous:
 
 ```ruby
 client = NPR::API::Client.new(apiKey: NPR.config.apiKey)
-client.query(sort: "edit assigned", numResults: "12")
+client.query(sort: "editor assigned", numResults: "12")
 ```
 
 The params that get passed into the `#query` method map directly to
