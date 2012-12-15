@@ -70,7 +70,6 @@ which will be passed in with every request (unless overridden):
 NPR.configure do |config|
   config.apiKey         = "YOUR_API_KEY"
   config.sort           = "date descending"
-  config.output         = "NPRML"
   config.requiredAssets = "text"
 end
 ```
