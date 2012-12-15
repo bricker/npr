@@ -9,7 +9,7 @@ module NPR
     class Message
       include NPR::Concern::ShallowAttributes
       
-      attr_accessor :id, :level, :text, :timestamp
+      attr_accessor :id, :level
     
       #------------------
       # Attributes that don't have any nested information.
