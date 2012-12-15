@@ -25,7 +25,7 @@ work with others):
 **NOTE** If you are running **Ruby < 1.9**, you will have to install 
 the [json gem](http://rubygems.org/gems/json):
 
-You you Gemfile:
+In your Gemfile:
 
     gem 'json', '~> 1.7.5'
     
