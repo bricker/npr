@@ -114,7 +114,8 @@ for all of the options.
 * Abstract attributes so they're not tied directly to the API response.
 Also to make them more Ruby-conventional (i.e. snake_case)
     * Example: "apiKey" => :api_key
-* Support more attributes/relations natively
+* Support for "container" node
+* Support for "member" node
 * Support a way to return raw formats of:
     * HTML / Javascript (for views)
     * JSON
