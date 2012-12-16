@@ -41,5 +41,17 @@ describe NPR::Entity::BookEdition do
     @book_edition = NPR::Entity::BookEdition.new(@fixture)
   end
   
-  pending
+  it "sets up attributes" do
+    @book_edition.id.should eq 153611349
+    @book_edition.isbn.should be_a String
+    @book_edition.publisher.should eq "Orbit"
+    @book_edition.format_num.should eq 1
+    @book_edition.pubDate.should be_a Time
+    @book_edition.pagination.should match /561 pages/
+    @book_edition.listPrice.should match /25\.99/
+  end
+  
+  it "creates relations" do
+    @book_edition.book.should be_a NPR::Entity::Book
+  end
 end
