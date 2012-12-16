@@ -123,7 +123,6 @@ for all of the options.
 Also to make them more Ruby-conventional (i.e. snake_case)
     * Example: "apiKey" => :api_key
 * Support for "container" node
-* Support for "member" node
 * Support for "parent" node
 * Support for "thumbnail" node
 * Support a way to return raw formats of:
