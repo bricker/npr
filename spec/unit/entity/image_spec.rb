@@ -59,9 +59,18 @@ describe NPR::Entity::Image do
     @image.link.should eq ""
   end
   
+  it "sets enlargement" do
+    @image.enlargement.should be_a NPR::Entity::Enlargement
+  end
+  
   it "sets provider" do
     @image.provider.url.should eq ""
     @image.provider.to_s.should match /Brendan./
+  end
+  
+  it "sets crops" do
+    @image.crops.size.should eq 2
+    @image.crops.first.should be_a NPR::Entity::Crop
   end
   
   it "sets shallow attributes" do

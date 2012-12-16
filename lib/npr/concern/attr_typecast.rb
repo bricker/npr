@@ -16,7 +16,8 @@ module NPR
     "date"             => :string_time_parse,
     "segNum"           => :string_to_i,
     "num"              => :string_to_i,
-    "timestamp"        => :string_time_at
+    "timestamp"        => :string_time_at,
+    "duration"         => :string_to_i
   }
   
   module Concern
