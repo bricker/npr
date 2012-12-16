@@ -8,7 +8,8 @@ module NPR
         :where,
         :order,
         :limit,
-        :offset
+        :offset,
+        :set
       ]
     
       attr_reader :_klass, :builder
