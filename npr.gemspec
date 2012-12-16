@@ -4,7 +4,7 @@ require File.expand_path('../lib/npr/version', __FILE__)
 Gem::Specification.new do |gem|
   gem.authors       = ["Bryan Ricker"]
   gem.email         = ["bricker@scpr.org"]
-  gem.description   = %q{[NPR](http://npr.org) is a news organization. This gem helps you pull its content with a nice Ruby DSL. <http://www.npr.org/api/index>}
+  gem.description   = %q{NPR (npr.org) is a news organization. This gem helps you pull NPR content with a nice Ruby DSL.}
   gem.summary       = %q{A Ruby client for the NPR API}
   gem.homepage      = "http://github.com/bricker88/npr"
 
