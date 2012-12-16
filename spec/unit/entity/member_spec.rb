@@ -44,6 +44,10 @@ describe NPR::Entity::Member do
     @member = NPR::Entity::Member.new(@fixture)
   end
   
+  it "sets up attributes" do
+    @member.id.should eq 166481250
+  end
+  
   it "sets up relations" do
     @member.promoArt.should be_a NPR::Entity::PromoArt
     @member.title.should be_a NPR::Entity::Title
