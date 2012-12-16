@@ -43,7 +43,6 @@ describe NPR::API::QueryBuilder do
     it "returns an array of stories if present" do
       @builder.where(:id => 5).order("date descending").limit(10).offset(100)
       
-      puts @builder.to_params
       stories = mock_response "json/06_story_multiple_ids.json" do
         @builder.to_a
       end

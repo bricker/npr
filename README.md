@@ -92,6 +92,14 @@ NPR::Story.find(1999) #=> NPR::Story
 `NPR::Story#find` will either return a Story object if it was found,
 or an array of Messages from the NPR API.
 
+Building a query:
+
+```
+NPR::Story.where(date: [2.days.ago..Time.now]).order("date ascending").limit(10).offset(50)
+```
+
+That's a contrived example but it shows all the methods available.
+
 You can also query directly on an `NPR::API::Client` object, if you're
 feeling adventurous:
 
