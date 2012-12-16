@@ -104,7 +104,10 @@ module NPR
       has_many "members",       :key => "member",       :class_name => NPR::Entity::Member
       has_many "list_texts",    :key => "listText",     :class_name => NPR::Entity::ListText
       has_many "promo_arts",    :key => "promoArt",     :class_name => NPR::Entity::PromoArt
+      has_many "book_editions", :key => "bookEdition",  :class_name => NPR::Entity::BookEdition
       
+      has_one "transcript", :class_name => NPR::Entity::Transcript
+
       #------------------
     
       shallow_attribute(

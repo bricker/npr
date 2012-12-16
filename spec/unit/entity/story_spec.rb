@@ -26,6 +26,9 @@ describe NPR::Entity::Story do
       @story.members.should eq []
       @story.promo_arts.should eq []
       @story.list_texts.should eq []
+      @story.book_editions.should eq []
+      
+      @story.transcript.should eq nil
     end
   end
   
