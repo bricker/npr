@@ -28,16 +28,16 @@ describe NPR::Entity::Base do
   
   describe "::has_many" do
     before :all do
-      @reset = NPR::Entity::Base.send :_relations
+      @reset = NPR::Entity::Base.send :_has_many_relations
       NPR::Entity::Base.has_many("objects", :key => "object", :class_name => Object)
     end
     
     after :all do
-      NPR::Entity::Base.send :_relations=, @reset
+      NPR::Entity::Base.send :_has_many_relations=, @reset
     end
     
     it "assigns relations" do
-      NPR::Entity::Base._relations.should eq [{ 
+      NPR::Entity::Base._has_many_relations.should eq [{ 
         :name       => "objects", 
         :key        => "object", 
         :class_name => Object
@@ -55,6 +55,33 @@ describe NPR::Entity::Base do
       entity.instance_variable_get(:@objects).should eq nil
       entity.objects.should eq []
       entity.instance_variable_get(:@objects).should eq []
+    end
+  end
+  
+  #--------------------
+  
+  describe "::has_one" do
+    before :all do
+      @reset = NPR::Entity::Base.send :_has_one_relations
+      NPR::Entity::Base.has_one "object", :class_name => Object
+    end
+    
+    after :all do
+      NPR::Entity::Base.send :_has_one_relations=, @reset
+    end
+    
+    it "assigns relations" do
+      NPR::Entity::Base._has_one_relations.should eq [{
+        :name       => "object", 
+        :key        => "object", 
+        :class_name => Object
+      }]
+    end
+    
+    it "defines accessor" do
+      entity = NPR::Entity::Base.new
+      entity.should respond_to :object
+      entity.should respond_to :object=
     end
   end
 end

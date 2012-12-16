@@ -4,9 +4,11 @@
 module NPR
   module Entity
     class Image < Base
-      attr_accessor :id, :type, :width, :src, :hasBorder, :link, :provider, :enlargement
+      attr_accessor :id, :type, :width, :src, :hasBorder, :link
       shallow_attribute "title", "caption", "producer", "copyright"
       has_many "crops", :key => "crop", :class_name => NPR::Entity::Crop
+      has_one "enlargement", :class_name => NPR::Entity::Enlargement
+      has_one "provider", :class_name => NPR::Entity::Provider
       
       #-------------
       # NOTE that the "link" attribute here is not cast into a Link
@@ -21,14 +23,6 @@ module NPR
         
         if json["link"]
           @link = json["link"]["url"]
-        end
-        
-        if json["enlargement"]
-          @enlargement = NPR::Entity::Enlargement.new(json["enlargement"])
-        end
-        
-        if json["provider"]
-          @provider = NPR::Entity::Provider.new(json["provider"])
         end
         
         extract_shallow_attributes(json)

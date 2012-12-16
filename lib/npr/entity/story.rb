@@ -101,6 +101,7 @@ module NPR
       has_many "related_links", :key => "relatedLink",  :class_name => NPR::Entity::RelatedLink
       has_many "pull_quotes",   :key => "pullQuote",    :class_name => NPR::Entity::PullQuote
       has_many "shows",         :key => "show",         :class_name => NPR::Entity::Show
+      has_many "members",       :key => "member",       :class_name => NPR::Entity::Member
       
       #------------------
     

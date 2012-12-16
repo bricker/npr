@@ -20,9 +20,10 @@ describe NPR::Entity::Story do
       @story.related_links.first.should be_a NPR::Entity::RelatedLink
       @story.shows.first.should be_a NPR::Entity::Show
 
-      # The fixture doesn't have any pull quotes
-      # TODO Get a fixtute with pull quotes
+      # The fixture doesn't have these attributes
+      # TODO Get a fixtute with these attributes
       @story.pull_quotes.should eq []
+      @story.members.should eq []
     end
   end
   
