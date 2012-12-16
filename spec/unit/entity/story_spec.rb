@@ -12,40 +12,17 @@ describe NPR::Entity::Story do
       end
     end
     
-    it "sets up images" do
-      @story.images.should_not be_empty
+    it "sets up relations" do
       @story.images.first.should be_a NPR::Entity::Image
-    end
-    
-    it "sets up bylines" do
-      @story.bylines.should_not be_empty
       @story.bylines.first.should be_a NPR::Entity::Byline
-    end
-    
-    it "sets up organizations" do
-      @story.organizations.should_not be_empty
       @story.organizations.first.should be_a NPR::Entity::Organization
-    end
-    
-    it "sets up links" do
-      @story.links.should_not be_empty
       @story.links.first.should be_a NPR::Entity::Link
-    end
-    
-    it "sets up related_links" do
-      @story.related_links.should_not be_empty
       @story.related_links.first.should be_a NPR::Entity::RelatedLink
-    end
-    
-    it "sets up pull_quotes" do
+      @story.shows.first.should be_a NPR::Entity::Show
+
       # The fixture doesn't have any pull quotes
       # TODO Get a fixtute with pull quotes
       @story.pull_quotes.should eq []
-    end
-    
-    it "sets up shows" do
-      @story.shows.should_not be_empty
-      @story.shows.first.should be_a NPR::Entity::Show
     end
   end
   
@@ -58,51 +35,18 @@ describe NPR::Entity::Story do
       end
     end
     
-    it "generates title" do
+    it "Sets up attributes" do
       @story.title.should match /Ravi Shankar/
-    end
-    
-    it "generates partnerId" do
       @story.partnerId.should be_a Integer
-    end
-    
-    it "generates subtitle" do
       @story.subtitle.should be_a String
-    end
-    
-    it "generates shortTitle" do
       @story.shortTitle.should be_a String
-    end
-    
-    it "generates miniTeaser" do
       @story.miniTeaser.should match /sitar/
-    end
-    
-    it "generates slug" do
       @story.slug.should match /Record/
-    end
-    
-    it "generates storyDate" do
       @story.storyDate.should be_a Time
-    end
-    
-    it "generates pubDate" do
       @story.pubDate.should be_a Time
-    end
-    
-    it "generates lastModifiedDate" do
       @story.lastModifiedDate.should be_a Time
-    end
-    
-    it "generates keywords" do
       @story.keywords.should be_a String
-    end
-    
-    it "generates priorityKeywords" do
       @story.priorityKeywords.should be_a String
-    end
-    
-    it "generates fullText" do
       @story.fullText.should match /Ravi Shankar/
     end
   end
