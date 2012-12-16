@@ -43,4 +43,13 @@ describe NPR::Entity::Member do
   before :each do
     @member = NPR::Entity::Member.new(@fixture)
   end
+  
+  it "sets up relations" do
+    @member.promoArt.should be_a NPR::Entity::PromoArt
+    @member.title.should be_a NPR::Entity::Title
+    @member.author.should be_a NPR::Entity::Author
+    @member.bookEdition.should be_a NPR::Entity::BookEdition
+    @member.introText.should be_a NPR::Entity::IntroText
+    @member.byline.should be_a NPR::Entity::MemberByline
+  end
 end
