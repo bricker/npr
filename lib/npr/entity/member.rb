@@ -5,7 +5,7 @@ module NPR
   module Entity
     class Member < Base
       attr_accessor :id
-      has_one "promoArt",    :class_name => NPR::Entity::PromoArt
+      has_one "promoArt",    :class_name => NPR::Entity::MemberPromoArt
       has_one "title",       :class_name => NPR::Entity::Title
       has_one "author",      :class_name => NPR::Entity::Author
       has_one "bookEdition", :class_name => NPR::Entity::BookEdition

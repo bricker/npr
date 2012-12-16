@@ -24,6 +24,8 @@ describe NPR::Entity::Story do
       # TODO Get a fixtute with these attributes
       @story.pull_quotes.should eq []
       @story.members.should eq []
+      @story.promo_arts.should eq []
+      @story.list_texts.should eq []
     end
   end
   

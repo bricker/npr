@@ -49,7 +49,7 @@ describe NPR::Entity::Member do
   end
   
   it "sets up relations" do
-    @member.promoArt.should be_a NPR::Entity::PromoArt
+    @member.promoArt.should be_a NPR::Entity::MemberPromoArt
     @member.title.should be_a NPR::Entity::Title
     @member.author.should be_a NPR::Entity::Author
     @member.bookEdition.should be_a NPR::Entity::BookEdition

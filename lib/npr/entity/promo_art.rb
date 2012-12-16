@@ -3,14 +3,14 @@
 #
 module NPR
   module Entity
-    class PromoArt < Base
-      attr_accessor :refId, :num
+    class PromoArt < Image
+      attr_accessor :bookEditionId
       
-      #-------------------
+      #--------------------
       
       def initialize(json)
-        @refId = json["refId"].to_i
-        @num   = json["num"].to_i
+        @bookEditionId = json["bookEditionId"].to_i
+        super
       end
     end # PromoArt
   end # Entity
