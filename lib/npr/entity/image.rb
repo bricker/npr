@@ -32,13 +32,13 @@ module NPR
       #--------------------
       
       def primary?
-        self.type == "primary"
+        @type == "primary"
       end
       
       #--------------------
       
       def standard?
-        self.type == "standard"
+        @type == "standard"
       end
     end # Image
   end # Entity
