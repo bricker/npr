@@ -143,7 +143,7 @@ module NPR
       # are found, then return the first image of any type.
       def primary_image
         @primary_image ||= begin
-          primary = self.images.find { |i| i["type"] == "primary"}
+          primary = self.images.find(&:primary?)
           primary || self.images.first
         end
       end

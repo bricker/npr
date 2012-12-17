@@ -150,5 +150,25 @@ describe NPR::Entity::Story do
       query = NPR::Entity::Story.offset(args)
       query.builder[:offset].should eq args
     end
-  end  
+  end
+  
+  #--------------------
+  
+  describe "#primary_image" do
+    before :each do
+      @story = mock_response "json/02_story_multiple_images.json" do
+        NPR::Story.find(999)
+      end
+    end
+    
+    it "finds the first image with type 'primary'" do
+      @story.primary_image.type.should eq "primary"
+    end
+    
+    it "falls back to just the first image if no primary image is available" do
+      # Remove the type "primary" image from the json response
+      @story.images.delete_if { |i| i.type == "primary" }
+      @story.primary_image.type.should eq "standard"
+    end
+  end
 end

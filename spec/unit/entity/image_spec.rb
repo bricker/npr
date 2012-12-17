@@ -79,4 +79,20 @@ describe NPR::Entity::Image do
     @image.producer.should eq ""
     @image.copyright.should eq ""
   end
+  
+  describe "#primary?" do
+    it "is true if type is primary" do
+      @image.primary?.should eq false
+      @image.type = "primary"
+      @image.primary?.should eq true
+    end
+  end
+  
+  describe "#standard?" do
+    it "is true if type is standard" do
+      @image.standard?.should eq true
+      @image.type = "primary"
+      @image.standard?.should eq false
+    end
+  end
 end
