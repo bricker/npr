@@ -22,12 +22,4 @@ describe NPR::Entity::Link do
   it "uses @content for to_s" do
     @link.to_s.should match /npr\.org/
   end
-  
-  #--------------------
-  
-  it "responds to type methods" do
-    @link.html?.should eq true
-    @link.api?.should eq false
-    @link.short?.should eq false
-  end
 end
