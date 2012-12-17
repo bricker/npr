@@ -1,6 +1,6 @@
 # NPR API Ruby Client
 
-[![Build Status](https://travis-ci.org/bricker88/npr.png)](https://travis-ci.org/bricker88/npr)
+[![Build Status](https://travis-ci.org/bricker/npr.png)](https://travis-ci.org/bricker/npr)
  
 **NOTE** This gem is a WIP
 

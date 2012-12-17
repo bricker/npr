@@ -6,7 +6,7 @@ Gem::Specification.new do |gem|
   gem.email         = ["bricker@scpr.org"]
   gem.description   = %q{NPR (npr.org) is a news organization. This gem helps you pull NPR content with a nice Ruby DSL.}
   gem.summary       = %q{A Ruby client for the NPR API}
-  gem.homepage      = "http://github.com/bricker88/npr"
+  gem.homepage      = "http://github.com/bricker/npr"
 
   gem.executables   = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
   gem.files         = `git ls-files`.split("\n")
