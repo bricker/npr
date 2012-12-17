@@ -28,7 +28,8 @@ describe NPR::Entity::Byline do
   end
   
   it "sets up attributes" do
-    @byline.id.should eq 166481173
+    @byline.id.should be_a Fixnum
+    @byline.id.should_not eq 0
   end
   
   it "creates relations" do
