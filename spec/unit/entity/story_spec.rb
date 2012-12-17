@@ -171,4 +171,25 @@ describe NPR::Entity::Story do
       @story.primary_image.type.should eq "standard"
     end
   end
+  
+  #--------------------
+  
+  describe "#link_for" do
+    before :each do
+      @story = mock_response "json/02_story_multiple_images.json" do
+        NPR::Story.find(999)
+      end
+    end
+    
+    it "finds the link for the passed-in type if it exists" do
+      @story.link_for("html").should be_a NPR::Entity::Link
+    end
+    
+    it "is nil if the type isn't present" do
+      @story.link_for("nothing").should eq nil
+    end
+  end
+  
+  #--------------------
+  
 end

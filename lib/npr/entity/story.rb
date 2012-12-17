@@ -147,6 +147,20 @@ module NPR
           primary || self.images.first
         end
       end
+      
+      #-------------------------
+      # Find links of the passed in type.
+      #
+      # Example:
+      #
+      #   story.link_for("html")    #=> NPR::Entity::Link
+      #   story.link_for("nothing") #=> nil
+      #
+      # Returns an NPR::Entity::Link or nil
+      #
+      def link_for(type)
+        self.links.find { |link| link.type == type }
+      end
 
       #-------------------------
       
