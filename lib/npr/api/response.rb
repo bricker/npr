@@ -16,14 +16,17 @@ module NPR
       
       def initialize(response)
         create_relations(response)
-        @raw      = response
-        @version  = response.body["version"]
         
-        if response.body["list"]
-          @list = NPR::Entity::List.new(response.body["list"])
+        @_response = response
+        @raw       = response.body
+                
+        @version  = @raw["version"]
+                
+        if list = @raw["list"]
+          @list = NPR::Entity::List.new(list)
         end
         
-        Array.wrap(response.body["message"]).each do |message|
+        Array.wrap(@raw["message"]).each do |message|
           @messages.push NPR::API::Message.new(message)
         end
       end
