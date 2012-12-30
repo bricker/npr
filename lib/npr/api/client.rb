@@ -61,6 +61,7 @@ module NPR
         response = connection.get do |request|
           request.url NPR::Configuration::API_QUERY_PATH
           request.params = @params.merge(params)
+          request.headers['Content-Type'] = "application/json"
           request.params['output'] = "json"
           request.params['apiKey'] = @apiKey
         end
