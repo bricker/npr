@@ -51,4 +51,12 @@ describe NPR::Entity::Text do
     s.should match /Amtrak trains\.$/
     s.should match /\n/
   end
+  
+  it "wraps each paragraph in p tags for #to_html" do
+    s = @text.to_html
+    s.should match /\A\<p\>/
+    s.should match /\<\/p\>\n\z/
+    s.should match /^\<p\>/
+    s.should match /\<\/p\>$/
+  end
 end
