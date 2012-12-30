@@ -156,13 +156,16 @@ module NPR
       #
       # Example:
       #
-      #   story.link_for("html")    #=> NPR::Entity::Link
+      #   story.link_for("html")    #=> http://npr.org/...
       #   story.link_for("nothing") #=> nil
       #
-      # Returns an NPR::Entity::Link or nil
+      # Returns an the content of that link if found, 
+      # or nil if not found.
       #
       def link_for(type)
-        self.links.find { |link| link.type == type }
+        if link = self.links.find { |link| link.type == type }
+          link.to_s
+        end
       end
 
       #-------------------------

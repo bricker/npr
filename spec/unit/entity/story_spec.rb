@@ -182,7 +182,7 @@ describe NPR::Entity::Story do
     end
     
     it "finds the link for the passed-in type if it exists" do
-      @story.link_for("html").should be_a NPR::Entity::Link
+      @story.link_for("html").should match /^http:\/\//
     end
     
     it "is nil if the type isn't present" do
