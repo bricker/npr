@@ -143,9 +143,23 @@ module NPR
       # are found, then return the first image of any type.
       def primary_image
         @primary_image ||= begin
-          primary = self.images.find { |i| i["type"] == "primary"}
+          primary = self.images.find(&:primary?)
           primary || self.images.first
         end
+      end
+      
+      #-------------------------
+      # Find links of the passed in type.
+      #
+      # Example:
+      #
+      #   story.link_for("html")    #=> NPR::Entity::Link
+      #   story.link_for("nothing") #=> nil
+      #
+      # Returns an NPR::Entity::Link or nil
+      #
+      def link_for(type)
+        self.links.find { |link| link.type == type }
       end
 
       #-------------------------

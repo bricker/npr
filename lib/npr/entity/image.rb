@@ -28,6 +28,18 @@ module NPR
         extract_shallow_attributes(json)
         create_relations(json)
       end
+      
+      #--------------------
+      
+      def primary?
+        @type == "primary"
+      end
+      
+      #--------------------
+      
+      def standard?
+        @type == "standard"
+      end
     end # Image
   end # Entity
 end # NPR

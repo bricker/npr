@@ -79,4 +79,9 @@ describe NPR::Entity::Image do
     @image.producer.should eq ""
     @image.copyright.should eq ""
   end
+  
+  it "responds to type methods" do
+    @image.primary?.should eq false
+    @image.standard?.should eq true
+  end
 end
