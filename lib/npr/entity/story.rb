@@ -138,9 +138,12 @@ module NPR
       end
     
       #-------------------------
-      # The primary image. Looks at the "type" attribute on 
+      # The primary image. 
+      # 
+      # Looks at the "type" attribute on 
       # an image and finds any with type "primary". If none
       # are found, then return the first image of any type.
+      #
       def primary_image
         @primary_image ||= begin
           primary = self.images.find(&:primary?)
