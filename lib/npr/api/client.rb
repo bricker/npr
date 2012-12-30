@@ -78,7 +78,7 @@ module NPR
       def connection
         @connection ||= begin
           Faraday.new NPR::Configuration::API_ROOT do |conn|
-            conn.response :json, :content_type => /\bjson$/
+            conn.response :json
             conn.adapter Faraday.default_adapter
           end
         end
