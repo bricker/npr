@@ -14,7 +14,7 @@ module NPR
       #--------------------
       
       def to_s
-        @content
+        @content.to_s
       end
     end # Title
   end # Entity
