@@ -13,7 +13,7 @@ A simple Ruby client for the
 This gem is tested with these versions (but may 
 work with others):
 
-* Ruby 1.8.7, 1.9.2, 1.9.3, ruby-head
+* Ruby 1.9.2, 1.9.3, ruby-head
 * NPR API version 0.94
 
 
@@ -21,19 +21,6 @@ work with others):
 
 * `faraday >= 0.8.0` (HTTP requests)
 * `faraday_middleware >= 0.9.0` (response processing)
-
-**NOTE** If you are running **Ruby < 1.9**, you will have to install 
-the [json gem](http://rubygems.org/gems/json):
-
-In your Gemfile:
-
-    gem 'json', '~> 1.7.5'
-    
-From the command line:
-
-    $ gem install json
-
-Ruby 1.9+ comes with JSON support built-in!
 
 
 ## Installation
