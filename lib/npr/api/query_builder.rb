@@ -44,10 +44,6 @@ module NPR
       #-----------------------
       # Fire the query and return an Array of stories (or empty [])
       #
-      # Named +to_a+ to keep in line with ActiveRecord::Relation's
-      # naming convention. It is also aliased as +query+, which 
-      # probably makes a little more sense.
-      #
       # Returns an Array. If the query returned any stories, then
       # it will be an array of those stories. If no stories were
       # returned, then it will be an empty array.
@@ -73,7 +69,7 @@ module NPR
         response = self.query
         stories  = []
       
-        if list = response.list
+        if response.list
           stories = Array.wrap(response.list.stories)
         end
       
