@@ -56,10 +56,6 @@ module NPR
       #
       def query(params={})
         path = params.delete(:path) || NPR::Configuration::API_QUERY_PATH
-
-        if @apiKey.nil?
-          raise NPR::NotConfiguredError, "apiKey must be set to perform a query"
-        end
       
         response = connection.get do |request|
           request.url path

@@ -35,11 +35,6 @@ describe NPR::API::Client do
   #-----------------
   
   describe "#query" do
-    it "raises NotConfiguredError if apiKey is blank" do
-      client = NPR::API::Client.new
-      lambda { client.query }.should raise_error NPR::NotConfiguredError
-    end
-
     it 'uses the passed-in path if available' do
       respond_with("json/01_story_full_media.json", uri: %r|api\.publish2\.com/list/stories|)
 
