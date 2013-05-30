@@ -4,8 +4,6 @@
 module NPR
   module Entity
     class Story < Base
-      #-------------------------
-    
       class << self
         #-------------------------
         # Find a story based on ID
@@ -71,7 +69,8 @@ module NPR
         def query_by_id(id)
           client = NPR::API::Client.new(
             :apiKey => NPR.config.apiKey,
-            :output => "json")
+            :output => "json"
+          )
 
           client.query(:id => id)
         end
