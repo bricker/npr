@@ -59,10 +59,11 @@ module NPR
       
         response = connection.get do |request|
           request.url path
-          request.params = @params.merge(params)
           request.headers['Content-Type'] = "application/json"
-          request.params['output'] = "json"
-          request.params['apiKey'] = @apiKey
+
+          request.params = @params.merge(params)
+          request.params['output'] ||= "json"  # Only JSON is supported.
+          request.params['apiKey'] ||= @apiKey
         end
         
         NPR::API::Response.new(response)
