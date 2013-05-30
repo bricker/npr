@@ -1,1 +1,561 @@
-{"version": "0.94", "list": {"title": {"$text": "NPR: Stories from NPR"}, "teaser": {"$text": "Assorted stories from NPR"}, "miniTeaser": {"$text": "Custom NPR News Feed API.  Visit http://www.npr.org/templates/apidoc/index.php for more information."}, "link": [{"type": "api", "$text": "http://api.npr.org/query?id=166884441&apiKey=API_KEY"}, {"type": "html", "$text": "http://www.npr.org/2012/12/11/166884441/in-freedom-ex-felon-becomes-probation-counselor?ft=3&f=166884441"}], "story": [{"id": "166884441", "link": [{"type": "html", "$text": "http://www.npr.org/2012/12/11/166884441/in-freedom-ex-felon-becomes-probation-counselor?ft=3&f=166884441"}, {"type": "api", "$text": "http://api.npr.org/query?id=166884441&apiKey=API_KEY"}, {"type": "short", "$text": "http://n.pr/RXCSBj"}], "title": {"$text": "In Freedom, Ex-Felon Becomes Probation Counselor "}, "partnerId": {"$text": "166884441"}, "subtitle": {}, "shortTitle": {}, "teaser": {"$text": "The federal probation office in St. Louis has one of the biggest caseloads of violent offenders in the country — and one of the lowest recidivism rates. That's in part because of a former felon who knows how to keep ex-offenders from returning to prison."}, "miniTeaser": {"$text": "After serving time for armed robbery, an ex-offender now helps others turn their lives around."}, "slug": {"$text": "U.S."}, "thumbnail": {"medium": {"$text": "http://media.npr.org/assets/img/2012/12/11/clark_composite_sq-fe93b6a98c444ebe0b1dd7e3e02729f934c676fb.jpg?s=13"}, "large": {"$text": "http://media.npr.org/assets/img/2012/12/11/clark_composite_sq-fe93b6a98c444ebe0b1dd7e3e02729f934c676fb.jpg?s=11"}, "provider": {"$text": "Courtesy of Washington Universtiy in St. Louis"}}, "storyDate": {"$text": "Tue, 11 Dec 2012 15:00:00 -0500"}, "pubDate": {"$text": "Tue, 11 Dec 2012 21:34:00 -0500"}, "lastModifiedDate": {"$text": "Tue, 11 Dec 2012 21:34:27 -0500"}, "show": [{"program": {"id": "2", "code": "ATC", "$text": "All Things Considered"}, "showDate": {"$text": "Tue, 11 Dec 2012 15:00:00 -0500"}, "segNum": {"$text": "7"}}], "keywords": {}, "priorityKeywords": {}, "organization": [{"orgId": "278", "orgAbbr": "KWMU", "name": {"$text": "KWMU-FM"}, "website": {"$text": "http://www.stlpublicradio.org"}}], "transcript": {"link": {"type": "api", "$text": "http://api.npr.org/transcript?id=166884441&apiKey=API_KEY"}}, "parent": [{"id": "1091", "type": "topic", "title": {"$text": "Around the Nation"}, "link": [{"type": "html", "$text": "http://www.npr.org/sections/around-the-nation/?ft=3&f=166884441"}, {"type": "api", "$text": "http://api.npr.org/query?id=1091&apiKey=API_KEY"}]}, {"id": "1003", "type": "primaryTopic", "slug": "true", "title": {"$text": "U.S."}, "link": [{"type": "html", "$text": "http://www.npr.org/sections/us/?ft=3&f=166884441"}, {"type": "api", "$text": "http://api.npr.org/query?id=1003&apiKey=API_KEY"}]}, {"id": "1003", "type": "topic", "title": {"$text": "U.S."}, "link": [{"type": "html", "$text": "http://www.npr.org/sections/us/?ft=3&f=166884441"}, {"type": "api", "$text": "http://api.npr.org/query?id=1003&apiKey=API_KEY"}]}, {"id": "1002", "type": "topic", "title": {"$text": "Home Page Top Stories"}, "link": [{"type": "html", "$text": "http://www.npr.org/?ft=3&f=166884441"}, {"type": "api", "$text": "http://api.npr.org/query?id=1002&apiKey=API_KEY"}]}], "audio": [{"id": "167000584", "type": "primary", "title": {}, "duration": {"$text": "290"}, "description": {}, "format": {"mp3": [{"type": "mp3", "$text": "http://pd.npr.org/anon.npr-mp3/npr/atc/2012/12/20121211_atc_07.mp3?orgId=278&topicId=1003&ft=3&f=166884441"}, {"type": "m3u", "$text": "http://api.npr.org/m3u/1167000584-5e6998.m3u?orgId=278&topicId=1003&ft=3&f=166884441"}], "wm": {"$text": "http://www.npr.org/templates/dmg/dmg_wmref_em.php?id=167000584&type=1&mtype=WM&orgId=278&topicId=1003&ft=3&f=166884441"}, "mediastream": {"$text": "rtmp://flash.npr.org/ondemand/mp3:anon.npr-mp3/npr/atc/2012/12/20121211_atc_07.mp3"}}, "rightsHolder": {}, "permissions": {"download": {"allow": "true"}, "stream": {"allow": "true"}, "embed": {"allow": "true"}}, "stream": {"active": "false"}}], "byline": [{"id": "166885535", "name": {"personId": "134991966", "$text": "Julie Bierach"}, "link": [{"type": "html", "$text": "http://news.stlpublicradio.org/people/julie-bierach"}, {"type": "api", "$text": "http://api.npr.org/query?id=134991966&apiKey=API_KEY"}]}], "image": [{"id": "166972468", "type": "primary", "width": "200", "src": "http://media.npr.org/assets/img/2012/12/11/clark_composite_custom-7a789655986f08866836381751bd592fd4cfca2d.jpg?s=12", "hasBorder": "false", "title": {"$text": "Clark Porter was 17 when he was sentenced to 35 years in prison for robbing a downtown post office at gunpoint. He spent 15 years in prison and today helps some of the toughest ex-offenders turn their lives around."}, "caption": {"$text": "Clark Porter was 17 when he was sentenced to 35 years in prison for robbing a downtown post office at gunpoint. He spent 15 years in prison and today helps some of the toughest ex-offenders turn their lives around."}, "link": {"url": ""}, "producer": {}, "provider": {"url": "", "$text": "Courtesy of Washington Universtiy in St. Louis"}, "copyright": {}, "crop": [{"type": "standard", "src": "http://media.npr.org/assets/img/2012/12/11/clark_composite-2ac1e5b66d2510c36f1d57fa9866c2c13a3a9a59.jpg", "height": "572", "width": "763"}, {"type": "square", "src": "http://media.npr.org/assets/img/2012/12/11/clark_composite_sq-fe93b6a98c444ebe0b1dd7e3e02729f934c676fb.jpg", "height": "325", "width": "325"}, {"type": "wide", "src": "http://media.npr.org/assets/img/2012/12/11/clark_composite_wide-85ff648d8e6a64688abe3cf54e8079e1583da8e3.jpg", "height": "431", "width": "768"}, {"type": "custom", "src": "http://media.npr.org/assets/img/2012/12/11/clark_composite_custom-7a789655986f08866836381751bd592fd4cfca2d.jpg", "height": "536", "width": "768"}, {"type": "altPromo", "src": "http://media.npr.org/assets/img/2012/12/11/clark_composite_promo-171b7217eabe4e2f23f1c18fc82205b1a97087f0.jpg", "height": "575", "width": "768"}, {"type": "slide", "src": "http://media.npr.org/assets/img/2012/12/11/clark_composite_slide-bbc0d3742f1af87f499cedba52645cf7bb351e14.jpg", "height": "510", "width": "765"}]}, {"id": "166891214", "type": "standard", "width": "200", "src": "http://media.npr.org/assets/img/2012/12/10/f_clark_porter_alumnus_1_custom-35bad304f3f860d830fd400fe48eea92115cc29e.jpg?s=12", "hasBorder": "false", "title": {"$text": "Porter was hired by Chief U.S. Probation Officer Douglas Burris, who was initially taken aback by the idea of an ex-felon working for the probation office."}, "caption": {"$text": "Porter was hired by Chief U.S. Probation Officer Douglas Burris, who was initially taken aback by the idea of an ex-felon working for the probation office."}, "link": {"url": ""}, "producer": {}, "provider": {"url": "", "$text": "Courtesy of Washington University in St. Louis"}, "copyright": {}, "enlargement": {"src": "http://media.npr.org/assets/img/2012/12/10/f_clark_porter_alumnus_1_custom-35bad304f3f860d830fd400fe48eea92115cc29e.jpg", "caption": {}}, "crop": [{"type": "standard", "src": "http://media.npr.org/assets/img/2012/12/10/f_clark_porter_alumnus_1-9b0e41238589082a4c0d93122b94e68bf79c161b.jpg", "height": "362", "width": "483"}, {"type": "square", "src": "http://media.npr.org/assets/img/2012/12/10/f_clark_porter_alumnus_1_sq-be78c6cfef0ab3420ecc467a2daa7168b0f128c5.jpg", "height": "455", "width": "455"}, {"type": "wide", "src": "http://media.npr.org/assets/img/2012/12/10/f_clark_porter_alumnus_1_wide-8b03d0d4ae08bd70149ca7e1a8c7b7c03cbb634c.jpg", "height": "285", "width": "508"}, {"type": "enlargement", "src": "http://media.npr.org/assets/img/2012/12/10/f_clark_porter_alumnus_1_custom-35bad304f3f860d830fd400fe48eea92115cc29e.jpg", "height": "455", "width": "493"}, {"type": "custom", "src": "http://media.npr.org/assets/img/2012/12/10/f_clark_porter_alumnus_1_custom-35bad304f3f860d830fd400fe48eea92115cc29e.jpg", "height": "455", "width": "493"}, {"type": "brick", "src": "http://media.npr.org/assets/img/2012/12/10/f_clark_porter_alumnus_1_brick-b647d10682167bc75cd5fd20f0fb1f3fbbc345d2.jpg", "height": "223", "width": "485"}, {"type": "altPromo", "src": "http://media.npr.org/assets/img/2012/12/10/f_clark_porter_alumnus_1_promo-80e09309a1b1c3d2430f5dd482bab16e1e7c3ba1.jpg", "height": "375", "width": "500"}, {"type": "vertical", "src": "http://media.npr.org/assets/img/2012/12/10/f_clark_porter_alumnus_1_vert-556f13a3bb4a7f312bac078a60d52a326f4bdd12.jpg", "height": "455", "width": "341"}, {"type": "slide", "src": "http://media.npr.org/assets/img/2012/12/10/f_clark_porter_alumnus_1_slide-4731441f7b280ef7d4902380c7bf1c22825fa01d.jpg", "height": "357", "width": "535"}]}], "text": {"paragraph": [{"num": "1", "$text": "Every weekday, Clark Porter, a tall man with a sturdy build, walks into the Thomas F. Eagleton U.S. Courthouse in St. Louis to work with tough ex-offenders. On the outside, he wears a suit and tie. But on the inside, he has more in common with the former felons than most."}, {"num": "2", "$text": "Back in 1986, a skinny 17-year-old Porter went on trial there as an adult for robbing a post office at gunpoint. His sentence: 35 years."}, {"num": "3", "$text": "\"The hardest part of prison is when you get into year five,\" he says. \"That's when you start hearing the door close. You get these pangs of reality, and it's like, 'Wow, I've got a 35-year-sentence; I'm not going anywhere.\""}, {"num": "4", "$text": "Porter served 15 years. When released in 2001, he radically changed his life and enrolled at Washington University in St. Louis while still on probation. He then did the unthinkable and asked Doug Burris, the chief U.S. probation officer in the eastern district of Missouri, for a job."}, {"num": "5", "$text": "\"My initial reaction was, I laughed. And I thought, you know, that's the craziest idea you could ever come up with,\" Burris says."}, {"num": "6", "$text": "After all, Porter would be working with the very same people who put him in prison. They had pushed to try him as an adult, arguing that he was beyond hope."}, {"num": "7", "$text": "Before Burris could take a chance on Porter, he needed permission from then-Chief Judge Carol Jackson."}, {"num": "8", "$text": "\"She [was] either going to have me committed or throw me out of her office,\" says Burris. \"I was proposing that we hire a former violent felon who was prosecuted out of this district.\""}, {"num": "9", "$text": "But to Burris' surprise, Jackson agreed."}, {"num": "10", "$text": "Today, Porter works with a group of ex-offenders in an intense seven-month-long program that he helped design. The ex-felons are required to do community service, look for a job and participate in therapy. Most have drug offenses and face a daunting choice of employment in either \"McDonald's or dope,\" according to Porter."}, {"num": "11", "$text": "\"An uneducated black man growing up in the inner city ... You're going to choose the one that pays better. And dope pays sometimes,\" Porter says."}, {"num": "12", "$text": "He argues that revoking probation for not finding a job or for substance abuse is counterproductive."}, {"num": "13", "$text": "\"Did it serve our interest to lock him up? Or did it serve our interest to get him clean? Because if he's clean, we don't have to worry about him knocking somebody in the head for a shot of dope,\" Porter says."}, {"num": "14", "$text": "Lamont McGhee served 13 years in prison for drug conspiracy. He went through Porter's program and admits that Porter's job isn't an easy one."}, {"num": "15", "$text": "\"He's got to put up with a lot of knuckleheads. He's got to put up with a lot of people that's not going to listen,\" McGhee says. \"A lot of people that say he's one of them, meaning a probation officer.\""}, {"num": "16", "$text": "Criminologist Beth Huebner of the University of Missouri, St. Louis, researches recidivism among young offenders — the study of a person's relapse into criminal behavior after receiving punishments or interventions for a previous crime. She says ex-offenders are more successful in programs like Porter's because he was once just like them."}, {"num": "17", "$text": "\"There are some mentoring programs here or there, but there's no systematic development of this sort of program,\" she says. \"But this is something that I hear from offenders — that this is something that they want, that they need.\""}, {"num": "18", "$text": "Because of their success, Burris and Porter speak to groups across the country. Burris beams when recalling the time he sent Porter to attend a regional White House meeting."}, {"num": "19", "$text": "\"Because the last time the government paid for him to fly, he was in handcuffs and belly chains on his way to a maximum security prison. And he went from that to having the government pay for him to fly to a meeting with White House officials,\" Burris says."}, {"num": "20", "$text": "Porter says he knows it's a big responsibility to be a role model for offenders — and that some people are just waiting for him to mess up. But that won't happen, he says. [Copyright 2012 KWMU-FM]"}]}, "textWithHtml": {"paragraph": [{"num": "1", "$text": "Every weekday, Clark Porter, a tall man with a sturdy build, walks into the Thomas F. Eagleton U.S. Courthouse in St. Louis to work with tough ex-offenders. On the outside, he wears a suit and tie. But on the inside, he has more in common with the former felons than most."}, {"num": "2", "$text": "Back in 1986, a skinny 17-year-old Porter went on trial there as an adult for robbing a post office at gunpoint. His sentence: 35 years."}, {"num": "3", "$text": "\"The hardest part of prison is when you get into year five,\" he says. \"That's when you start hearing the door close. You get these pangs of reality, and it's like, 'Wow, I've got a 35-year-sentence; I'm not going anywhere.\""}, {"num": "4", "$text": "Porter served 15 years. When released in 2001, he radically changed his life and enrolled at Washington University in St. Louis while still on probation. He then did the unthinkable and asked Doug Burris, the chief U.S. probation officer in the eastern district of Missouri, for a job."}, {"num": "5", "$text": "\"My initial reaction was, I laughed. And I thought, you know, that's the craziest idea you could ever come up with,\" Burris says."}, {"num": "6", "$text": "After all, Porter would be working with the very same people who put him in prison. They had pushed to try him as an adult, arguing that he was beyond hope."}, {"num": "7", "$text": "Before Burris could take a chance on Porter, he needed permission from then-Chief Judge Carol Jackson."}, {"num": "8", "$text": "\"She [was] either going to have me committed or throw me out of her office,\" says Burris. \"I was proposing that we hire a former violent felon who was prosecuted out of this district.\""}, {"num": "9", "$text": "But to Burris' surprise, Jackson agreed."}, {"num": "10", "$text": "Today, Porter works with a group of ex-offenders in an intense seven-month-long program that he helped design. The ex-felons are required to do community service, look for a job and participate in therapy. Most have drug offenses and face a daunting choice of employment in either \"McDonald's or dope,\" according to Porter."}, {"num": "11", "$text": "\"An uneducated black man growing up in the inner city ... You're going to choose the one that pays better. And dope pays sometimes,\" Porter says."}, {"num": "12", "$text": "He argues that revoking probation for not finding a job or for substance abuse is counterproductive."}, {"num": "13", "$text": "\"Did it serve our interest to lock him up? Or did it serve our interest to get him clean? Because if he's clean, we don't have to worry about him knocking somebody in the head for a shot of dope,\" Porter says."}, {"num": "14", "$text": "Lamont McGhee served 13 years in prison for drug conspiracy. He went through Porter's program and admits that Porter's job isn't an easy one."}, {"num": "15", "$text": "\"He's got to put up with a lot of knuckleheads. He's got to put up with a lot of people that's not going to listen,\" McGhee says. \"A lot of people that say he's one of them, meaning a probation officer.\""}, {"num": "16", "$text": "Criminologist Beth Huebner of the University of Missouri, St. Louis, researches recidivism among young offenders — the study of a person's relapse into criminal behavior after receiving punishments or interventions for a previous crime. She says ex-offenders are more successful in programs like Porter's because he was once just like them."}, {"num": "17", "$text": "\"There are some mentoring programs here or there, but there's no systematic development of this sort of program,\" she says. \"But this is something that I hear from offenders — that this is something that they want, that they need.\""}, {"num": "18", "$text": "Because of their success, Burris and Porter speak to groups across the country. Burris beams when recalling the time he sent Porter to attend a regional White House meeting."}, {"num": "19", "$text": "\"Because the last time the government paid for him to fly, he was in handcuffs and belly chains on his way to a maximum security prison. And he went from that to having the government pay for him to fly to a meeting with White House officials,\" Burris says."}, {"num": "20", "$text": "Porter says he knows it's a big responsibility to be a role model for offenders — and that some people are just waiting for him to mess up. But that won't happen, he says.  <div class=\"fullattribution\">Copyright 2012 KWMU-FM. To see more, visit <a href=\"http://www.stlpublicradio.org\">http://www.stlpublicradio.org</a>.<img src=\"http://www.google-analytics.com/__utm.gif?utmac=UA-5828686-4&utmdt=In+Freedom%2C+Ex-Felon+Becomes+Probation+Counselor+&utme=8(APIKey)9(API_KEY)\"/></div>"}]}}]}}
+{
+  "version": "0.94",
+  "list": {
+    "title": {
+      "$text": "NPR: Stories from NPR"
+    },
+    "teaser": {
+      "$text": "Assorted stories from NPR"
+    },
+    "miniTeaser": {
+      "$text": "Custom NPR News Feed API.  Visit http://www.npr.org/templates/apidoc/index.php for more information."
+    },
+    "link": [
+      {
+        "type": "api",
+        "$text": "http://api.npr.org/query?id=166884441&apiKey=API_KEY"
+      },
+      {
+        "type": "html",
+        "$text": "http://www.npr.org/2012/12/11/166884441/in-freedom-ex-felon-becomes-probation-counselor?ft=3&f=166884441"
+      }
+    ],
+    "story": [
+      {
+        "id": "166884441",
+        "link": [
+          {
+            "type": "html",
+            "$text": "http://www.npr.org/2012/12/11/166884441/in-freedom-ex-felon-becomes-probation-counselor?ft=3&f=166884441"
+          },
+          {
+            "type": "api",
+            "$text": "http://api.npr.org/query?id=166884441&apiKey=API_KEY"
+          },
+          {
+            "type": "short",
+            "$text": "http://n.pr/RXCSBj"
+          }
+        ],
+        "title": {
+          "$text": "In Freedom, Ex-Felon Becomes Probation Counselor "
+        },
+        "partnerId": {
+          "$text": "166884441"
+        },
+        "subtitle": {},
+        "shortTitle": {},
+        "teaser": {
+          "$text": "The federal probation office in St. Louis has one of the biggest caseloads of violent offenders in the country — and one of the lowest recidivism rates. That's in part because of a former felon who knows how to keep ex-offenders from returning to prison."
+        },
+        "miniTeaser": {
+          "$text": "After serving time for armed robbery, an ex-offender now helps others turn their lives around."
+        },
+        "slug": {
+          "$text": "U.S."
+        },
+        "thumbnail": {
+          "medium": {
+            "$text": "http://media.npr.org/assets/img/2012/12/11/clark_composite_sq-fe93b6a98c444ebe0b1dd7e3e02729f934c676fb.jpg?s=13"
+          },
+          "large": {
+            "$text": "http://media.npr.org/assets/img/2012/12/11/clark_composite_sq-fe93b6a98c444ebe0b1dd7e3e02729f934c676fb.jpg?s=11"
+          },
+          "provider": {
+            "$text": "Courtesy of Washington Universtiy in St. Louis"
+          }
+        },
+        "storyDate": {
+          "$text": "Tue, 11 Dec 2012 15:00:00 -0500"
+        },
+        "pubDate": {
+          "$text": "Tue, 11 Dec 2012 21:34:00 -0500"
+        },
+        "lastModifiedDate": {
+          "$text": "Tue, 11 Dec 2012 21:34:27 -0500"
+        },
+        "show": [
+          {
+            "program": {
+              "id": "2",
+              "code": "ATC",
+              "$text": "All Things Considered"
+            },
+            "showDate": {
+              "$text": "Tue, 11 Dec 2012 15:00:00 -0500"
+            },
+            "segNum": {
+              "$text": "7"
+            }
+          }
+        ],
+        "keywords": {},
+        "priorityKeywords": {},
+        "organization": [
+          {
+            "orgId": "278",
+            "orgAbbr": "KWMU",
+            "name": {
+              "$text": "KWMU-FM"
+            },
+            "website": {
+              "$text": "http://www.stlpublicradio.org"
+            }
+          }
+        ],
+        "transcript": {
+          "link": {
+            "type": "api",
+            "$text": "http://api.npr.org/transcript?id=166884441&apiKey=API_KEY"
+          }
+        },
+        "parent": [
+          {
+            "id": "1091",
+            "type": "topic",
+            "title": {
+              "$text": "Around the Nation"
+            },
+            "link": [
+              {
+                "type": "html",
+                "$text": "http://www.npr.org/sections/around-the-nation/?ft=3&f=166884441"
+              },
+              {
+                "type": "api",
+                "$text": "http://api.npr.org/query?id=1091&apiKey=API_KEY"
+              }
+            ]
+          },
+          {
+            "id": "1003",
+            "type": "primaryTopic",
+            "slug": "true",
+            "title": {
+              "$text": "U.S."
+            },
+            "link": [
+              {
+                "type": "html",
+                "$text": "http://www.npr.org/sections/us/?ft=3&f=166884441"
+              },
+              {
+                "type": "api",
+                "$text": "http://api.npr.org/query?id=1003&apiKey=API_KEY"
+              }
+            ]
+          },
+          {
+            "id": "1003",
+            "type": "topic",
+            "title": {
+              "$text": "U.S."
+            },
+            "link": [
+              {
+                "type": "html",
+                "$text": "http://www.npr.org/sections/us/?ft=3&f=166884441"
+              },
+              {
+                "type": "api",
+                "$text": "http://api.npr.org/query?id=1003&apiKey=API_KEY"
+              }
+            ]
+          },
+          {
+            "id": "1002",
+            "type": "topic",
+            "title": {
+              "$text": "Home Page Top Stories"
+            },
+            "link": [
+              {
+                "type": "html",
+                "$text": "http://www.npr.org/?ft=3&f=166884441"
+              },
+              {
+                "type": "api",
+                "$text": "http://api.npr.org/query?id=1002&apiKey=API_KEY"
+              }
+            ]
+          }
+        ],
+        "audio": [
+          {
+            "id": "167000584",
+            "type": "primary",
+            "title": {},
+            "duration": {
+              "$text": "290"
+            },
+            "description": {},
+            "format": {
+              "mp3": [
+                {
+                  "type": "mp3",
+                  "$text": "http://pd.npr.org/anon.npr-mp3/npr/atc/2012/12/20121211_atc_07.mp3?orgId=278&topicId=1003&ft=3&f=166884441"
+                },
+                {
+                  "type": "m3u",
+                  "$text": "http://api.npr.org/m3u/1167000584-5e6998.m3u?orgId=278&topicId=1003&ft=3&f=166884441"
+                }
+              ],
+              "wm": {
+                "$text": "http://www.npr.org/templates/dmg/dmg_wmref_em.php?id=167000584&type=1&mtype=WM&orgId=278&topicId=1003&ft=3&f=166884441"
+              },
+              "mediastream": {
+                "$text": "rtmp://flash.npr.org/ondemand/mp3:anon.npr-mp3/npr/atc/2012/12/20121211_atc_07.mp3"
+              }
+            },
+            "rightsHolder": {},
+            "permissions": {
+              "download": {
+                "allow": "true"
+              },
+              "stream": {
+                "allow": "true"
+              },
+              "embed": {
+                "allow": "true"
+              }
+            },
+            "stream": {
+              "active": "false"
+            }
+          }
+        ],
+        "byline": [
+          {
+            "id": "166885535",
+            "name": {
+              "personId": "134991966",
+              "$text": "Julie Bierach"
+            },
+            "link": [
+              {
+                "type": "html",
+                "$text": "http://news.stlpublicradio.org/people/julie-bierach"
+              },
+              {
+                "type": "api",
+                "$text": "http://api.npr.org/query?id=134991966&apiKey=API_KEY"
+              }
+            ]
+          }
+        ],
+        "image": [
+          {
+            "id": "166972468",
+            "type": "primary",
+            "width": "200",
+            "src": "http://media.npr.org/assets/img/2012/12/11/clark_composite_custom-7a789655986f08866836381751bd592fd4cfca2d.jpg?s=12",
+            "hasBorder": "false",
+            "title": {
+              "$text": "Clark Porter was 17 when he was sentenced to 35 years in prison for robbing a downtown post office at gunpoint. He spent 15 years in prison and today helps some of the toughest ex-offenders turn their lives around."
+            },
+            "caption": {
+              "$text": "Clark Porter was 17 when he was sentenced to 35 years in prison for robbing a downtown post office at gunpoint. He spent 15 years in prison and today helps some of the toughest ex-offenders turn their lives around."
+            },
+            "link": {
+              "url": ""
+            },
+            "producer": {},
+            "provider": {
+              "url": "",
+              "$text": "Courtesy of Washington Universtiy in St. Louis"
+            },
+            "copyright": {},
+            "crop": [
+              {
+                "type": "standard",
+                "src": "http://media.npr.org/assets/img/2012/12/11/clark_composite-2ac1e5b66d2510c36f1d57fa9866c2c13a3a9a59.jpg",
+                "height": "572",
+                "width": "763"
+              },
+              {
+                "type": "square",
+                "src": "http://media.npr.org/assets/img/2012/12/11/clark_composite_sq-fe93b6a98c444ebe0b1dd7e3e02729f934c676fb.jpg",
+                "height": "325",
+                "width": "325"
+              },
+              {
+                "type": "wide",
+                "src": "http://media.npr.org/assets/img/2012/12/11/clark_composite_wide-85ff648d8e6a64688abe3cf54e8079e1583da8e3.jpg",
+                "height": "431",
+                "width": "768"
+              },
+              {
+                "type": "custom",
+                "src": "http://media.npr.org/assets/img/2012/12/11/clark_composite_custom-7a789655986f08866836381751bd592fd4cfca2d.jpg",
+                "height": "536",
+                "width": "768"
+              },
+              {
+                "type": "altPromo",
+                "src": "http://media.npr.org/assets/img/2012/12/11/clark_composite_promo-171b7217eabe4e2f23f1c18fc82205b1a97087f0.jpg",
+                "height": "575",
+                "width": "768"
+              },
+              {
+                "type": "slide",
+                "src": "http://media.npr.org/assets/img/2012/12/11/clark_composite_slide-bbc0d3742f1af87f499cedba52645cf7bb351e14.jpg",
+                "height": "510",
+                "width": "765"
+              }
+            ]
+          },
+          {
+            "id": "166891214",
+            "type": "standard",
+            "width": "200",
+            "src": "http://media.npr.org/assets/img/2012/12/10/f_clark_porter_alumnus_1_custom-35bad304f3f860d830fd400fe48eea92115cc29e.jpg?s=12",
+            "hasBorder": "false",
+            "title": {
+              "$text": "Porter was hired by Chief U.S. Probation Officer Douglas Burris, who was initially taken aback by the idea of an ex-felon working for the probation office."
+            },
+            "caption": {
+              "$text": "Porter was hired by Chief U.S. Probation Officer Douglas Burris, who was initially taken aback by the idea of an ex-felon working for the probation office."
+            },
+            "link": {
+              "url": ""
+            },
+            "producer": {},
+            "provider": {
+              "url": "",
+              "$text": "Courtesy of Washington University in St. Louis"
+            },
+            "copyright": {},
+            "enlargement": {
+              "src": "http://media.npr.org/assets/img/2012/12/10/f_clark_porter_alumnus_1_custom-35bad304f3f860d830fd400fe48eea92115cc29e.jpg",
+              "caption": {}
+            },
+            "crop": [
+              {
+                "type": "standard",
+                "src": "http://media.npr.org/assets/img/2012/12/10/f_clark_porter_alumnus_1-9b0e41238589082a4c0d93122b94e68bf79c161b.jpg",
+                "height": "362",
+                "width": "483"
+              },
+              {
+                "type": "square",
+                "src": "http://media.npr.org/assets/img/2012/12/10/f_clark_porter_alumnus_1_sq-be78c6cfef0ab3420ecc467a2daa7168b0f128c5.jpg",
+                "height": "455",
+                "width": "455"
+              },
+              {
+                "type": "wide",
+                "src": "http://media.npr.org/assets/img/2012/12/10/f_clark_porter_alumnus_1_wide-8b03d0d4ae08bd70149ca7e1a8c7b7c03cbb634c.jpg",
+                "height": "285",
+                "width": "508"
+              },
+              {
+                "type": "enlargement",
+                "src": "http://media.npr.org/assets/img/2012/12/10/f_clark_porter_alumnus_1_custom-35bad304f3f860d830fd400fe48eea92115cc29e.jpg",
+                "height": "455",
+                "width": "493"
+              },
+              {
+                "type": "custom",
+                "src": "http://media.npr.org/assets/img/2012/12/10/f_clark_porter_alumnus_1_custom-35bad304f3f860d830fd400fe48eea92115cc29e.jpg",
+                "height": "455",
+                "width": "493"
+              },
+              {
+                "type": "brick",
+                "src": "http://media.npr.org/assets/img/2012/12/10/f_clark_porter_alumnus_1_brick-b647d10682167bc75cd5fd20f0fb1f3fbbc345d2.jpg",
+                "height": "223",
+                "width": "485"
+              },
+              {
+                "type": "altPromo",
+                "src": "http://media.npr.org/assets/img/2012/12/10/f_clark_porter_alumnus_1_promo-80e09309a1b1c3d2430f5dd482bab16e1e7c3ba1.jpg",
+                "height": "375",
+                "width": "500"
+              },
+              {
+                "type": "vertical",
+                "src": "http://media.npr.org/assets/img/2012/12/10/f_clark_porter_alumnus_1_vert-556f13a3bb4a7f312bac078a60d52a326f4bdd12.jpg",
+                "height": "455",
+                "width": "341"
+              },
+              {
+                "type": "slide",
+                "src": "http://media.npr.org/assets/img/2012/12/10/f_clark_porter_alumnus_1_slide-4731441f7b280ef7d4902380c7bf1c22825fa01d.jpg",
+                "height": "357",
+                "width": "535"
+              }
+            ]
+          }
+        ],
+        "text": {
+          "paragraph": [
+            {
+              "num": "1",
+              "$text": "Every weekday, Clark Porter, a tall man with a sturdy build, walks into the Thomas F. Eagleton U.S. Courthouse in St. Louis to work with tough ex-offenders. On the outside, he wears a suit and tie. But on the inside, he has more in common with the former felons than most."
+            },
+            {
+              "num": "2",
+              "$text": "Back in 1986, a skinny 17-year-old Porter went on trial there as an adult for robbing a post office at gunpoint. His sentence: 35 years."
+            },
+            {
+              "num": "3",
+              "$text": "\"The hardest part of prison is when you get into year five,\" he says. \"That's when you start hearing the door close. You get these pangs of reality, and it's like, 'Wow, I've got a 35-year-sentence; I'm not going anywhere.\""
+            },
+            {
+              "num": "4",
+              "$text": "Porter served 15 years. When released in 2001, he radically changed his life and enrolled at Washington University in St. Louis while still on probation. He then did the unthinkable and asked Doug Burris, the chief U.S. probation officer in the eastern district of Missouri, for a job."
+            },
+            {
+              "num": "5",
+              "$text": "\"My initial reaction was, I laughed. And I thought, you know, that's the craziest idea you could ever come up with,\" Burris says."
+            },
+            {
+              "num": "6",
+              "$text": "After all, Porter would be working with the very same people who put him in prison. They had pushed to try him as an adult, arguing that he was beyond hope."
+            },
+            {
+              "num": "7",
+              "$text": "Before Burris could take a chance on Porter, he needed permission from then-Chief Judge Carol Jackson."
+            },
+            {
+              "num": "8",
+              "$text": "\"She [was] either going to have me committed or throw me out of her office,\" says Burris. \"I was proposing that we hire a former violent felon who was prosecuted out of this district.\""
+            },
+            {
+              "num": "9",
+              "$text": "But to Burris' surprise, Jackson agreed."
+            },
+            {
+              "num": "10",
+              "$text": "Today, Porter works with a group of ex-offenders in an intense seven-month-long program that he helped design. The ex-felons are required to do community service, look for a job and participate in therapy. Most have drug offenses and face a daunting choice of employment in either \"McDonald's or dope,\" according to Porter."
+            },
+            {
+              "num": "11",
+              "$text": "\"An uneducated black man growing up in the inner city ... You're going to choose the one that pays better. And dope pays sometimes,\" Porter says."
+            },
+            {
+              "num": "12",
+              "$text": "He argues that revoking probation for not finding a job or for substance abuse is counterproductive."
+            },
+            {
+              "num": "13",
+              "$text": "\"Did it serve our interest to lock him up? Or did it serve our interest to get him clean? Because if he's clean, we don't have to worry about him knocking somebody in the head for a shot of dope,\" Porter says."
+            },
+            {
+              "num": "14",
+              "$text": "Lamont McGhee served 13 years in prison for drug conspiracy. He went through Porter's program and admits that Porter's job isn't an easy one."
+            },
+            {
+              "num": "15",
+              "$text": "\"He's got to put up with a lot of knuckleheads. He's got to put up with a lot of people that's not going to listen,\" McGhee says. \"A lot of people that say he's one of them, meaning a probation officer.\""
+            },
+            {
+              "num": "16",
+              "$text": "Criminologist Beth Huebner of the University of Missouri, St. Louis, researches recidivism among young offenders — the study of a person's relapse into criminal behavior after receiving punishments or interventions for a previous crime. She says ex-offenders are more successful in programs like Porter's because he was once just like them."
+            },
+            {
+              "num": "17",
+              "$text": "\"There are some mentoring programs here or there, but there's no systematic development of this sort of program,\" she says. \"But this is something that I hear from offenders — that this is something that they want, that they need.\""
+            },
+            {
+              "num": "18",
+              "$text": "Because of their success, Burris and Porter speak to groups across the country. Burris beams when recalling the time he sent Porter to attend a regional White House meeting."
+            },
+            {
+              "num": "19",
+              "$text": "\"Because the last time the government paid for him to fly, he was in handcuffs and belly chains on his way to a maximum security prison. And he went from that to having the government pay for him to fly to a meeting with White House officials,\" Burris says."
+            },
+            {
+              "num": "20",
+              "$text": "Porter says he knows it's a big responsibility to be a role model for offenders — and that some people are just waiting for him to mess up. But that won't happen, he says. [Copyright 2012 KWMU-FM]"
+            }
+          ]
+        },
+        "textWithHtml": {
+          "paragraph": [
+            {
+              "num": "1",
+              "$text": "Every weekday, Clark Porter, a tall man with a sturdy build, walks into the Thomas F. Eagleton U.S. Courthouse in St. Louis to work with tough ex-offenders. On the outside, he wears a suit and tie. But on the inside, he has more in common with the former felons than most."
+            },
+            {
+              "num": "2",
+              "$text": "Back in 1986, a skinny 17-year-old Porter went on trial there as an adult for robbing a post office at gunpoint. His sentence: 35 years."
+            },
+            {
+              "num": "3",
+              "$text": "\"The hardest part of prison is when you get into year five,\" he says. \"That's when you start hearing the door close. You get these pangs of reality, and it's like, 'Wow, I've got a 35-year-sentence; I'm not going anywhere.\""
+            },
+            {
+              "num": "4",
+              "$text": "Porter served 15 years. When released in 2001, he radically changed his life and enrolled at Washington University in St. Louis while still on probation. He then did the unthinkable and asked Doug Burris, the chief U.S. probation officer in the eastern district of Missouri, for a job."
+            },
+            {
+              "num": "5",
+              "$text": "\"My initial reaction was, I laughed. And I thought, you know, that's the craziest idea you could ever come up with,\" Burris says."
+            },
+            {
+              "num": "6",
+              "$text": "After all, Porter would be working with the very same people who put him in prison. They had pushed to try him as an adult, arguing that he was beyond hope."
+            },
+            {
+              "num": "7",
+              "$text": "Before Burris could take a chance on Porter, he needed permission from then-Chief Judge Carol Jackson."
+            },
+            {
+              "num": "8",
+              "$text": "\"She [was] either going to have me committed or throw me out of her office,\" says Burris. \"I was proposing that we hire a former violent felon who was prosecuted out of this district.\""
+            },
+            {
+              "num": "9",
+              "$text": "But to Burris' surprise, Jackson agreed."
+            },
+            {
+              "num": "10",
+              "$text": "Today, Porter works with a group of ex-offenders in an intense seven-month-long program that he helped design. The ex-felons are required to do community service, look for a job and participate in therapy. Most have drug offenses and face a daunting choice of employment in either \"McDonald's or dope,\" according to Porter."
+            },
+            {
+              "num": "11",
+              "$text": "\"An uneducated black man growing up in the inner city ... You're going to choose the one that pays better. And dope pays sometimes,\" Porter says."
+            },
+            {
+              "num": "12",
+              "$text": "He argues that revoking probation for not finding a job or for substance abuse is counterproductive."
+            },
+            {
+              "num": "13",
+              "$text": "\"Did it serve our interest to lock him up? Or did it serve our interest to get him clean? Because if he's clean, we don't have to worry about him knocking somebody in the head for a shot of dope,\" Porter says."
+            },
+            {
+              "num": "14",
+              "$text": "Lamont McGhee served 13 years in prison for drug conspiracy. He went through Porter's program and admits that Porter's job isn't an easy one."
+            },
+            {
+              "num": "15",
+              "$text": "\"He's got to put up with a lot of knuckleheads. He's got to put up with a lot of people that's not going to listen,\" McGhee says. \"A lot of people that say he's one of them, meaning a probation officer.\""
+            },
+            {
+              "num": "16",
+              "$text": "Criminologist Beth Huebner of the University of Missouri, St. Louis, researches recidivism among young offenders — the study of a person's relapse into criminal behavior after receiving punishments or interventions for a previous crime. She says ex-offenders are more successful in programs like Porter's because he was once just like them."
+            },
+            {
+              "num": "17",
+              "$text": "\"There are some mentoring programs here or there, but there's no systematic development of this sort of program,\" she says. \"But this is something that I hear from offenders — that this is something that they want, that they need.\""
+            },
+            {
+              "num": "18",
+              "$text": "Because of their success, Burris and Porter speak to groups across the country. Burris beams when recalling the time he sent Porter to attend a regional White House meeting."
+            },
+            {
+              "num": "19",
+              "$text": "\"Because the last time the government paid for him to fly, he was in handcuffs and belly chains on his way to a maximum security prison. And he went from that to having the government pay for him to fly to a meeting with White House officials,\" Burris says."
+            },
+            {
+              "num": "20",
+              "$text": "Porter says he knows it's a big responsibility to be a role model for offenders — and that some people are just waiting for him to mess up. But that won't happen, he says.  <div class=\"fullattribution\">Copyright 2012 KWMU-FM. To see more, visit <a href=\"http://www.stlpublicradio.org\">http://www.stlpublicradio.org</a>.<img src=\"http://www.google-analytics.com/__utm.gif?utmac=UA-5828686-4&utmdt=In+Freedom%2C+Ex-Felon+Becomes+Probation+Counselor+&utme=8(APIKey)9(API_KEY)\"/></div>"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

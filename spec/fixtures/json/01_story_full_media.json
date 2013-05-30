@@ -1,1 +1,520 @@
-{"version": "0.94", "list": {"title": {"$text": "NPR: Stories from NPR"}, "teaser": {"$text": "Assorted stories from NPR"}, "miniTeaser": {"$text": "Custom NPR News Feed API.  Visit http://www.npr.org/templates/apidoc/index.php for more information."}, "link": [{"type": "api", "$text": "http://api.npr.org/query?id=167019577&apiKey=API_KEY"}, {"type": "html", "$text": "http://www.npr.org/blogs/therecord/2012/12/12/167019577/ravi-shankar-who-brought-eastern-music-to-western-legends-dies?ft=3&f=167019577"}], "story": [{"id": "167019577", "link": [{"type": "html", "$text": "http://www.npr.org/blogs/therecord/2012/12/12/167019577/ravi-shankar-who-brought-eastern-music-to-western-legends-dies?ft=3&f=167019577"}, {"type": "api", "$text": "http://api.npr.org/query?id=167019577&apiKey=API_KEY"}, {"type": "short", "$text": "http://n.pr/TTXiJB"}], "title": {"$text": "Ravi Shankar, Who Brought Eastern Music To Western Legends, Dies"}, "partnerId": {"$text": "167019577"}, "subtitle": {}, "shortTitle": {}, "teaser": {"$text": "When he was just 10 years old, Shankar began performing in Europe and the US with his family's Indian dance troupe. But at age 18, Shankar gave up all the glitter to study with a guru who taught him the sitar. He became a master, and introduced the West to his country's music."}, "miniTeaser": {"$text": "The sitar master and composer worked with George Harrison, Yehudi Menuhin, Philip Glass and more."}, "slug": {"$text": "The Record"}, "thumbnail": {"medium": {"$text": "http://media.npr.org/assets/img/2012/12/12/gettyimages_84882815_sq-feeced862ebdd5504fab9770d31bc3cfae40fdf6.jpg?s=13"}, "large": {"$text": "http://media.npr.org/assets/img/2012/12/12/gettyimages_84882815_sq-feeced862ebdd5504fab9770d31bc3cfae40fdf6.jpg?s=11"}, "provider": {"$text": "Redferns"}}, "storyDate": {"$text": "Wed, 12 Dec 2012 04:00:00 -0500"}, "pubDate": {"$text": "Wed, 12 Dec 2012 01:00:00 -0500"}, "lastModifiedDate": {"$text": "Wed, 12 Dec 2012 01:00:06 -0500"}, "show": [{"program": {"id": "3", "code": "ME", "$text": "Morning Edition"}, "showDate": {"$text": "Wed, 12 Dec 2012 04:00:00 -0500"}, "segNum": {"$text": "57"}}], "keywords": {}, "priorityKeywords": {}, "organization": [{"orgId": "1", "orgAbbr": "NPR", "name": {"$text": "National Public Radio"}, "website": {"$text": "http://www.npr.org/"}}], "parent": [{"id": "161375941", "type": "category", "title": {"$text": "The Musicians"}, "link": [{"type": "html", "$text": "http://www.npr.org/blogs/therecord/161375941/the-musicians?ft=3&f=167019577"}, {"type": "api", "$text": "http://api.npr.org/query?id=161375941&apiKey=API_KEY"}]}, {"id": "128494978", "type": "blog", "slug": "true", "title": {"$text": "The Record"}, "link": [{"type": "html", "$text": "http://www.npr.org/blogs/therecord/?ft=3&f=167019577"}, {"type": "api", "$text": "http://api.npr.org/query?id=128494978&apiKey=API_KEY"}]}, {"id": "100920965", "type": "newsPackage", "title": {"$text": "Music Articles"}, "link": [{"type": "html", "$text": "http://www.npr.org/series/100920965/music-articles/?ft=3&f=167019577"}, {"type": "api", "$text": "http://api.npr.org/query?id=100920965&apiKey=API_KEY"}]}, {"id": "10004", "type": "genre", "title": {"$text": "World"}, "link": [{"type": "html", "$text": "http://www.npr.org/music/genres/world/?ft=3&f=167019577"}, {"type": "api", "$text": "http://api.npr.org/query?id=10004&apiKey=API_KEY"}]}, {"id": "1106", "type": "primaryTopic", "title": {"$text": "Music News"}, "link": [{"type": "html", "$text": "http://www.npr.org/sections/music-news/?ft=3&f=167019577"}, {"type": "api", "$text": "http://api.npr.org/query?id=1106&apiKey=API_KEY"}]}, {"id": "1106", "type": "topic", "title": {"$text": "Music News"}, "link": [{"type": "html", "$text": "http://www.npr.org/sections/music-news/?ft=3&f=167019577"}, {"type": "api", "$text": "http://api.npr.org/query?id=1106&apiKey=API_KEY"}]}, {"id": "1062", "type": "topic", "title": {"$text": "Remembrances"}, "link": [{"type": "html", "$text": "http://www.npr.org/sections/remembrances/?ft=3&f=167019577"}, {"type": "api", "$text": "http://api.npr.org/query?id=1062&apiKey=API_KEY"}]}, {"id": "1039", "type": "topic", "title": {"$text": "Music"}, "link": [{"type": "html", "$text": "http://www.npr.org/music/?ft=3&f=167019577"}, {"type": "api", "$text": "http://api.npr.org/query?id=1039&apiKey=API_KEY"}]}, {"id": "1002", "type": "topic", "title": {"$text": "Home Page Top Stories"}, "link": [{"type": "html", "$text": "http://www.npr.org/?ft=3&f=167019577"}, {"type": "api", "$text": "http://api.npr.org/query?id=1002&apiKey=API_KEY"}]}], "audio": [{"id": "167021351", "type": "primary", "title": {}, "duration": {"$text": "0"}, "description": {}, "format": {}, "rightsHolder": {}, "permissions": {"download": {"allow": "false"}, "stream": {"allow": "true"}, "embed": {"allow": "false"}}, "stream": {"active": "false"}}], "byline": [{"id": "167019584", "name": {"personId": "2101242", "$text": "Susan Stamberg"}, "link": [{"type": "html", "$text": "http://www.npr.org/people/2101242/susan-stamberg?ft=3&f=167019577"}, {"type": "api", "$text": "http://api.npr.org/query?id=2101242&apiKey=API_KEY"}]}], "container": [{"id": "167020780", "title": {}, "introText": {}, "colSpan": {"$text": "1"}, "displayOptions": {"typeId": "2", "$text": "Display Both"}, "link": [{"refId": "167020072", "num": "1"}, {"refId": "167020069", "num": "2"}]}], "image": [{"id": "167021232", "type": "primary", "width": "200", "src": "http://media.npr.org/assets/img/2012/12/12/gettyimages_84882815-0e02bde00f7b2ac036374e2874fc6b5ee6de4352.jpg?s=12", "hasBorder": "false", "title": {"$text": "Ravi Shankar circa 1960 in the U.K."}, "caption": {"$text": "Ravi Shankar circa 1960 in the U.K."}, "link": {"url": ""}, "producer": {"$text": "David Redfern"}, "provider": {"url": "", "$text": "Redferns"}, "copyright": {}, "enlargement": {"src": "http://media.npr.org/assets/img/2012/12/12/gettyimages_84882815-0e02bde00f7b2ac036374e2874fc6b5ee6de4352.jpg", "caption": {}}, "crop": [{"type": "standard", "src": "http://media.npr.org/assets/img/2012/12/12/gettyimages_84882815-0e02bde00f7b2ac036374e2874fc6b5ee6de4352.jpg", "height": "2942", "width": "3915"}, {"type": "square", "src": "http://media.npr.org/assets/img/2012/12/12/gettyimages_84882815_sq-feeced862ebdd5504fab9770d31bc3cfae40fdf6.jpg", "height": "2350", "width": "2350"}, {"type": "wide", "src": "http://media.npr.org/assets/img/2012/12/12/gettyimages_84882815_wide-71aa24bf68c198dc53053a8eba0ddaf845c3b605.jpg", "height": "2200", "width": "3915"}, {"type": "enlargement", "src": "http://media.npr.org/assets/img/2012/12/12/gettyimages_84882815-0e02bde00f7b2ac036374e2874fc6b5ee6de4352.jpg", "height": "2942", "width": "3915"}]}], "relatedLink": [{"id": "167020072", "type": "internal", "caption": {"$text": " Ravi Shankar At 90: The Man And His Music"}, "link": [{"type": "html", "$text": "http://www.npr.org/templates/story/story.php?storyId=125507150&ft=3&f=167019577"}, {"type": "api", "$text": "http://api.npr.org/query?id=125507150&apiKey=API_KEY"}]}, {"id": "167020069", "type": "internal", "caption": {"$text": " Indian Classical Music 101 With Ravi Shankar"}, "link": [{"type": "html", "$text": "http://www.npr.org/templates/story/story.php?storyId=125512689&ft=3&f=167019577"}, {"type": "api", "$text": "http://api.npr.org/query?id=125512689&apiKey=API_KEY"}]}], "text": {"paragraph": [{"num": "1", "$text": "Sitar master and composer Ravi Shankar died Tuesday at a hospital near his home in the San Diego area. Shankar's foundation released a statement that says the musician had suffered from upper-respiratory and heart issues over the past year and underwent heart-valve replacement surgery last week. He was 92."}, {"num": "2", "$text": "When he was just 10 years old, Pandit Ravi Shankar began performing in Europe and the U.S. with his family's Indian dance troupe. It was a glamorous life: the best hotels, the best meals, celebrities coming backstage to say just how much they'd enjoyed the concert. But at age 18, Shankar gave up all the glitter and went back to a dusty little town in India to study with a guru who taught him the sitar. He apprenticed for years, then started to play in public on the ancient and difficult string instrument. Eventually, he became a master."}, {"num": "3", "$text": "Shankar's music is like a fine Indian sari — silken, swirling, exotic, it can break your heart with its beauty. He was a respected classical musician, but in 1966 he became an international superstar when George Harrison studied with him. Shankar's goal to make Eastern music known in the West was achieved with help from The Beatles, though he grew discouraged by the hippie scene, where drugs clouded the attention of his audience."}, {"num": "4", "$text": "Back in India, Shankar wrote sitar concerts for Western symphony orchestras and continued touring. The composer and performer remained a teacher too. In December of 2004, when I visited his home in New Delhi, the sitar master was still giving lessons. He sat on the carpeted floor in an old brown sweater vest playing simple exercises; his sitar filled the room with feeling."}, {"num": "5", "$text": "\"[This music] is sort of is a combination of shanta and karuna, which means tranquility and sadness,\" he said of the piece he was playing. \"This sadness is ... like wanting to reach out [for something] and not finding it, whether for a lover or for God.\""}, {"num": "6", "$text": "Shankar's music reached out to some of the West's finest musicians. Violinist Yehudi Menuhin and composer Philip Glass were friends and collaborators. One of today's top pop stars, Grammy winner Norah Jones, is Shankar's daughter. Another daughter, Anoushka, learned sitar from her father, and now takes his classical tradition and makes it more contemporary."}, {"num": "7", "$text": "A few winters ago in Delhi, remembering those demanding early years of sitar studies, Ravi Shankar said his guru's most important lesson was this: \"He says that we have to earn our livelihood, and for that we have to perform and accept money. But music is not for sale. The music that I have learned and want to give is like worshiping God. It's absolutely like a prayer.\""}, {"num": "8", "$text": "Shankar once said he felt ecstasy when he made music — the world was erased, and he experienced great peace. His music embraced and lifted those who heard and loved it, his widow Sukanya, his daughters and his many fans. [Copyright 2012 National Public Radio]"}]}, "textWithHtml": {"paragraph": [{"num": "1", "$text": "Sitar master and composer <a href=\"http://www.npr.org/templates/story/story.php?storyId=17093771\" target=\"_blank\">Ravi Shankar</a> died Tuesday at a hospital near his home in the San Diego area. Shankar's foundation released a statement that says the musician had suffered from upper-respiratory and heart issues over the past year and underwent heart-valve replacement surgery last week. He was 92."}, {"num": "2", "$text": "When he was just 10 years old, Pandit Ravi Shankar began performing in Europe and the U.S. with his family's Indian dance troupe. It was a glamorous life: the best hotels, the best meals, celebrities coming backstage to say just how much they'd enjoyed the concert. But at age 18, Shankar gave up all the glitter and went back to a dusty little town in India to study with a guru who taught him the sitar. He apprenticed for years, then started to play in public on the ancient and difficult string instrument. Eventually, he became a master."}, {"num": "3", "$text": "Shankar's music is like a fine Indian sari — silken, swirling, exotic, it can break your heart with its beauty. He was a respected classical musician, but in 1966 he became an international superstar when <a href=\"http://www.npr.org/templates/story/story.php?storyId=15774029\" target=\"_blank\">George Harrison</a> studied with him. Shankar's goal to make Eastern music known in the West was achieved with help from <a href=\"http://www.npr.org/templates/story/story.php?storyId=15229570\" target=\"_blank\">The Beatles</a>, though he grew discouraged by the hippie scene, where drugs clouded the attention of his audience."}, {"num": "4", "$text": "Back in India, Shankar wrote sitar concerts for Western symphony orchestras and continued touring. The composer and performer remained a teacher too. In December of 2004, when I visited his home in New Delhi, the sitar master was still giving lessons. He sat on the carpeted floor in an old brown sweater vest playing simple exercises; his sitar filled the room with feeling."}, {"num": "5", "$text": "\"[This music] is sort of is a combination of <em>shanta</em> and <em>karuna</em>, which means tranquility and sadness,\" he said of the piece he was playing. \"This sadness is ... like wanting to reach out [for something] and not finding it, whether for a lover or for God.\""}, {"num": "6", "$text": "Shankar's music reached out to some of the West's finest musicians. Violinist Yehudi Menuhin and composer <a href=\"http://www.npr.org/artists/15680178/philip-glass\" target=\"_blank\">Philip Glass</a> were friends and collaborators. One of today's top pop stars, Grammy winner <a href=\"http://www.npr.org/templates/story/story.php?storyId=15012277\" target=\"_blank\">Norah Jones</a>, is Shankar's daughter. Another daughter, <a href=\"http://www.npr.org/templates/story/story.php?storyId=15402971\" target=\"_blank\">Anoushka</a>, learned sitar from her father, and now takes his classical tradition and makes it more contemporary."}, {"num": "7", "$text": "A few winters ago in Delhi, remembering those demanding early years of sitar studies, Ravi Shankar said his guru's most important lesson was this: \"He says that we have to earn our livelihood, and for that we have to perform and accept money. But music is not for sale. The music that I have learned and want to give is like worshiping God. It's absolutely like a prayer.\""}, {"num": "8", "$text": "Shankar once said he felt ecstasy when he made music — the world was erased, and he experienced great peace. His music embraced and lifted those who heard and loved it, his widow Sukanya, his daughters and his many fans.  <div class=\"fullattribution\">Copyright 2012 National Public Radio. To see more, visit http://www.npr.org/.<img src=\"http://www.google-analytics.com/__utm.gif?utmac=UA-5828686-4&utmdt=Ravi+Shankar%2C+Who+Brought+Eastern+Music+To+Western+Legends%2C+Dies&utme=8(APIKey)9(API_KEY)\"/></div>"}]}, "fullText": {"$text": "<div class=\"storytitle\">      <h1>Ravi Shankar, Who Brought Eastern Music To Western Legends, Dies</h1>   <input type=\"hidden\" id=\"title167019577\" value=\"Ravi Shankar, Who Brought Eastern Music To Western Legends, Dies\"></input>   <input type=\"hidden\" id=\"modelShortUrl167019577\" value=\"http://n.pr/TTXit3\"></input>   <input type=\"hidden\" id=\"modelFullUrl167019577\" value=\"http://www.npr.org/blogs/therecord/2012/12/12/167019577/ravi-shankar-who-brought-eastern-music-to-western-legends-dies\"></input></div><!-- END CLASS=\"STORYTITLE\" --><div id=\"story-meta\">      <div id=\"storybyline\" class=\"  linkLocation\">            <div class=\"bucketwrap byline\" id=\"res167019583\" previewTitle=\"bylines\">                  <p class=\"byline\">by <a rel=\"author\" href=\"http://www.npr.org/people/2101242/susan-stamberg\"><span>Susan Stamberg</span></a></p>      </div>      <!-- END CLASS=\"BUCKETWRAP BYLINE\" ID=\"RES167019583\" PREVIEWTITLE=\"BYLINES\" -->   </div>   <!-- END ID=\"STORYBYLINE\" CLASS=\"  LINKLOCATION\" -->   <div class=\"dateblock\">            <time datetime=\"2012-12-12\"><span class=\"date\">December 12, 2012</span><span class=\"time\"> 4:00 AM</span></time>   </div></div><!-- END ID=\"STORY-META\" --><div id=\"primaryaudio\" class=\"storylocation linkLocation\">      <div id=\"res167021351\" class=\"bucketwrap primary unavailable resaudio \">            <div class=\"listenicon\">                  <a href=\"#\"></a>      </div>      <!-- END CLASS=\"LISTENICON\" -->      <div class=\"avcontent listen\">                  <p>Audio for this story from <a href=\"/templates/rundowns/rundown.php?prgId=3&prgDate=12-12-2012\">Morning Edition</a> will be available at approx. 9:00 a.m. ET</p>      </div>      <!-- END CLASS=\"AVCONTENT LISTEN\" -->      <p class=\"date\">December 12, 2012</p>      <ul class=\"audiotools\">               </ul>      <div class=\"spacer\">         &nbsp;      </div>   </div>   <!-- END ID=\"RES167021351\" CLASS=\"BUCKETWRAP PRIMARY UNAVAILABLE RESAUDIO \" --></div><!-- END ID=\"PRIMARYAUDIO\" CLASS=\"STORYLOCATION LINKLOCATION\" --><div id=\"storytext\" class=\"storytext storylocation linkLocation\">      <div id=\"res167021232\" class=\"bucketwrap image large\" previewTitle=\"Ravi Shankar circa 1960 in the U.K.\">            <div class=\"imagewrap\">                  <img src=\"http://media.npr.org/assets/img/2012/12/12/gettyimages_84882815-0e02bde00f7b2ac036374e2874fc6b5ee6de4352-s6-c10.jpg\" data-original=\"http://media.npr.org/assets/img/2012/12/12/gettyimages_84882815-0e02bde00f7b2ac036374e2874fc6b5ee6de4352.jpg\" class=\"img lazyOnLoad\"  title=\"Ravi Shankar circa 1960 in the U.K.\" alt=\"Ravi Shankar circa 1960 in the U.K.\" />         <a href=\"#\" class=\"enlargebtn\" title=\"Enlarge\">Enlarge image</a>      </div>      <!-- END CLASS=\"IMAGEWRAP\" -->      <div class=\"captionwrap\">                  <div class=\"caption\">                        <p><i>Ravi Shankar circa 1960 in the U.K.</i></p>         </div>         <!-- END CLASS=\"CAPTION\" -->      </div>      <!-- END CLASS=\"CAPTIONWRAP\" -->      <span class=\"creditwrap\"><span class=\"credit\">David Redfern</span>/<span class=\"rightsnotice\">Redferns</span></span>   </div>   <p>Sitar master and composer <a href=\"http://www.npr.org/templates/story/story.php?storyId=17093771\" target=\"_blank\">Ravi Shankar</a> died Tuesday at a hospital near his home in the San Diego area. Shankar's foundation released a statement that says the musician had suffered from upper-respiratory and heart issues over the past year and underwent heart-valve replacement surgery last week. He was 92.</p>   <p>When he was just 10 years old, Pandit Ravi Shankar began performing in Europe and the U.S. with his family's Indian dance troupe. It was a glamorous life: the best hotels, the best meals, celebrities coming backstage to say just how much they'd enjoyed the concert. But at age 18, Shankar gave up all the glitter and went back to a dusty little town in India to study with a guru who taught him the sitar. He apprenticed for years, then started to play in public on the ancient and difficult string instrument. Eventually, he became a master.</p>   <p>Shankar's music is like a fine Indian sari — silken, swirling, exotic, it can break your heart with its beauty. He was a respected classical musician, but in 1966 he became an international superstar when <a href=\"http://www.npr.org/templates/story/story.php?storyId=15774029\" target=\"_blank\">George Harrison</a> studied with him. Shankar's goal to make Eastern music known in the West was achieved with help from <a href=\"http://www.npr.org/templates/story/story.php?storyId=15229570\" target=\"_blank\">The Beatles</a>, though he grew discouraged by the hippie scene, where drugs clouded the attention of his audience.</p>   <p>Back in India, Shankar wrote sitar concerts for Western symphony orchestras and continued touring. The composer and performer remained a teacher too. In December of 2004, when I visited his home in New Delhi, the sitar master was still giving lessons. He sat on the carpeted floor in an old brown sweater vest playing simple exercises; his sitar filled the room with feeling.</p>   <p>\"[This music] is sort of is a combination of <em>shanta</em> and <em>karuna</em>, which means tranquility and sadness,\" he said of the piece he was playing. \"This sadness is ... like wanting to reach out [for something] and not finding it, whether for a lover or for God.\"</p>   <p>Shankar's music reached out to some of the West's finest musicians. Violinist Yehudi Menuhin and composer <a href=\"http://www.npr.org/artists/15680178/philip-glass\" target=\"_blank\">Philip Glass</a> were friends and collaborators. One of today's top pop stars, Grammy winner <a href=\"http://www.npr.org/templates/story/story.php?storyId=15012277\" target=\"_blank\">Norah Jones</a>, is Shankar's daughter. Another daughter, <a href=\"http://www.npr.org/templates/story/story.php?storyId=15402971\" target=\"_blank\">Anoushka</a>, learned sitar from her father, and now takes his classical tradition and makes it more contemporary.</p>   <p>A few winters ago in Delhi, remembering those demanding early years of sitar studies, Ravi Shankar said his guru's most important lesson was this: \"He says that we have to earn our livelihood, and for that we have to perform and accept money. But music is not for sale. The music that I have learned and want to give is like worshiping God. It's absolutely like a prayer.\"</p>   <p>Shankar once said he felt ecstasy when he made music — the world was erased, and he experienced great peace. His music embraced and lifted those who heard and loved it, his widow Sukanya, his daughters and his many fans.</p>   <div id=\"res167020365\" class=\"bucketwrap video youtube-video large graphic624\">            <div class=\"video-wrap\">                  <iframe width=\"624\" height=\"500\" type=\"text/html\" src=\"http://www.youtube.com/embed/HsuFlxxrX8k\"></iframe>      </div>      <!-- END CLASS=\"VIDEO-WRAP\" -->      <div class=\"captionwrap externalasset\">                  <span class=\"creditwrap\"><span class=\"source\">YouTube</span></span>      </div>      <!-- END CLASS=\"CAPTIONWRAP EXTERNALASSET\" -->   </div>   <!-- END ID=\"RES167020365\" CLASS=\"BUCKETWRAP VIDEO YOUTUBE-VIDEO LARGE GRAPHIC624\" -->   <div class=\"container con1col small\" id=\"con167020780\" previewTitle=\"Ravi Shankar Links\">            <h3>Additional Information: </h3>      <div id=\"res167020072\" class=\"bucketwrap internallink inkinsetonecolumn inset1col \">                  <a href=\"http://www.npr.org/templates/story/story.php?storyId=125507150\" id=\"featuredStackSquareImage125507150\" class=\"photowrap\" reload=\"true\" numResources=\"1\"><img src=\"http://media.npr.org/assets/music/studiosessions/favorite/2010/04/ravishankar_sq-52804aa264cf5ace65147c0510b0c381b1b32e6a-s1.jpg\" class=\"img138\" title=\"Ravi Shankar, who brought Indian classical music to the West, turns 90 Wednesday\" alt=\"Ravi Shankar, who brought Indian classical music to the West, turns 90 Wednesday\" /></a>         <div class=\"bucketblock\">                        <h3 class=\"slug\"><a href=\"http://www.npr.org/series/10347449/classical-sessions\">Classical Sessions </a></h3>            <p><a href=\"http://www.npr.org/templates/story/story.php?storyId=125507150\"> Ravi Shankar At 90: The Man And His Music</a></p>         </div>         <!-- END CLASS=\"BUCKETBLOCK\" -->      </div>      <!-- END ID=\"RES167020072\" CLASS=\"BUCKETWRAP INTERNALLINK INKINSETONECOLUMN INSET1COL \" -->      <div id=\"res167020069\" class=\"bucketwrap internallink inkinsetonecolumn inset1col \">                  <a href=\"http://www.npr.org/templates/story/story.php?storyId=125512689\" id=\"featuredStackSquareImage125512689\" class=\"photowrap\" reload=\"true\" numResources=\"1\"><img src=\"http://media.npr.org/assets/music/studiosessions/favorite/2010/04/ravi_child_sq-f1975d268e6de8a9543188ba0bc3b997ced3e195-s1.jpg\" class=\"img138\" title=\"Ravi Shankar performs with his daughter Anoushka Shankar.\" alt=\"Ravi Shankar performs with his daughter Anoushka Shankar.\" /></a>         <div class=\"bucketblock\">                        <h3 class=\"slug\"><a href=\"http://www.npr.org/sections/music-interviews/\">Music Interviews </a></h3>            <p><a href=\"http://www.npr.org/templates/story/story.php?storyId=125512689\"> Indian Classical Music 101 With Ravi Shankar</a></p>         </div>         <!-- END CLASS=\"BUCKETBLOCK\" -->      </div>      <!-- END ID=\"RES167020069\" CLASS=\"BUCKETWRAP INTERNALLINK INKINSETONECOLUMN INSET1COL \" -->   </div>   <!-- END CLASS=\"CONTAINER CON1COL SMALL\" ID=\"CON167020780\" PREVIEWTITLE=\"RAVI SHANKAR LINKS\" --></div><div class=\"fullattribution\">Copyright 2012 National Public Radio. To see more, visit http://www.npr.org/.<img src=\"http://www.google-analytics.com/__utm.gif?utmac=UA-5828686-4&utmdt=Ravi+Shankar%2C+Who+Brought+Eastern+Music+To+Western+Legends%2C+Dies&utme=8(APIKey)9(API_KEY)\"/></div>"}, "externalAsset": [{"id": "167020365", "type": "YouTube", "url": {"$text": "http://www.youtube.com/watch?v=HsuFlxxrX8k"}, "oEmbed": {"$text": "http://www.youtube.com/oembed?url=http%3A//www.youtube.com/watch%3Fv%3DHsuFlxxrX8k"}, "externalId": {"$text": "HsuFlxxrX8k"}, "credit": {}, "parameters": {}, "caption": {}}]}]}}
+{
+  "version": "0.94",
+  "list": {
+    "title": {
+      "$text": "NPR: Stories from NPR"
+    },
+    "teaser": {
+      "$text": "Assorted stories from NPR"
+    },
+    "miniTeaser": {
+      "$text": "Custom NPR News Feed API.  Visit http://www.npr.org/templates/apidoc/index.php for more information."
+    },
+    "link": [
+      {
+        "type": "api",
+        "$text": "http://api.npr.org/query?id=167019577&apiKey=API_KEY"
+      },
+      {
+        "type": "html",
+        "$text": "http://www.npr.org/blogs/therecord/2012/12/12/167019577/ravi-shankar-who-brought-eastern-music-to-western-legends-dies?ft=3&f=167019577"
+      }
+    ],
+    "story": [
+      {
+        "id": "167019577",
+        "link": [
+          {
+            "type": "html",
+            "$text": "http://www.npr.org/blogs/therecord/2012/12/12/167019577/ravi-shankar-who-brought-eastern-music-to-western-legends-dies?ft=3&f=167019577"
+          },
+          {
+            "type": "api",
+            "$text": "http://api.npr.org/query?id=167019577&apiKey=API_KEY"
+          },
+          {
+            "type": "short",
+            "$text": "http://n.pr/TTXiJB"
+          }
+        ],
+        "title": {
+          "$text": "Ravi Shankar, Who Brought Eastern Music To Western Legends, Dies"
+        },
+        "partnerId": {
+          "$text": "167019577"
+        },
+        "subtitle": {},
+        "shortTitle": {},
+        "teaser": {
+          "$text": "When he was just 10 years old, Shankar began performing in Europe and the US with his family's Indian dance troupe. But at age 18, Shankar gave up all the glitter to study with a guru who taught him the sitar. He became a master, and introduced the West to his country's music."
+        },
+        "miniTeaser": {
+          "$text": "The sitar master and composer worked with George Harrison, Yehudi Menuhin, Philip Glass and more."
+        },
+        "slug": {
+          "$text": "The Record"
+        },
+        "thumbnail": {
+          "medium": {
+            "$text": "http://media.npr.org/assets/img/2012/12/12/gettyimages_84882815_sq-feeced862ebdd5504fab9770d31bc3cfae40fdf6.jpg?s=13"
+          },
+          "large": {
+            "$text": "http://media.npr.org/assets/img/2012/12/12/gettyimages_84882815_sq-feeced862ebdd5504fab9770d31bc3cfae40fdf6.jpg?s=11"
+          },
+          "provider": {
+            "$text": "Redferns"
+          }
+        },
+        "storyDate": {
+          "$text": "Wed, 12 Dec 2012 04:00:00 -0500"
+        },
+        "pubDate": {
+          "$text": "Wed, 12 Dec 2012 01:00:00 -0500"
+        },
+        "lastModifiedDate": {
+          "$text": "Wed, 12 Dec 2012 01:00:06 -0500"
+        },
+        "show": [
+          {
+            "program": {
+              "id": "3",
+              "code": "ME",
+              "$text": "Morning Edition"
+            },
+            "showDate": {
+              "$text": "Wed, 12 Dec 2012 04:00:00 -0500"
+            },
+            "segNum": {
+              "$text": "57"
+            }
+          }
+        ],
+        "keywords": {},
+        "priorityKeywords": {},
+        "organization": [
+          {
+            "orgId": "1",
+            "orgAbbr": "NPR",
+            "name": {
+              "$text": "National Public Radio"
+            },
+            "website": {
+              "$text": "http://www.npr.org/"
+            }
+          }
+        ],
+        "parent": [
+          {
+            "id": "161375941",
+            "type": "category",
+            "title": {
+              "$text": "The Musicians"
+            },
+            "link": [
+              {
+                "type": "html",
+                "$text": "http://www.npr.org/blogs/therecord/161375941/the-musicians?ft=3&f=167019577"
+              },
+              {
+                "type": "api",
+                "$text": "http://api.npr.org/query?id=161375941&apiKey=API_KEY"
+              }
+            ]
+          },
+          {
+            "id": "128494978",
+            "type": "blog",
+            "slug": "true",
+            "title": {
+              "$text": "The Record"
+            },
+            "link": [
+              {
+                "type": "html",
+                "$text": "http://www.npr.org/blogs/therecord/?ft=3&f=167019577"
+              },
+              {
+                "type": "api",
+                "$text": "http://api.npr.org/query?id=128494978&apiKey=API_KEY"
+              }
+            ]
+          },
+          {
+            "id": "100920965",
+            "type": "newsPackage",
+            "title": {
+              "$text": "Music Articles"
+            },
+            "link": [
+              {
+                "type": "html",
+                "$text": "http://www.npr.org/series/100920965/music-articles/?ft=3&f=167019577"
+              },
+              {
+                "type": "api",
+                "$text": "http://api.npr.org/query?id=100920965&apiKey=API_KEY"
+              }
+            ]
+          },
+          {
+            "id": "10004",
+            "type": "genre",
+            "title": {
+              "$text": "World"
+            },
+            "link": [
+              {
+                "type": "html",
+                "$text": "http://www.npr.org/music/genres/world/?ft=3&f=167019577"
+              },
+              {
+                "type": "api",
+                "$text": "http://api.npr.org/query?id=10004&apiKey=API_KEY"
+              }
+            ]
+          },
+          {
+            "id": "1106",
+            "type": "primaryTopic",
+            "title": {
+              "$text": "Music News"
+            },
+            "link": [
+              {
+                "type": "html",
+                "$text": "http://www.npr.org/sections/music-news/?ft=3&f=167019577"
+              },
+              {
+                "type": "api",
+                "$text": "http://api.npr.org/query?id=1106&apiKey=API_KEY"
+              }
+            ]
+          },
+          {
+            "id": "1106",
+            "type": "topic",
+            "title": {
+              "$text": "Music News"
+            },
+            "link": [
+              {
+                "type": "html",
+                "$text": "http://www.npr.org/sections/music-news/?ft=3&f=167019577"
+              },
+              {
+                "type": "api",
+                "$text": "http://api.npr.org/query?id=1106&apiKey=API_KEY"
+              }
+            ]
+          },
+          {
+            "id": "1062",
+            "type": "topic",
+            "title": {
+              "$text": "Remembrances"
+            },
+            "link": [
+              {
+                "type": "html",
+                "$text": "http://www.npr.org/sections/remembrances/?ft=3&f=167019577"
+              },
+              {
+                "type": "api",
+                "$text": "http://api.npr.org/query?id=1062&apiKey=API_KEY"
+              }
+            ]
+          },
+          {
+            "id": "1039",
+            "type": "topic",
+            "title": {
+              "$text": "Music"
+            },
+            "link": [
+              {
+                "type": "html",
+                "$text": "http://www.npr.org/music/?ft=3&f=167019577"
+              },
+              {
+                "type": "api",
+                "$text": "http://api.npr.org/query?id=1039&apiKey=API_KEY"
+              }
+            ]
+          },
+          {
+            "id": "1002",
+            "type": "topic",
+            "title": {
+              "$text": "Home Page Top Stories"
+            },
+            "link": [
+              {
+                "type": "html",
+                "$text": "http://www.npr.org/?ft=3&f=167019577"
+              },
+              {
+                "type": "api",
+                "$text": "http://api.npr.org/query?id=1002&apiKey=API_KEY"
+              }
+            ]
+          }
+        ],
+        "audio": [
+          {
+            "id": "167021351",
+            "type": "primary",
+            "title": {},
+            "duration": {
+              "$text": "0"
+            },
+            "description": {},
+            "format": {},
+            "rightsHolder": {},
+            "permissions": {
+              "download": {
+                "allow": "false"
+              },
+              "stream": {
+                "allow": "true"
+              },
+              "embed": {
+                "allow": "false"
+              }
+            },
+            "stream": {
+              "active": "false"
+            }
+          }
+        ],
+        "byline": [
+          {
+            "id": "167019584",
+            "name": {
+              "personId": "2101242",
+              "$text": "Susan Stamberg"
+            },
+            "link": [
+              {
+                "type": "html",
+                "$text": "http://www.npr.org/people/2101242/susan-stamberg?ft=3&f=167019577"
+              },
+              {
+                "type": "api",
+                "$text": "http://api.npr.org/query?id=2101242&apiKey=API_KEY"
+              }
+            ]
+          }
+        ],
+        "container": [
+          {
+            "id": "167020780",
+            "title": {},
+            "introText": {},
+            "colSpan": {
+              "$text": "1"
+            },
+            "displayOptions": {
+              "typeId": "2",
+              "$text": "Display Both"
+            },
+            "link": [
+              {
+                "refId": "167020072",
+                "num": "1"
+              },
+              {
+                "refId": "167020069",
+                "num": "2"
+              }
+            ]
+          }
+        ],
+        "image": [
+          {
+            "id": "167021232",
+            "type": "primary",
+            "width": "200",
+            "src": "http://media.npr.org/assets/img/2012/12/12/gettyimages_84882815-0e02bde00f7b2ac036374e2874fc6b5ee6de4352.jpg?s=12",
+            "hasBorder": "false",
+            "title": {
+              "$text": "Ravi Shankar circa 1960 in the U.K."
+            },
+            "caption": {
+              "$text": "Ravi Shankar circa 1960 in the U.K."
+            },
+            "link": {
+              "url": ""
+            },
+            "producer": {
+              "$text": "David Redfern"
+            },
+            "provider": {
+              "url": "",
+              "$text": "Redferns"
+            },
+            "copyright": {},
+            "enlargement": {
+              "src": "http://media.npr.org/assets/img/2012/12/12/gettyimages_84882815-0e02bde00f7b2ac036374e2874fc6b5ee6de4352.jpg",
+              "caption": {}
+            },
+            "crop": [
+              {
+                "type": "standard",
+                "src": "http://media.npr.org/assets/img/2012/12/12/gettyimages_84882815-0e02bde00f7b2ac036374e2874fc6b5ee6de4352.jpg",
+                "height": "2942",
+                "width": "3915"
+              },
+              {
+                "type": "square",
+                "src": "http://media.npr.org/assets/img/2012/12/12/gettyimages_84882815_sq-feeced862ebdd5504fab9770d31bc3cfae40fdf6.jpg",
+                "height": "2350",
+                "width": "2350"
+              },
+              {
+                "type": "wide",
+                "src": "http://media.npr.org/assets/img/2012/12/12/gettyimages_84882815_wide-71aa24bf68c198dc53053a8eba0ddaf845c3b605.jpg",
+                "height": "2200",
+                "width": "3915"
+              },
+              {
+                "type": "enlargement",
+                "src": "http://media.npr.org/assets/img/2012/12/12/gettyimages_84882815-0e02bde00f7b2ac036374e2874fc6b5ee6de4352.jpg",
+                "height": "2942",
+                "width": "3915"
+              }
+            ]
+          }
+        ],
+        "relatedLink": [
+          {
+            "id": "167020072",
+            "type": "internal",
+            "caption": {
+              "$text": " Ravi Shankar At 90: The Man And His Music"
+            },
+            "link": [
+              {
+                "type": "html",
+                "$text": "http://www.npr.org/templates/story/story.php?storyId=125507150&ft=3&f=167019577"
+              },
+              {
+                "type": "api",
+                "$text": "http://api.npr.org/query?id=125507150&apiKey=API_KEY"
+              }
+            ]
+          },
+          {
+            "id": "167020069",
+            "type": "internal",
+            "caption": {
+              "$text": " Indian Classical Music 101 With Ravi Shankar"
+            },
+            "link": [
+              {
+                "type": "html",
+                "$text": "http://www.npr.org/templates/story/story.php?storyId=125512689&ft=3&f=167019577"
+              },
+              {
+                "type": "api",
+                "$text": "http://api.npr.org/query?id=125512689&apiKey=API_KEY"
+              }
+            ]
+          }
+        ],
+        "text": {
+          "paragraph": [
+            {
+              "num": "1",
+              "$text": "Sitar master and composer Ravi Shankar died Tuesday at a hospital near his home in the San Diego area. Shankar's foundation released a statement that says the musician had suffered from upper-respiratory and heart issues over the past year and underwent heart-valve replacement surgery last week. He was 92."
+            },
+            {
+              "num": "2",
+              "$text": "When he was just 10 years old, Pandit Ravi Shankar began performing in Europe and the U.S. with his family's Indian dance troupe. It was a glamorous life: the best hotels, the best meals, celebrities coming backstage to say just how much they'd enjoyed the concert. But at age 18, Shankar gave up all the glitter and went back to a dusty little town in India to study with a guru who taught him the sitar. He apprenticed for years, then started to play in public on the ancient and difficult string instrument. Eventually, he became a master."
+            },
+            {
+              "num": "3",
+              "$text": "Shankar's music is like a fine Indian sari — silken, swirling, exotic, it can break your heart with its beauty. He was a respected classical musician, but in 1966 he became an international superstar when George Harrison studied with him. Shankar's goal to make Eastern music known in the West was achieved with help from The Beatles, though he grew discouraged by the hippie scene, where drugs clouded the attention of his audience."
+            },
+            {
+              "num": "4",
+              "$text": "Back in India, Shankar wrote sitar concerts for Western symphony orchestras and continued touring. The composer and performer remained a teacher too. In December of 2004, when I visited his home in New Delhi, the sitar master was still giving lessons. He sat on the carpeted floor in an old brown sweater vest playing simple exercises; his sitar filled the room with feeling."
+            },
+            {
+              "num": "5",
+              "$text": "\"[This music] is sort of is a combination of shanta and karuna, which means tranquility and sadness,\" he said of the piece he was playing. \"This sadness is ... like wanting to reach out [for something] and not finding it, whether for a lover or for God.\""
+            },
+            {
+              "num": "6",
+              "$text": "Shankar's music reached out to some of the West's finest musicians. Violinist Yehudi Menuhin and composer Philip Glass were friends and collaborators. One of today's top pop stars, Grammy winner Norah Jones, is Shankar's daughter. Another daughter, Anoushka, learned sitar from her father, and now takes his classical tradition and makes it more contemporary."
+            },
+            {
+              "num": "7",
+              "$text": "A few winters ago in Delhi, remembering those demanding early years of sitar studies, Ravi Shankar said his guru's most important lesson was this: \"He says that we have to earn our livelihood, and for that we have to perform and accept money. But music is not for sale. The music that I have learned and want to give is like worshiping God. It's absolutely like a prayer.\""
+            },
+            {
+              "num": "8",
+              "$text": "Shankar once said he felt ecstasy when he made music — the world was erased, and he experienced great peace. His music embraced and lifted those who heard and loved it, his widow Sukanya, his daughters and his many fans. [Copyright 2012 National Public Radio]"
+            }
+          ]
+        },
+        "textWithHtml": {
+          "paragraph": [
+            {
+              "num": "1",
+              "$text": "Sitar master and composer <a href=\"http://www.npr.org/templates/story/story.php?storyId=17093771\" target=\"_blank\">Ravi Shankar</a> died Tuesday at a hospital near his home in the San Diego area. Shankar's foundation released a statement that says the musician had suffered from upper-respiratory and heart issues over the past year and underwent heart-valve replacement surgery last week. He was 92."
+            },
+            {
+              "num": "2",
+              "$text": "When he was just 10 years old, Pandit Ravi Shankar began performing in Europe and the U.S. with his family's Indian dance troupe. It was a glamorous life: the best hotels, the best meals, celebrities coming backstage to say just how much they'd enjoyed the concert. But at age 18, Shankar gave up all the glitter and went back to a dusty little town in India to study with a guru who taught him the sitar. He apprenticed for years, then started to play in public on the ancient and difficult string instrument. Eventually, he became a master."
+            },
+            {
+              "num": "3",
+              "$text": "Shankar's music is like a fine Indian sari — silken, swirling, exotic, it can break your heart with its beauty. He was a respected classical musician, but in 1966 he became an international superstar when <a href=\"http://www.npr.org/templates/story/story.php?storyId=15774029\" target=\"_blank\">George Harrison</a> studied with him. Shankar's goal to make Eastern music known in the West was achieved with help from <a href=\"http://www.npr.org/templates/story/story.php?storyId=15229570\" target=\"_blank\">The Beatles</a>, though he grew discouraged by the hippie scene, where drugs clouded the attention of his audience."
+            },
+            {
+              "num": "4",
+              "$text": "Back in India, Shankar wrote sitar concerts for Western symphony orchestras and continued touring. The composer and performer remained a teacher too. In December of 2004, when I visited his home in New Delhi, the sitar master was still giving lessons. He sat on the carpeted floor in an old brown sweater vest playing simple exercises; his sitar filled the room with feeling."
+            },
+            {
+              "num": "5",
+              "$text": "\"[This music] is sort of is a combination of <em>shanta</em> and <em>karuna</em>, which means tranquility and sadness,\" he said of the piece he was playing. \"This sadness is ... like wanting to reach out [for something] and not finding it, whether for a lover or for God.\""
+            },
+            {
+              "num": "6",
+              "$text": "Shankar's music reached out to some of the West's finest musicians. Violinist Yehudi Menuhin and composer <a href=\"http://www.npr.org/artists/15680178/philip-glass\" target=\"_blank\">Philip Glass</a> were friends and collaborators. One of today's top pop stars, Grammy winner <a href=\"http://www.npr.org/templates/story/story.php?storyId=15012277\" target=\"_blank\">Norah Jones</a>, is Shankar's daughter. Another daughter, <a href=\"http://www.npr.org/templates/story/story.php?storyId=15402971\" target=\"_blank\">Anoushka</a>, learned sitar from her father, and now takes his classical tradition and makes it more contemporary."
+            },
+            {
+              "num": "7",
+              "$text": "A few winters ago in Delhi, remembering those demanding early years of sitar studies, Ravi Shankar said his guru's most important lesson was this: \"He says that we have to earn our livelihood, and for that we have to perform and accept money. But music is not for sale. The music that I have learned and want to give is like worshiping God. It's absolutely like a prayer.\""
+            },
+            {
+              "num": "8",
+              "$text": "Shankar once said he felt ecstasy when he made music — the world was erased, and he experienced great peace. His music embraced and lifted those who heard and loved it, his widow Sukanya, his daughters and his many fans.  <div class=\"fullattribution\">Copyright 2012 National Public Radio. To see more, visit http://www.npr.org/.<img src=\"http://www.google-analytics.com/__utm.gif?utmac=UA-5828686-4&utmdt=Ravi+Shankar%2C+Who+Brought+Eastern+Music+To+Western+Legends%2C+Dies&utme=8(APIKey)9(API_KEY)\"/></div>"
+            }
+          ]
+        },
+        "fullText": {
+          "$text": "<div class=\"storytitle\">      <h1>Ravi Shankar, Who Brought Eastern Music To Western Legends, Dies</h1>   <input type=\"hidden\" id=\"title167019577\" value=\"Ravi Shankar, Who Brought Eastern Music To Western Legends, Dies\"></input>   <input type=\"hidden\" id=\"modelShortUrl167019577\" value=\"http://n.pr/TTXit3\"></input>   <input type=\"hidden\" id=\"modelFullUrl167019577\" value=\"http://www.npr.org/blogs/therecord/2012/12/12/167019577/ravi-shankar-who-brought-eastern-music-to-western-legends-dies\"></input></div><!-- END CLASS=\"STORYTITLE\" --><div id=\"story-meta\">      <div id=\"storybyline\" class=\"  linkLocation\">            <div class=\"bucketwrap byline\" id=\"res167019583\" previewTitle=\"bylines\">                  <p class=\"byline\">by <a rel=\"author\" href=\"http://www.npr.org/people/2101242/susan-stamberg\"><span>Susan Stamberg</span></a></p>      </div>      <!-- END CLASS=\"BUCKETWRAP BYLINE\" ID=\"RES167019583\" PREVIEWTITLE=\"BYLINES\" -->   </div>   <!-- END ID=\"STORYBYLINE\" CLASS=\"  LINKLOCATION\" -->   <div class=\"dateblock\">            <time datetime=\"2012-12-12\"><span class=\"date\">December 12, 2012</span><span class=\"time\"> 4:00 AM</span></time>   </div></div><!-- END ID=\"STORY-META\" --><div id=\"primaryaudio\" class=\"storylocation linkLocation\">      <div id=\"res167021351\" class=\"bucketwrap primary unavailable resaudio \">            <div class=\"listenicon\">                  <a href=\"#\"></a>      </div>      <!-- END CLASS=\"LISTENICON\" -->      <div class=\"avcontent listen\">                  <p>Audio for this story from <a href=\"/templates/rundowns/rundown.php?prgId=3&prgDate=12-12-2012\">Morning Edition</a> will be available at approx. 9:00 a.m. ET</p>      </div>      <!-- END CLASS=\"AVCONTENT LISTEN\" -->      <p class=\"date\">December 12, 2012</p>      <ul class=\"audiotools\">               </ul>      <div class=\"spacer\">         &nbsp;      </div>   </div>   <!-- END ID=\"RES167021351\" CLASS=\"BUCKETWRAP PRIMARY UNAVAILABLE RESAUDIO \" --></div><!-- END ID=\"PRIMARYAUDIO\" CLASS=\"STORYLOCATION LINKLOCATION\" --><div id=\"storytext\" class=\"storytext storylocation linkLocation\">      <div id=\"res167021232\" class=\"bucketwrap image large\" previewTitle=\"Ravi Shankar circa 1960 in the U.K.\">            <div class=\"imagewrap\">                  <img src=\"http://media.npr.org/assets/img/2012/12/12/gettyimages_84882815-0e02bde00f7b2ac036374e2874fc6b5ee6de4352-s6-c10.jpg\" data-original=\"http://media.npr.org/assets/img/2012/12/12/gettyimages_84882815-0e02bde00f7b2ac036374e2874fc6b5ee6de4352.jpg\" class=\"img lazyOnLoad\"  title=\"Ravi Shankar circa 1960 in the U.K.\" alt=\"Ravi Shankar circa 1960 in the U.K.\" />         <a href=\"#\" class=\"enlargebtn\" title=\"Enlarge\">Enlarge image</a>      </div>      <!-- END CLASS=\"IMAGEWRAP\" -->      <div class=\"captionwrap\">                  <div class=\"caption\">                        <p><i>Ravi Shankar circa 1960 in the U.K.</i></p>         </div>         <!-- END CLASS=\"CAPTION\" -->      </div>      <!-- END CLASS=\"CAPTIONWRAP\" -->      <span class=\"creditwrap\"><span class=\"credit\">David Redfern</span>/<span class=\"rightsnotice\">Redferns</span></span>   </div>   <p>Sitar master and composer <a href=\"http://www.npr.org/templates/story/story.php?storyId=17093771\" target=\"_blank\">Ravi Shankar</a> died Tuesday at a hospital near his home in the San Diego area. Shankar's foundation released a statement that says the musician had suffered from upper-respiratory and heart issues over the past year and underwent heart-valve replacement surgery last week. He was 92.</p>   <p>When he was just 10 years old, Pandit Ravi Shankar began performing in Europe and the U.S. with his family's Indian dance troupe. It was a glamorous life: the best hotels, the best meals, celebrities coming backstage to say just how much they'd enjoyed the concert. But at age 18, Shankar gave up all the glitter and went back to a dusty little town in India to study with a guru who taught him the sitar. He apprenticed for years, then started to play in public on the ancient and difficult string instrument. Eventually, he became a master.</p>   <p>Shankar's music is like a fine Indian sari — silken, swirling, exotic, it can break your heart with its beauty. He was a respected classical musician, but in 1966 he became an international superstar when <a href=\"http://www.npr.org/templates/story/story.php?storyId=15774029\" target=\"_blank\">George Harrison</a> studied with him. Shankar's goal to make Eastern music known in the West was achieved with help from <a href=\"http://www.npr.org/templates/story/story.php?storyId=15229570\" target=\"_blank\">The Beatles</a>, though he grew discouraged by the hippie scene, where drugs clouded the attention of his audience.</p>   <p>Back in India, Shankar wrote sitar concerts for Western symphony orchestras and continued touring. The composer and performer remained a teacher too. In December of 2004, when I visited his home in New Delhi, the sitar master was still giving lessons. He sat on the carpeted floor in an old brown sweater vest playing simple exercises; his sitar filled the room with feeling.</p>   <p>\"[This music] is sort of is a combination of <em>shanta</em> and <em>karuna</em>, which means tranquility and sadness,\" he said of the piece he was playing. \"This sadness is ... like wanting to reach out [for something] and not finding it, whether for a lover or for God.\"</p>   <p>Shankar's music reached out to some of the West's finest musicians. Violinist Yehudi Menuhin and composer <a href=\"http://www.npr.org/artists/15680178/philip-glass\" target=\"_blank\">Philip Glass</a> were friends and collaborators. One of today's top pop stars, Grammy winner <a href=\"http://www.npr.org/templates/story/story.php?storyId=15012277\" target=\"_blank\">Norah Jones</a>, is Shankar's daughter. Another daughter, <a href=\"http://www.npr.org/templates/story/story.php?storyId=15402971\" target=\"_blank\">Anoushka</a>, learned sitar from her father, and now takes his classical tradition and makes it more contemporary.</p>   <p>A few winters ago in Delhi, remembering those demanding early years of sitar studies, Ravi Shankar said his guru's most important lesson was this: \"He says that we have to earn our livelihood, and for that we have to perform and accept money. But music is not for sale. The music that I have learned and want to give is like worshiping God. It's absolutely like a prayer.\"</p>   <p>Shankar once said he felt ecstasy when he made music — the world was erased, and he experienced great peace. His music embraced and lifted those who heard and loved it, his widow Sukanya, his daughters and his many fans.</p>   <div id=\"res167020365\" class=\"bucketwrap video youtube-video large graphic624\">            <div class=\"video-wrap\">                  <iframe width=\"624\" height=\"500\" type=\"text/html\" src=\"http://www.youtube.com/embed/HsuFlxxrX8k\"></iframe>      </div>      <!-- END CLASS=\"VIDEO-WRAP\" -->      <div class=\"captionwrap externalasset\">                  <span class=\"creditwrap\"><span class=\"source\">YouTube</span></span>      </div>      <!-- END CLASS=\"CAPTIONWRAP EXTERNALASSET\" -->   </div>   <!-- END ID=\"RES167020365\" CLASS=\"BUCKETWRAP VIDEO YOUTUBE-VIDEO LARGE GRAPHIC624\" -->   <div class=\"container con1col small\" id=\"con167020780\" previewTitle=\"Ravi Shankar Links\">            <h3>Additional Information: </h3>      <div id=\"res167020072\" class=\"bucketwrap internallink inkinsetonecolumn inset1col \">                  <a href=\"http://www.npr.org/templates/story/story.php?storyId=125507150\" id=\"featuredStackSquareImage125507150\" class=\"photowrap\" reload=\"true\" numResources=\"1\"><img src=\"http://media.npr.org/assets/music/studiosessions/favorite/2010/04/ravishankar_sq-52804aa264cf5ace65147c0510b0c381b1b32e6a-s1.jpg\" class=\"img138\" title=\"Ravi Shankar, who brought Indian classical music to the West, turns 90 Wednesday\" alt=\"Ravi Shankar, who brought Indian classical music to the West, turns 90 Wednesday\" /></a>         <div class=\"bucketblock\">                        <h3 class=\"slug\"><a href=\"http://www.npr.org/series/10347449/classical-sessions\">Classical Sessions </a></h3>            <p><a href=\"http://www.npr.org/templates/story/story.php?storyId=125507150\"> Ravi Shankar At 90: The Man And His Music</a></p>         </div>         <!-- END CLASS=\"BUCKETBLOCK\" -->      </div>      <!-- END ID=\"RES167020072\" CLASS=\"BUCKETWRAP INTERNALLINK INKINSETONECOLUMN INSET1COL \" -->      <div id=\"res167020069\" class=\"bucketwrap internallink inkinsetonecolumn inset1col \">                  <a href=\"http://www.npr.org/templates/story/story.php?storyId=125512689\" id=\"featuredStackSquareImage125512689\" class=\"photowrap\" reload=\"true\" numResources=\"1\"><img src=\"http://media.npr.org/assets/music/studiosessions/favorite/2010/04/ravi_child_sq-f1975d268e6de8a9543188ba0bc3b997ced3e195-s1.jpg\" class=\"img138\" title=\"Ravi Shankar performs with his daughter Anoushka Shankar.\" alt=\"Ravi Shankar performs with his daughter Anoushka Shankar.\" /></a>         <div class=\"bucketblock\">                        <h3 class=\"slug\"><a href=\"http://www.npr.org/sections/music-interviews/\">Music Interviews </a></h3>            <p><a href=\"http://www.npr.org/templates/story/story.php?storyId=125512689\"> Indian Classical Music 101 With Ravi Shankar</a></p>         </div>         <!-- END CLASS=\"BUCKETBLOCK\" -->      </div>      <!-- END ID=\"RES167020069\" CLASS=\"BUCKETWRAP INTERNALLINK INKINSETONECOLUMN INSET1COL \" -->   </div>   <!-- END CLASS=\"CONTAINER CON1COL SMALL\" ID=\"CON167020780\" PREVIEWTITLE=\"RAVI SHANKAR LINKS\" --></div><div class=\"fullattribution\">Copyright 2012 National Public Radio. To see more, visit http://www.npr.org/.<img src=\"http://www.google-analytics.com/__utm.gif?utmac=UA-5828686-4&utmdt=Ravi+Shankar%2C+Who+Brought+Eastern+Music+To+Western+Legends%2C+Dies&utme=8(APIKey)9(API_KEY)\"/></div>"
+        },
+        "externalAsset": [
+          {
+            "id": "167020365",
+            "type": "YouTube",
+            "url": {
+              "$text": "http://www.youtube.com/watch?v=HsuFlxxrX8k"
+            },
+            "oEmbed": {
+              "$text": "http://www.youtube.com/oembed?url=http%3A//www.youtube.com/watch%3Fv%3DHsuFlxxrX8k"
+            },
+            "externalId": {
+              "$text": "HsuFlxxrX8k"
+            },
+            "credit": {},
+            "parameters": {},
+            "caption": {}
+          }
+        ]
+      }
+    ]
+  }
+}
