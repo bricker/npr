@@ -2,8 +2,6 @@
 
 [![Build Status](https://travis-ci.org/bricker/npr.png)](https://travis-ci.org/bricker/npr)
  
-**NOTE** This gem is a WIP
-
 A simple Ruby client for the 
 [NPR API](http://www.npr.org/api/index).
 
