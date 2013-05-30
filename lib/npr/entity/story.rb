@@ -67,12 +67,14 @@ module NPR
         private
       
         def query_by_id(id)
-          client = NPR::API::Client.new(
+          client.query(:id => id)
+        end
+
+        def client
+          @client ||= NPR::API::Client.new(
             :apiKey => NPR.config.apiKey,
             :output => "json"
           )
-
-          client.query(:id => id)
         end
       end
 
