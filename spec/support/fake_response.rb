@@ -29,10 +29,11 @@ module FakeResponse
   # response body to the contents of the requested file.
   def respond_with(filename, options)
     content_type = options[:content_type] || "application/json"
-    
-    FakeWeb.register_uri(:get, 
-      %r{^#{NPR::Configuration::API_ROOT}}, 
-      { :body => load_fixture(filename),
+    uri          = options.delete(:uri) || %r{^#{NPR::Configuration::API_ROOT}}
+
+    FakeWeb.register_uri(:get, uri, 
+      { 
+        :body         => load_fixture(filename),
         :content_type => content_type
       }.merge(options))
   end
@@ -47,7 +48,7 @@ module FakeResponse
   #---------------------
   # Select a random response fixture
   def random_filename
-    filename = Dir["#{FIXTURE_ROOT}/**/*story*.rb"].sample
+    filename = Dir["#{FIXTURE_ROOT}/**/*story*.*"].sample
     puts "Responding with #{filename}"
     filename
   end
