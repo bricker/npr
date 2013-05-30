@@ -16,7 +16,7 @@
 module NPR
   module API
     class Client
-      attr_accessor :params
+      attr_accessor :params, :url
 
       #-----------------
       # Argument is a hash of params to send to the API.
@@ -32,6 +32,7 @@ module NPR
       #
       def initialize(params={})
         @params = NPR.config.merge(params)
+        @url    = @params.delete(:url) || NPR::Configuration::API_ROOT
         @apiKey = @params.delete(:apiKey)
       end
 
@@ -54,12 +55,14 @@ module NPR
       # TODO: Support more formats
       #
       def query(params={})
+        path = params.delete(:path) || NPR::Configuration::API_QUERY_PATH
+
         if @apiKey.nil?
           raise NPR::NotConfiguredError, "apiKey must be set to perform a query"
         end
       
         response = connection.get do |request|
-          request.url NPR::Configuration::API_QUERY_PATH
+          request.url path
           request.params = @params.merge(params)
           request.headers['Content-Type'] = "application/json"
           request.params['output'] = "json"
@@ -77,7 +80,7 @@ module NPR
     
       def connection
         @connection ||= begin
-          Faraday.new NPR::Configuration::API_ROOT do |conn|
+          Faraday.new @url do |conn|
             conn.response :json
             conn.adapter Faraday.default_adapter
           end
