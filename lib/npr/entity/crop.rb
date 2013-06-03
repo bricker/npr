@@ -17,4 +17,3 @@ module NPR
     end # Crop
   end # Entity
 end # NPR
-

@@ -16,5 +16,3 @@ module NPR
     end # Enlargement
   end # Entity
 end # NPR
-
-      
