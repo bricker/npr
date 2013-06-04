@@ -19,7 +19,7 @@ module NPR
         
         @_response = response
         @raw       = response.body
-                
+        
         @version  = @raw["version"]
                 
         if list = @raw["list"]
