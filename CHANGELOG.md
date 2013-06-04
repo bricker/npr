@@ -1,9 +1,13 @@
 ### Version 1.1.0 (unreleased)
 * Allow passing `:url` option to Client, and `:path` option to `Client#query`
 * Allow passing `:apiKey` and `:output` to `Client#query`
+* Handle an HTTP Error from the API better. If the API response is not a
+  success (as defined by `Faraday::Response#success?`), then an 
+  `NPR::APIError` will be raised. An error was being raised before, but
+  it was due to a nil error (when response.body was nil), which could be confusing.
 
 
-### Version 1.0.0 (???)
+### Version 1.0.0
 * Stable release
 
 
