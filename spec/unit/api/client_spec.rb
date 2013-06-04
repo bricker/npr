@@ -36,7 +36,7 @@ describe NPR::API::Client do
   
   describe "#query" do
     it 'uses the passed-in path if available' do
-      respond_with("json/01_story_full_media.json", uri: %r|api\.publish2\.com/list/stories|)
+      respond_with("json/01_story_full_media.json", :uri => %r|api\.publish2\.com/list/stories|)
 
       client = NPR::API::Client.new(:apiKey => "key", :url => "http://api.publish2.com")
 
@@ -44,6 +44,22 @@ describe NPR::API::Client do
       response = client.query(:path => "/list/stories")
       # But just incase...
       response.instance_variable_get(:@_response).env[:url].to_s.should match %r|api\.publish2\.com/list/stories|
+    end
+
+    it 'returns an API::Response when the API call is a success' do
+      respond_with("json/01_story_full_media.json", :uri => %r|api\.npr\.org|)
+      client = NPR::API::Client.new(:apiKey => "key")
+
+      client.query(:path => "/list/stories").should be_a NPR::API::Response
+    end
+
+    it 'raises NPR::ServerError when the response is not a success' do
+      FakeWeb.register_uri(:get, %r|api\.npr\.org|, :status => ["400", "Bad Request"], :body => nil)
+      client = NPR::API::Client.new(:apiKey => "key")
+
+      lambda {
+        client.query(:path => "/list/stories")
+      }.should raise_error NPR::ServerError
     end
   end
 end

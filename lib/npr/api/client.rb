@@ -66,7 +66,11 @@ module NPR
           request.params['apiKey'] ||= @apiKey
         end
         
-        NPR::API::Response.new(response)
+        if response.success?
+          NPR::API::Response.new(response)
+        else
+          raise NPR::ServerError, "The API call failed. (Status: #{response.status})"
+        end
       end
 
       #-----------------
