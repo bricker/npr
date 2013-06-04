@@ -59,7 +59,7 @@ describe NPR::API::Client do
 
       lambda {
         client.query(:path => "/list/stories")
-      }.should raise_error NPR::ServerError
+      }.should raise_error NPR::APIError
     end
   end
 end

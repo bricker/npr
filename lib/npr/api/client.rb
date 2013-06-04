@@ -69,7 +69,7 @@ module NPR
         if response.success?
           NPR::API::Response.new(response)
         else
-          raise NPR::ServerError, "The API call failed. (Status: #{response.status})"
+          raise NPR::APIError, "The API call failed. (Status: #{response.status})"
         end
       end
 
