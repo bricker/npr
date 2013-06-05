@@ -84,4 +84,14 @@ describe NPR::Entity::Image do
     @image.primary?.should eq false
     @image.standard?.should eq true
   end
+
+  it 'finds the crop by its type' do
+    crop = @image.crop("enlargement")
+    crop.should be_a NPR::Entity::Crop
+    crop.type.should eq 'enlargement'
+  end
+
+  it 'returns nil for crop if the type does not exist' do
+    @image.crop("doesntexist").should eq nil
+  end
 end

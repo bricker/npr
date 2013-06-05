@@ -5,7 +5,7 @@
   success (as defined by `Faraday::Response#success?`), then an 
   `NPR::APIError` will be raised. An error was being raised before, but
   it was due to a nil error (when response.body was nil), which could be confusing.
-
+* Add an Image#crop method, to find a specific crop by its type.
 
 ### Version 1.0.0
 * Stable release
