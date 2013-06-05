@@ -1,4 +1,4 @@
-### Version 1.1.0 (unreleased)
+### Version 1.1.0 (2013-06-05)
 * Allow passing `:url` option to Client, and `:path` option to `Client#query`
 * Allow passing `:apiKey` and `:output` to `Client#query`
 * Handle an HTTP Error from the API better. If the API response is not a
@@ -6,6 +6,7 @@
   `NPR::APIError` will be raised. An error was being raised before, but
   it was due to a nil error (when response.body was nil), which could be confusing.
 * Add an Image#crop method, to find a specific crop by its type.
+
 
 ### Version 1.0.0
 * Stable release
