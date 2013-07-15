@@ -12,7 +12,7 @@ API can be found at <http://dev.npr.org>.
 This gem is tested with these versions (but may 
 work with others):
 
-* Ruby 1.9.2, 1.9.3, ruby-head
+* Ruby 1.9.2, 1.9.3, 2.0.0
 * NPR API version 0.94
 
 
