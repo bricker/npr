@@ -19,6 +19,7 @@ require "npr/concern"
 require "npr/concern/attr_typecast"
 require "npr/concern/shallow_attributes"
 require "npr/concern/relation"
+require "npr/concern/links_association"
 
 #------------------
 # API handlers

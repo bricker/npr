@@ -94,11 +94,11 @@ module NPR
 
       #------------------
 
+      include NPR::Concern::LinksAssociation
       has_many "images",        :key => "image",        :class_name => NPR::Entity::Image
       has_many "bylines",       :key => "byline",       :class_name => NPR::Entity::Byline
       has_many "audio",         :key => "audio",        :class_name => NPR::Entity::Audio
       has_many "organizations", :key => "organization", :class_name => NPR::Entity::Organization
-      has_many "links",         :key => "link",         :class_name => NPR::Entity::Link
       has_many "related_links", :key => "relatedLink",  :class_name => NPR::Entity::RelatedLink
       has_many "pull_quotes",   :key => "pullQuote",    :class_name => NPR::Entity::PullQuote
       has_many "shows",         :key => "show",         :class_name => NPR::Entity::Show
@@ -149,23 +149,6 @@ module NPR
         @primary_image ||= begin
           primary = self.images.find(&:primary?)
           primary || self.images.first
-        end
-      end
-
-      #-------------------------
-      # Find links of the passed in type.
-      #
-      # Example:
-      #
-      #   story.link_for("html")    #=> http://npr.org/...
-      #   story.link_for("nothing") #=> nil
-      #
-      # Returns an the content of that link if found,
-      # or nil if not found.
-      #
-      def link_for(type)
-        if link = self.links.find { |link| link.type == type }
-          link.to_s
         end
       end
 

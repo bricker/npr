@@ -6,7 +6,7 @@ module NPR
     class List < Base
       #------------------
 
-      has_many "links",   :key => "link",  :class_name => NPR::Entity::Link
+      include NPR::Concern::LinksAssociation
       has_many "stories", :key => "story", :class_name => NPR::Entity::Story
 
       #------------------
