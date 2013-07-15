@@ -14,11 +14,13 @@ module NPR
         @code    = json["code"]
       end
 
-      #---------------------
-    
-      def to_s
+      #-------------------
+
+      def title
         @content.to_s
       end
+
+      alias_method :to_s, :title
     end # Program
   end # Entity
 end # NPR

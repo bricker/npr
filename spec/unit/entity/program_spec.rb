@@ -24,4 +24,8 @@ describe NPR::Entity::Program do
   it "uses @content for to_s" do
     @program.to_s.should eq "Morning Edition"
   end
+
+  it "responds to title" do
+    @program.title.should eq "Morning Edition"
+  end
 end
