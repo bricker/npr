@@ -4,9 +4,9 @@
 module NPR
   module Entity
     class RelatedLink < Base
-      attr_accessor :id, :type
       include NPR::Concern::LinksAssociation
 
+      attr_accessor :id, :type
       shallow_attribute "caption"
 
       def initialize(json)

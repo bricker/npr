@@ -5,6 +5,7 @@ module NPR
   module Entity
     class Byline < Base
       include NPR::Concern::LinksAssociation
+
       attr_accessor :id
       has_one "name", :class_name => NPR::Entity::Name
 

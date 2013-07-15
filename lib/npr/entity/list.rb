@@ -4,8 +4,6 @@
 module NPR
   module Entity
     class List < Base
-      #------------------
-
       include NPR::Concern::LinksAssociation
       has_many "stories", :key => "story", :class_name => NPR::Entity::Story
 
