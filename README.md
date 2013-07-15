@@ -109,7 +109,6 @@ for all of the options.
 * Make all attributes snake_case
 * Support for "correction" node
 * Support for "container" node
-* Support for "parent" node
 * Support for "thumbnail" node
 * Support a way to return raw formats of:
     * JSON

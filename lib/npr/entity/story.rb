@@ -79,18 +79,8 @@ module NPR
       end
 
       #-------------------------
-      # Association accessors
 
-      # Attributes that we are using as-is
-      # Use strings so that we don't have to
-      # convert between Strings and Symbols.
-      ATTR_AS_IS = [
-        "thumbnail",
-        "parent",
-        "container"
-      ]
-      attr_accessor *ATTR_AS_IS
-      attr_accessor :id, :text, :textWithHtml
+      attr_accessor :id, :text, :textWithHtml, :thumbnail, :container
 
       #------------------
 
@@ -101,6 +91,7 @@ module NPR
       has_many "organizations", :key => "organization", :class_name => NPR::Entity::Organization
       has_many "related_links", :key => "relatedLink",  :class_name => NPR::Entity::RelatedLink
       has_many "pull_quotes",   :key => "pullQuote",    :class_name => NPR::Entity::PullQuote
+      has_many "parents",       :key => "parent",       :class_name => NPR::Entity::Parent
       has_many "shows",         :key => "show",         :class_name => NPR::Entity::Show
       has_many "members",       :key => "member",       :class_name => NPR::Entity::Member
       has_many "list_texts",    :key => "listText",     :class_name => NPR::Entity::ListText

@@ -17,6 +17,7 @@ describe NPR::Entity::Story do
       @story.bylines.first.should be_a NPR::Entity::Byline
       @story.organizations.first.should be_a NPR::Entity::Organization
       @story.links.first.should be_a NPR::Entity::Link
+      @story.parents.first.should be_a NPR::Entity::Parent
       @story.related_links.first.should be_a NPR::Entity::RelatedLink
       @story.shows.first.should be_a NPR::Entity::Show
 
