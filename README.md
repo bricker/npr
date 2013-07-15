@@ -3,7 +3,8 @@
 [![Build Status](https://travis-ci.org/bricker/npr.png)](https://travis-ci.org/bricker/npr)
  
 A simple Ruby client for the 
-[NPR API](http://www.npr.org/api/index).
+[NPR API](http://www.npr.org/api/index). Alternative documentation for the NPR
+API can be found at <http://dev.npr.org>.
 
 
 ## Support
