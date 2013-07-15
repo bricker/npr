@@ -188,8 +188,7 @@ module NPR
   end # Entity
 
   #-------------------------
-  # Alias
-  # This is a shorthand so that users of this library
+  # A shorthand so that users of this library
   # can work with just NPR::Story, but allowing us to
   # keep everything organized properly.
   Story = NPR::Entity::Story
