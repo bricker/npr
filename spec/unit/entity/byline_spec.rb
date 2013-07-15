@@ -22,16 +22,16 @@ describe NPR::Entity::Byline do
       }
     JSON
   end
-  
+
   before :each do
     @byline = NPR::Entity::Byline.new(@fixture)
   end
-  
+
   it "sets up attributes" do
     @byline.id.should be_a Fixnum
     @byline.id.should_not eq 0
   end
-  
+
   it "creates relations" do
     @byline.links.size.should eq 2
     @byline.links.first.should be_a NPR::Entity::Link

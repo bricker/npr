@@ -11,11 +11,11 @@ describe NPR::Entity::Crop do
       }
     JSON
   end
-  
+
   before :each do
     @crop = NPR::Entity::Crop.new(@fixture)
   end
-  
+
   it "sets attributes" do
     @crop.type.should eq "enlargement"
     @crop.src.should match /media\.npr/

@@ -21,7 +21,7 @@ options = {}
 
 OptionParser.new do |opts|
   opts.banner = "Usage: ruby fetch_formats.rb [ARGS]"
-  
+
   opts.on('-k', '--key KEY', 'Your NPR API Key') do |key|
     options[:key] = key
   end
@@ -51,15 +51,15 @@ ext_map = {
 # The fun stuff
 ext_map.keys.each do |output|
   puts "Fetching #{output}..."
-  
+
   uri = URI.parse("http://api.npr.org/query?apiKey=#{options[:key]}&id=#{options[:id]}&output=#{output}")
   response = Net::HTTP.get_response(uri).body
-  
+
   # Remove API Key from responses
   if !options[:key].empty? && !options[:key].nil?
     response.gsub!(/#{options[:key]}/, "API_KEY")
   end
-  
+
   file = "#{output}/#{options[:filename]}.#{ext_map[output]}"
   File.open(file, "w") { |f| f.puts response }
 end

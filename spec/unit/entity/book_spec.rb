@@ -15,7 +15,7 @@ describe NPR::Entity::Book do
       }
     JSON
   end
-  
+
   before :each do
     @book = NPR::Entity::Book.new(@fixture)
   end
@@ -24,7 +24,7 @@ describe NPR::Entity::Book do
     @book.id.should eq 153611337
     @book.title.should eq "2312"
   end
-  
+
   it "creates relations" do
     @book.link.should be_a NPR::Entity::Link
   end

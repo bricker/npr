@@ -9,11 +9,11 @@ describe NPR::Entity::MemberByline do
       }
     JSON
   end
-  
+
   before :each do
     @member_byline = NPR::Entity::MemberByline.new(@fixture)
   end
-  
+
   it "sets attributes" do
     @member_byline.refId.should eq 166481286
     @member_byline.num.should eq 6

@@ -9,11 +9,11 @@ describe NPR::Entity::MemberPromoArt do
       }
     JSON
   end
-  
+
   before :each do
     @member_promo_art = NPR::Entity::MemberPromoArt.new(@fixture)
   end
-  
+
   it "sets attributes" do
     @member_promo_art.refId.should eq 153611356
     @member_promo_art.num.should eq 1

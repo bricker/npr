@@ -10,17 +10,17 @@ describe NPR::Entity::Program do
       }
     JSON
   end
-  
+
   before :each do
     @program = NPR::Entity::Program.new(@fixture)
   end
-  
+
   it "sets up attributes" do
     @program.id.should be_a Integer
     @program.code.should eq "ME"
     @program.content.should eq "Morning Edition"
   end
-  
+
   it "uses @content for to_s" do
     @program.to_s.should eq "Morning Edition"
   end

@@ -9,16 +9,16 @@ describe NPR::Entity::MP3 do
       }
     JSON
   end
-  
+
   before :each do
     @mp3 = NPR::Entity::MP3.new(@fixture)
   end
-  
+
   it "sets attributes" do
     @mp3.type.should eq "mp3"
     @mp3.content.should match /pd\.npr/
   end
-  
+
   it "uses @content for #to_s" do
     @mp3.to_s.should eq @mp3.content
   end

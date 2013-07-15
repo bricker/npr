@@ -9,7 +9,7 @@
 #
 # You can also set params via +client.params+
 #
-# Params should be passed in exactly as they will be sent 
+# Params should be passed in exactly as they will be sent
 # to the API. Example: "apiKey", not "api_key"
 # See the API documentation for what those params are.
 #
@@ -56,7 +56,7 @@ module NPR
       #
       def query(params={})
         path = params.delete(:path) || NPR::Configuration::API_QUERY_PATH
-      
+
         response = connection.get do |request|
           request.url path
           request.headers['Content-Type'] = "application/json"
@@ -65,7 +65,7 @@ module NPR
           request.params['output'] ||= "json"  # Only JSON is supported.
           request.params['apiKey'] ||= @apiKey
         end
-        
+
         if response.success?
           NPR::API::Response.new(response)
         else
@@ -74,11 +74,11 @@ module NPR
       end
 
       #-----------------
-    
+
       private
-    
+
       #-----------------
-    
+
       def connection
         @connection ||= begin
           Faraday.new @url do |conn|

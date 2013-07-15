@@ -45,11 +45,11 @@ describe NPR::Entity::Image do
       }
     JSON
   end
-  
+
   before :each do
     @image = NPR::Entity::Image.new(@fixture)
   end
-  
+
   it "sets attributes" do
     @image.id.should eq 167273389
     @image.type.should eq "standard"
@@ -58,28 +58,28 @@ describe NPR::Entity::Image do
     @image.hasBorder.should eq false
     @image.link.should eq ""
   end
-  
+
   it "sets enlargement" do
     @image.enlargement.should be_a NPR::Entity::Enlargement
   end
-  
+
   it "sets provider" do
     @image.provider.url.should eq ""
     @image.provider.to_s.should match /Brendan./
   end
-  
+
   it "sets crops" do
     @image.crops.size.should eq 2
     @image.crops.first.should be_a NPR::Entity::Crop
   end
-  
+
   it "sets shallow attributes" do
     @image.title.should match /Jason/
     @image.caption.should match /Geri/
     @image.producer.should eq ""
     @image.copyright.should eq ""
   end
-  
+
   it "responds to type methods" do
     @image.primary?.should eq false
     @image.standard?.should eq true

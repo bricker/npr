@@ -47,11 +47,11 @@ describe NPR::Entity::Audio do
       }
     JSON
   end
-  
+
   before :each do
     @audio = NPR::Entity::Audio.new(@fixture)
   end
-  
+
   it "sets attributes" do
     @audio.id.should eq 167255688
     @audio.type.should eq "primary"
@@ -60,16 +60,16 @@ describe NPR::Entity::Audio do
     @audio.description.should eq ""
     @audio.rightsHolder.should eq ""
   end
-  
+
   it "sets permissions" do
     @audio.permissions.should be_a NPR::Entity::Permissions
   end
-  
+
   it "sets stream" do
     @audio.stream.should eq false
   end
-  
+
   it "sets format" do
     @audio.formats.should be_a NPR::Entity::Formats
-  end  
+  end
 end

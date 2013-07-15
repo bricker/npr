@@ -18,15 +18,15 @@ describe NPR::Entity::Show do
       }
     JSON
   end
-  
+
   before :each do
     @show = NPR::Entity::Show.new(@fixture)
   end
-  
+
   it "has a program" do
     @show.program.code.should eq "ME"
   end
-  
+
   it "doesn't make a program if it's not present in the json" do
     other_fixture = @fixture.dup
     other_fixture.delete("program")

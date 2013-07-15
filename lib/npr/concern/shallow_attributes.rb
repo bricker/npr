@@ -8,14 +8,14 @@
 # Example:
 #
 #   { "link": { "$text": "www.google.com" } }
-#   
+#
 #   shallow_attribute "link"
 #
 module NPR
   module Concern
     module ShallowAttributes
       include AttrTypecast
-      
+
       def self.included(base)
         base.extend ClassMethods
       end
@@ -27,23 +27,23 @@ module NPR
           _shallow_attributes.push *attrs
           attr_accessor *attrs
         end
-        
+
         #-----------------
-      
+
         def _shallow_attributes
           @shallow_attributes ||= []
         end
-        
+
         #-----------------
-        
+
         private
         attr_writer :_shallow_attributes
       end
-      
+
       #-----------------
-      
+
       private
-      
+
       #-----------------
       # Extract the defined shallow_attributes from the JSON
       # and set the corresponding attribute.

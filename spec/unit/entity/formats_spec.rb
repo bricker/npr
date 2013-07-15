@@ -23,17 +23,17 @@ describe NPR::Entity::Formats do
       }
     JSON
   end
-  
+
   before :each do
     @formats = NPR::Entity::Formats.new(@fixture)
   end
-  
+
   it "sets up attributes" do
     @formats.wm.should match /npr\.org/
     @formats.rm.should eq nil
     @formats.mediastream.should match /flash/
   end
-  
+
   it "creates relations" do
     @formats.mp3s.size.should eq 2
     @formats.mp3s.first.should be_a NPR::Entity::MP3

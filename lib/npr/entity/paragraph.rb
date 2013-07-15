@@ -11,14 +11,14 @@ module NPR
       attr_accessor :num, :content
 
       #---------------------
-    
+
       def initialize(json)
         @content = json["$text"]
         @num     = json["num"].to_i
       end
 
       #---------------------
-    
+
       def to_s
         @content.to_s
       end

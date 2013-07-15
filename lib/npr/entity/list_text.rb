@@ -6,9 +6,9 @@ module NPR
     class ListText < Base
       attr_accessor :id, :tag
       has_many "paragraphs", :key => "paragraph", :class_name => NPR::Entity::Paragraph
-      
+
       #-------------------
-      
+
       def initialize(json)
         @id = json["id"].to_i
         @tag = json["tag"]

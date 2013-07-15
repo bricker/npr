@@ -9,11 +9,11 @@ describe NPR::Entity::Enlargement do
       }
     JSON
   end
-  
+
   before :each do
     @enlargement = NPR::Entity::Enlargement.new(@fixture)
   end
-  
+
   it "sets attributes" do
     @enlargement.src.should match /media\.npr/
     @enlargement.caption.should eq ""

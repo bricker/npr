@@ -15,11 +15,11 @@ describe NPR::Entity::Organization do
       }
     JSON
   end
-    
+
   before :each do
     @organization = NPR::Entity::Organization.new(@fixture)
   end
-  
+
   it "sets up attributes" do
     @organization.name.should match /National/
     @organization.website.should match /npr\.org/

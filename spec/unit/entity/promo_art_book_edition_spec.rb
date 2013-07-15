@@ -9,11 +9,11 @@ describe NPR::Entity::PromoArtBookEdition do
       }
     JSON
   end
-  
+
   before :each do
     @promo_art_book_edition = NPR::Entity::PromoArtBookEdition.new(@fixture)
   end
-  
+
   it "sets attributes" do
     @promo_art_book_edition.refId.should eq 153611349
     @promo_art_book_edition.num.should eq 4

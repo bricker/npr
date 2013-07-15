@@ -7,7 +7,7 @@ describe NPR::API::Client do
       client.instance_variable_get(:@apiKey).should eq "key"
       client.params.keys.should_not include :apiKey
     end
-    
+
     it "sets @url on initialize" do
       client = NPR::API::Client.new(:url => "http://api.publish2.com")
       client.url.should eq "http://api.publish2.com"
@@ -24,16 +24,16 @@ describe NPR::API::Client do
       client = NPR::API::Client.new
       client.params[:sort].should eq "super sort"
     end
-    
+
     it "passed-in params take precedence over global config" do
       NPR.config.sort = "global sort"
       client = NPR::API::Client.new(:sort => "local sort")
       client.params[:sort].should eq "local sort"
     end
   end
-  
+
   #-----------------
-  
+
   describe "#query" do
     it 'uses the passed-in path if available' do
       respond_with("json/01_story_full_media.json", :uri => %r|api\.publish2\.com/list/stories|)

@@ -12,7 +12,7 @@ module NPR
 
 
       # NOTE that the "link" attribute here is not cast into a Link
-      # object, and the "url" parameter is ignored. Instead, just 
+      # object, and the "url" parameter is ignored. Instead, just
       # calling +image.link+ will return the URL parameter.
       def initialize(json)
         @id        = json["id"].to_i
@@ -20,18 +20,18 @@ module NPR
         @width     = json["width"].to_i
         @src       = json["src"]
         @hasBorder = json["hasBorder"] == "true"
-        
+
         if json["link"]
           @link = json["link"]["url"]
         end
-        
+
         extract_shallow_attributes(json)
         create_relations(json)
       end
 
 
       # Find a crop by its type.
-      # 
+      #
       # Arguments:
       #
       # * (String) type - the type of crop you're looking for

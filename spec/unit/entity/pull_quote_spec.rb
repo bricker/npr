@@ -15,11 +15,11 @@ describe NPR::Entity::PullQuote do
       }
     JSON
   end
-  
+
   before :each do
     @pull_quote = NPR::Entity::PullQuote.new(@fixture)
   end
-  
+
   it "sets up attributes" do
     @pull_quote.id.should be_a Integer
     @pull_quote.text.should match /Unstructured/

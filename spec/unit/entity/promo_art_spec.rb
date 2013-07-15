@@ -35,8 +35,8 @@ describe NPR::Entity::PromoArt do
       }
     JSON
   end
-  
+
   before :each do
     @promo_art = NPR::Entity::PromoArt.new(@fixture)
-  end  
+  end
 end

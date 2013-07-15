@@ -9,16 +9,16 @@ describe NPR::Entity::Title do
       }
     JSON
   end
-  
+
   before :each do
     @title = NPR::Entity::Title.new(@fixture)
   end
-  
+
   it "sets attributes" do
     @title.num.should eq 2
     @title.content.should eq "2312"
   end
-  
+
   it "uses @content for to_s" do
     @title.to_s.should eq @title.content
   end

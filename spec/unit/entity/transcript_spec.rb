@@ -11,11 +11,11 @@ describe NPR::Entity::Transcript do
       }
     JSON
   end
-  
+
   before :each do
     @transcript = NPR::Entity::Transcript.new(@fixture)
   end
-  
+
   it "creates relations" do
     @transcript.link.should be_a NPR::Entity::Link
   end

@@ -6,8 +6,8 @@ module NPR
     class Program < Base
       attr_accessor :id, :code, :content
 
-      #---------------------
-    
+      #-------------------
+
       def initialize(json)
         @id      = json["id"].to_i
         @content = json["$text"]

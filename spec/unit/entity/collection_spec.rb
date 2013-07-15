@@ -31,7 +31,7 @@ describe NPR::Entity::Collection do
       }
     JSON
   end
-  
+
   before :each do
     @collection = NPR::Entity::Collection.new(@fixture)
   end

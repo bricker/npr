@@ -9,16 +9,16 @@ describe NPR::Entity::Link do
       }
     JSON
   end
-  
+
   before :each do
     @link = NPR::Entity::Link.new(@fixture)
   end
-  
+
   it "sets attributes" do
     @link.type.should eq "html"
     @link.content.should match /npr\.org/
   end
-  
+
   it "uses @content for to_s" do
     @link.to_s.should match /npr\.org/
   end

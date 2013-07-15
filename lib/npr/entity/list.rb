@@ -18,7 +18,7 @@ module NPR
       )
 
       #------------------
-    
+
       def initialize(json)
         extract_shallow_attributes(json)
         create_relations(json)

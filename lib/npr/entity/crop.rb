@@ -5,9 +5,9 @@ module NPR
   module Entity
     class Crop < Base
       attr_accessor :type, :src, :width, :height
-      
+
       #---------------
-      
+
       def initialize(json)
         @type   = json["type"]
         @src    = json["src"]

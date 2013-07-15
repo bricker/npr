@@ -2,16 +2,16 @@ require "spec_helper"
 
 describe NPR::Entity::Story do
   config!(:apiKey => "key")
-  
+
   #--------------------------
-  
+
   describe "relations" do
     before :each do
       @story = mock_response "json/01_story_full_media.json" do
         NPR::Story.find(999)
       end
     end
-    
+
     it "sets up relations" do
       @story.images.first.should be_a NPR::Entity::Image
       @story.bylines.first.should be_a NPR::Entity::Byline
@@ -27,20 +27,20 @@ describe NPR::Entity::Story do
       @story.promo_arts.should eq []
       @story.list_texts.should eq []
       @story.book_editions.should eq []
-      
+
       @story.transcript.should eq nil
     end
   end
-  
+
   #--------------------------
-  
+
   describe "attributes" do
     before :each do
       @story = mock_response "json/01_story_full_media.json" do
         NPR::Story.find(999)
       end
     end
-    
+
     it "Sets up attributes" do
       @story.title.should match /Ravi Shankar/
       @story.partnerId.should be_a Integer
@@ -56,41 +56,41 @@ describe NPR::Entity::Story do
       @story.fullText.should match /Ravi Shankar/
     end
   end
-  
+
   describe "::find" do
     it "instantiates a new story" do
       story = mock_response "json/01_story_full_media.json" do
         NPR::Entity::Story.find(167019577)
       end
-      
+
       story.should be_a NPR::Entity::Story
     end
-    
+
     it "typecasts the attributes that need it" do
       story = mock_response "json/01_story_full_media.json" do
         NPR::Entity::Story.find(167019577)
       end
-      
+
       story.id.should be_a Fixnum
       story.pubDate.should be_a Time
     end
-    
+
     context "with multiple ids" do
       it "only returns the first story" do
         story = mock_response "json/06_story_multiple_ids.json" do
           NPR::Entity::Story.find("167055503,166956822")
         end
-        
+
         story.should be_a NPR::Entity::Story
       end
     end
-    
+
     context "with messages in the response" do
       it "returns the messages" do
         response = mock_response "json/04_invalid_id.json" do
           NPR::Entity::Story.find(000)
         end
-        
+
         response.should be_a Array
         response.first.should be_a NPR::API::Message
       end
@@ -99,20 +99,20 @@ describe NPR::Entity::Story do
 
   #--------------------
 
-  describe "::find_by_id" do    
+  describe "::find_by_id" do
     context "with messages in the response" do
       it "returns nil" do
         response = mock_response "json/04_invalid_id.json" do
           NPR::Entity::Story.find_by_id(000)
         end
-        
+
         response.should eq nil
       end
     end
   end
-  
+
   #--------------------
-  
+
   describe "::where" do
     it "creates a new QueryBuilder object and runs #where on it" do
       args = { :id => 9999 }
@@ -121,9 +121,9 @@ describe NPR::Entity::Story do
       query.builder[:conditions].should eq args
     end
   end
-  
+
   #--------------------
-  
+
   describe "::order" do
     it "creates a new QueryBuilder object and runs #order on it" do
       args = "date descending"
@@ -131,9 +131,9 @@ describe NPR::Entity::Story do
       query.builder[:order].should eq args
     end
   end
-  
+
   #--------------------
-  
+
   describe "::limit" do
     it "creates a new QueryBuilder object and runs #limit on it" do
       args = 10
@@ -141,9 +141,9 @@ describe NPR::Entity::Story do
       query.builder[:limit].should eq args
     end
   end
-  
+
   #--------------------
-  
+
   describe "::offset" do
     it "creates a new QueryBuilder object and runs #offset on it" do
       args = 100
@@ -151,45 +151,45 @@ describe NPR::Entity::Story do
       query.builder[:offset].should eq args
     end
   end
-  
+
   #--------------------
-  
+
   describe "#primary_image" do
     before :each do
       @story = mock_response "json/02_story_multiple_images.json" do
         NPR::Story.find(999)
       end
     end
-    
+
     it "finds the first image with type 'primary'" do
       @story.primary_image.type.should eq "primary"
     end
-    
+
     it "falls back to just the first image if no primary image is available" do
       # Remove the type "primary" image from the json response
       @story.images.delete_if { |i| i.type == "primary" }
       @story.primary_image.type.should eq "standard"
     end
   end
-  
+
   #--------------------
-  
+
   describe "#link_for" do
     before :each do
       @story = mock_response "json/02_story_multiple_images.json" do
         NPR::Story.find(999)
       end
     end
-    
+
     it "finds the link for the passed-in type if it exists" do
       @story.link_for("html").should match /^http:\/\//
     end
-    
+
     it "is nil if the type isn't present" do
       @story.link_for("nothing").should eq nil
     end
   end
-  
+
   #--------------------
-  
+
 end

@@ -15,16 +15,16 @@ describe NPR::Entity::ListText do
       }
     JSON
   end
-  
+
   before :each do
     @list_text = NPR::Entity::ListText.new(@fixture)
   end
-  
+
   it "sets up attributes" do
     @list_text.id.should eq 166558361
     @list_text.tag.should eq "p"
   end
-  
+
   it "sets up relations" do
     @list_text.paragraphs.first.should be_a NPR::Entity::Paragraph
   end

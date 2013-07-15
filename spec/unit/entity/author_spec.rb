@@ -16,11 +16,11 @@ describe NPR::Entity::Author do
       }
     JSON
   end
-  
+
   before :each do
     @author = NPR::Entity::Author.new(@fixture)
   end
-  
+
   it "sets attributes" do
     @author.id.should eq 139197905
     @author.num.should eq 3

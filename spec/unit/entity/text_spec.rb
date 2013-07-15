@@ -36,22 +36,22 @@ describe NPR::Entity::Text do
       }
     JSON
   end
-  
+
   before :each do
     @text = NPR::Entity::Text.new(@fixture)
   end
-  
+
   it "has paragraphs" do
     @text.paragraphs.size.should eq 7
   end
-  
+
   it "joins all paragraphs together with to_s" do
     s = @text.to_s
     s.should match /^As occurs/
     s.should match /Amtrak trains\.$/
     s.should match /\n/
   end
-  
+
   it "wraps each paragraph in p tags for #to_html" do
     s = @text.to_html
     s.should match /\A\<p\>/

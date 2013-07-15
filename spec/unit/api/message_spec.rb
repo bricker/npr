@@ -16,31 +16,31 @@ describe NPR::API::Message do
         }
       JSON
     end
-  
+
     before :each do
       @message = NPR::API::Message.new(@fixture)
     end
-  
+
     it "sets level and id" do
       @message.id.should eq "203"
       @message.level.should eq "warning"
     end
-  
+
     it "returns true for #warning?" do
       @message.warning?.should eq true
     end
-    
+
     it "sets text" do
       @message.text.should match /^Query/
     end
-    
+
     it "sets timestamp" do
       @message.timestamp.should be_a Time
     end
   end
-  
+
   #---------------------------
-  
+
   describe "error" do
     json_fixture do
       <<-JSON
@@ -56,11 +56,11 @@ describe NPR::API::Message do
         }
       JSON
     end
-    
+
     before :each do
       @message = NPR::API::Message.new(@fixture)
     end
-    
+
     it "is an error" do
       @message.error?.should eq true
     end

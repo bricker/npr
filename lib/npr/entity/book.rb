@@ -7,9 +7,9 @@ module NPR
       attr_accessor :id
       shallow_attribute "title"
       has_one "link", :class_name => NPR::Entity::Link
-      
+
       #---------------------
-      
+
       def initialize(json)
         @id = json["id"].to_i
 

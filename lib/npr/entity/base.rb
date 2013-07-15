@@ -8,7 +8,7 @@ module NPR
     class Base
       include NPR::Concern::Relation
       include NPR::Concern::ShallowAttributes
-      
+
       #-----------------
       # Override this
       def initialize(json={})

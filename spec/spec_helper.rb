@@ -16,7 +16,7 @@ RSpec.configure do |config|
   config.include FakeResponse
   config.include ConfigHelper
   config.include FixtureHelper
-  
+
   config.before do
     FakeWeb.clean_registry
   end

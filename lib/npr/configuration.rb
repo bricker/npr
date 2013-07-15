@@ -1,7 +1,7 @@
 ##
 # NPR::Configuration
 #
-module NPR  
+module NPR
   #-------------------
   # Pass a block to configure NPR client globally.
   #
@@ -24,11 +24,11 @@ module NPR
   end
 
   #-------------------
-  
+
   def self.config
     @config ||= NPR::Configuration.new
   end
-  
+
   #-------------------
   # NPR::Configuration
   #
@@ -38,52 +38,52 @@ module NPR
   #
   class Configuration
     API_ROOT = "http://api.npr.org"
-    
+
     API_QUERY_PATH = "/query"
     API_LIST_PATH  = "/list"
-    
+
     # List all the parameters that the NPR API
-    # can accept. Some are left out that don't 
+    # can accept. Some are left out that don't
     # make sense to globally configure (such as
     # +:id+, +:startNum+, and +:callback+)
     API_OPTIONS = [
       # List options
-      :storyCountAll, 
-      :storyCountMonth, 
+      :storyCountAll,
+      :storyCountMonth,
       :storyCountToday,
-      :childrenOf, 
+      :childrenOf,
       :hideChildren,
-      
+
       # Story options
-      :apiKey, 
-      :orgId, 
-      :meta, 
-      :output, 
+      :apiKey,
+      :orgId,
+      :meta,
+      :output,
       :fields,
-      :sort, 
-      :numResults, 
-      :action, 
+      :sort,
+      :numResults,
+      :action,
       :requiredAssets,
-      :date, 
-      :startDate, 
-      :endDate, 
+      :date,
+      :startDate,
+      :endDate,
       :dateType,
-      :searchTerm, 
-      :searchType, 
+      :searchTerm,
+      :searchType,
       :title
     ]
-    
+
     attr_accessor *API_OPTIONS
 
     #-------------------
-    # You can pass in a hash of options to 
+    # You can pass in a hash of options to
     # Configuration.new
     def initialize(options={})
       options.each do |key, value|
         send "#{key}=", value
       end
     end
-    
+
     #-------------------
     # Convenience method
     def merge(hash)
@@ -96,12 +96,12 @@ module NPR
     # Why don't we inherit from OrderedOptions?
     #
     # Since the API options are out of our control
-    # (without having to map every API option to 
+    # (without having to map every API option to
     # internal methods), it is possible that one
     # of the config options will conflict with
     # something in Ruby. For example, the "sort"
     # option that the NPR API allows would mean
-    # we'd have to overwrite Ruby's Hash#sort 
+    # we'd have to overwrite Ruby's Hash#sort
     # method.
     #
     # We *could* just map out config options to

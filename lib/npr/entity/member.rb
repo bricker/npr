@@ -13,7 +13,7 @@ module NPR
       has_one "byline",      :class_name => NPR::Entity::MemberByline
 
       #------------------
-      
+
       def initialize(json)
         @id = json["id"].to_i
         create_relations(json)

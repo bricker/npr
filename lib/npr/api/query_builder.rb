@@ -11,16 +11,16 @@ module NPR
         :offset,
         :set
       ]
-    
+
       attr_reader :_klass, :builder
 
       #-----------------------
-    
+
       def initialize(klass)
         @_klass  = klass
         @builder = {}
       end
-    
+
       #-----------------------
       # Build the params hash.
       # This is automatically called by #to_a, so it probably
@@ -31,13 +31,13 @@ module NPR
         else
           conditions = @builder[:conditions]
         end
-      
+
         params = conditions || {}
         params[:sort]       = @builder[:order]  if @builder[:order]
         params[:numResults] = @builder[:limit]  if @builder[:limit]
         params[:startNum]   = @builder[:offset] if @builder[:offset]
         params.merge!(@builder[:extra])         if @builder[:extra]
-        
+
         params
       end
 
@@ -68,19 +68,19 @@ module NPR
       def to_a
         response = self.query
         stories  = []
-      
+
         if response.list
           stories = Array.wrap(response.list.stories)
         end
-      
+
         stories
       end
-      
+
       #-----------------------
       # Fire the query and return the full Response object
-      # 
+      #
       # Example:
-      # 
+      #
       #   query = NPR::API::QueryBuilder.new(NPR::Story)
       #   query.where(:id => [100, 150]).query
       #   #=> NPR::API::Response
@@ -110,7 +110,7 @@ module NPR
         @builder[:extra] = (@builder[:extra] || {}).merge(params)
         self
       end
-      
+
       #-----------------------
       # Merge in the passed-in conditions to what
       # already exists.
@@ -132,7 +132,7 @@ module NPR
       #     last_week = Time.new(2012, 10, 21)
       #     yesterday = Time.new(2012, 10, 25)
       #     query.where(date: (last_week..yesterday))
-      # 
+      #
       def where(conditions)
         @builder[:conditions] = (@builder[:conditions] || {}).merge(conditions)
         self
@@ -168,9 +168,9 @@ module NPR
         @builder[:limit] = limit
         self
       end
-    
+
       #-----------------------
-      # Offset the number of results 
+      # Offset the number of results
       # Useful for pagination
       #
       # Accepts an Integer.
@@ -183,35 +183,35 @@ module NPR
         @builder[:offset] = offset
         self
       end
-    
+
       #-----------------------
-    
+
       private
-      
+
       def client
         @client ||= NPR::API::Client.new(:apiKey => NPR.config.apiKey)
       end
-      
+
       #-----------------------
-    
+
       def parse_conditions(conditions)
         parse_conditions!(conditions.dup)
       end
 
       #-----------------------
-    
+
       def parse_conditions!(conditions)
-        
+
         if conditions[:id].is_a? Array
           conditions[:id] = conditions[:id].join(",")
         end
-      
+
         if conditions[:date].is_a? Range
           conditions[:startDate] = conditions[:date].first
           conditions[:endDate]   = conditions[:date].last
           conditions.delete(:date)
         end
-      
+
         conditions
       end
     end # QueryBuilder

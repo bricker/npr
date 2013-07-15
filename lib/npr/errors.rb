@@ -13,5 +13,5 @@ module NPR
   end
 
   class NotConfiguredError < ClientError
-  end  
+  end
 end # NPR

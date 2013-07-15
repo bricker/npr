@@ -7,9 +7,9 @@ module NPR
     class Formats < Base
       has_many "mp3s", :key => "mp3", :class_name => NPR::Entity::MP3
       shallow_attribute "wm", "rm", "mediastream"
-      
+
       #--------------------
-      
+
       def initialize(json)
         extract_shallow_attributes(json)
         create_relations(json)
