@@ -106,8 +106,7 @@ for all of the options.
 * Search functionality
 * Add "select" method to QueryBuilder for the "fields" input
 * Abstract attributes so they're not tied directly to the API response.
-Also to make them more Ruby-conventional (i.e. snake_case)
-    * Example: "apiKey" => :api_key
+* Make all attributes snake_case
 * Support for "correction" node
 * Support for "container" node
 * Support for "parent" node
