@@ -112,9 +112,7 @@ Also to make them more Ruby-conventional (i.e. snake_case)
 * Support for "parent" node
 * Support for "thumbnail" node
 * Support a way to return raw formats of:
-    * HTML / Javascript (for views)
     * JSON
-    * ATOM
     * RSS
 
 
