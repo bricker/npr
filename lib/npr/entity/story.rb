@@ -192,9 +192,5 @@ module NPR
   # This is a shorthand so that users of this library
   # can work with just NPR::Story, but allowing us to
   # keep everything organized properly.
-  #
-  # The other classes under Entity aren't part of the
-  # library's public API, so they don't need to be
-  # aliased.
   Story = NPR::Entity::Story
 end # NPR
