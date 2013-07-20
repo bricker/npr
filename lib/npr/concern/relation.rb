@@ -78,7 +78,7 @@ module NPR
       private
 
       #-----------------
-      # Populate the relations based on
+
       def create_relations(json)
         self.class._has_many_relations.each do |relation|
           collection = []
