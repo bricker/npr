@@ -110,9 +110,7 @@ for all of the options.
 * Support for "correction" node
 * Support for "container" node
 * Support for "thumbnail" node
-* Support a way to return raw formats of:
-    * JSON
-    * RSS
+* Support a way to return the raw NPRML if requested.
 
 
 ## Contributing
