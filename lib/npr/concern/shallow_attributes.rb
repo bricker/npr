@@ -7,10 +7,10 @@
 #
 # Example:
 #
-#   { "link": { "$text": "www.google.com" } }
+#   { "link": { "$text": "http://npr.org" } }
 #
 #   shallow_attribute "link"
-#
+#   @story.link # => "http://npr.org"
 module NPR
   module Concern
     module ShallowAttributes
