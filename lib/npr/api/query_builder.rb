@@ -201,7 +201,6 @@ module NPR
       #-----------------------
 
       def parse_conditions!(conditions)
-
         if conditions[:id].is_a? Array
           conditions[:id] = conditions[:id].join(",")
         end
