@@ -27,6 +27,12 @@ describe NPR::Entity::Permissions do
       @permissions.stream.should eq true
       @permissions.embed.should eq true
     end
+
+    it "returns booleans for the question mark methods" do
+      @permissions.download?.should eq true
+      @permissions.stream?.should eq true
+      @permissions.embed?.should eq true
+    end
   end
 
   #-------------------
@@ -51,6 +57,10 @@ describe NPR::Entity::Permissions do
 
     it "sets the permissions" do
       @permissions.embed.should eq nil
+    end
+
+    it "still returns a boolean for the question-mark-method" do
+      @permissions.embed?.should eq false
     end
   end
 end

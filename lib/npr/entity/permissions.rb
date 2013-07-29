@@ -13,6 +13,19 @@ module NPR
         @stream   = json["stream"]["allow"]   == "true" if json["stream"]
         @embed    = json["embed"]["allow"]    == "true" if json["embed"]
       end
+
+
+      def download?
+        !!@download
+      end
+
+      def stream?
+        !!@stream
+      end
+
+      def embed?
+        !!@embed
+      end
     end
   end
 end

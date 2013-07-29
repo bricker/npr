@@ -2,6 +2,8 @@
 ##### Additions
 * Added support for the `parent` node.
 * Added the `#link_for` method for any node which has (multiple) nested links.
+* Added `#download?`, `#stream?`, and `#embed?` methods to Permission, to return
+  booleans of whether that permission is allowed.
 * Added support for the `externalAsset` node, as `Story#external_assets (array)`
 
 ##### Changes
