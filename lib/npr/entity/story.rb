@@ -85,19 +85,19 @@ module NPR
       #------------------
 
       include NPR::Concern::LinksAssociation
-      has_many "images",        :key => "image",        :class_name => NPR::Entity::Image
-      has_many "bylines",       :key => "byline",       :class_name => NPR::Entity::Byline
-      has_many "audio",         :key => "audio",        :class_name => NPR::Entity::Audio
-      has_many "organizations", :key => "organization", :class_name => NPR::Entity::Organization
-      has_many "related_links", :key => "relatedLink",  :class_name => NPR::Entity::RelatedLink
-      has_many "pull_quotes",   :key => "pullQuote",    :class_name => NPR::Entity::PullQuote
-      has_many "parents",       :key => "parent",       :class_name => NPR::Entity::Parent
-      has_many "shows",         :key => "show",         :class_name => NPR::Entity::Show
-      has_many "members",       :key => "member",       :class_name => NPR::Entity::Member
-      has_many "list_texts",    :key => "listText",     :class_name => NPR::Entity::ListText
-      has_many "promo_arts",    :key => "promoArt",     :class_name => NPR::Entity::PromoArt
-      has_many "book_editions", :key => "bookEdition",  :class_name => NPR::Entity::BookEdition
+      has_many "audio",           :key => "audio",         :class_name => NPR::Entity::Audio
+      has_many "book_editions",   :key => "bookEdition",   :class_name => NPR::Entity::BookEdition
+      has_many "bylines",         :key => "byline",        :class_name => NPR::Entity::Byline
       has_many "external_assets", :key => "externalAsset", :class_name => NPR::Entity::ExternalAsset
+      has_many "images",          :key => "image",         :class_name => NPR::Entity::Image
+      has_many "list_texts",      :key => "listText",      :class_name => NPR::Entity::ListText
+      has_many "members",         :key => "member",        :class_name => NPR::Entity::Member
+      has_many "organizations",   :key => "organization",  :class_name => NPR::Entity::Organization
+      has_many "parents",         :key => "parent",        :class_name => NPR::Entity::Parent
+      has_many "promo_arts",      :key => "promoArt",      :class_name => NPR::Entity::PromoArt
+      has_many "pull_quotes",     :key => "pullQuote",     :class_name => NPR::Entity::PullQuote
+      has_many "related_links",   :key => "relatedLink",   :class_name => NPR::Entity::RelatedLink
+      has_many "shows",           :key => "show",          :class_name => NPR::Entity::Show
 
       has_one "transcript", :class_name => NPR::Entity::Transcript
 
