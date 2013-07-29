@@ -20,6 +20,7 @@ describe NPR::Entity::Story do
       @story.parents.first.should be_a NPR::Entity::Parent
       @story.related_links.first.should be_a NPR::Entity::RelatedLink
       @story.shows.first.should be_a NPR::Entity::Show
+      @story.external_assets.first.should be_a NPR::Entity::ExternalAsset
 
       # The fixture doesn't have these attributes
       # TODO Get a fixtute with these attributes

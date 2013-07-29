@@ -2,6 +2,7 @@
 ##### Additions
 * Added support for the `parent` node.
 * Added the `#link_for` method for any node which has (multiple) nested links.
+* Added support for the `externalAsset` node, as `Story#external_assets (array)`
 
 ##### Changes
 * None

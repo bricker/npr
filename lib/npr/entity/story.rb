@@ -97,6 +97,7 @@ module NPR
       has_many "list_texts",    :key => "listText",     :class_name => NPR::Entity::ListText
       has_many "promo_arts",    :key => "promoArt",     :class_name => NPR::Entity::PromoArt
       has_many "book_editions", :key => "bookEdition",  :class_name => NPR::Entity::BookEdition
+      has_many "external_assets", :key => "externalAsset", :class_name => NPR::Entity::ExternalAsset
 
       has_one "transcript", :class_name => NPR::Entity::Transcript
 
