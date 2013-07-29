@@ -191,7 +191,4 @@ describe NPR::Entity::Story do
       @story.link_for("nothing").should eq nil
     end
   end
-
-  #--------------------
-
 end
