@@ -1,3 +1,16 @@
+### Version 2.0.0 (unreleased)
+##### Additions
+* Added `NPR::Entity::Stream`.
+
+##### Changes
+* `Audio#stream` now returns an `NPR::Entity::Stream` object. This will break
+  your code if you were doing something like `if audio.stream == true`.
+  To fix it, you can just use: `if audio.stream.active?`. 
+
+##### Deprecations
+* None
+
+
 ### Version 1.2.0 (unreleased)
 ##### Additions
 * Added support for the `parent` node.

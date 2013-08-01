@@ -66,7 +66,7 @@ describe NPR::Entity::Audio do
   end
 
   it "sets stream" do
-    @audio.stream.should eq false
+    @audio.stream.should be_a NPR::Entity::Stream
   end
 
   it "sets format" do
