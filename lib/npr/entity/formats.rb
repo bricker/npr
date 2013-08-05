@@ -14,6 +14,13 @@ module NPR
         extract_shallow_attributes(json)
         create_relations(json)
       end
+
+      def empty?
+        mp3s.empty? &&
+        !wm &&
+        !rm &&
+        !mediastream
+      end
     end # Formats
   end # Entity
 end # NPR
