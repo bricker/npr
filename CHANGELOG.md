@@ -1,6 +1,10 @@
 ### Version 2.0.0 (unreleased)
 ##### Additions
 * Added `NPR::Entity::Stream`.
+* Added `empty?` method to `NPR::Entity::Formats`. Since `audio.formats` isn't
+  actually an Enumerable, this method is defined to make it easy to check if
+  any formats have been provided for this audio. This is a good way to check
+  if the audio is actually available yet.
 
 ##### Changes
 * `Audio#stream` now returns an `NPR::Entity::Stream` object. This will break

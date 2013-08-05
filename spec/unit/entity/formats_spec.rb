@@ -38,4 +38,9 @@ describe NPR::Entity::Formats do
     @formats.mp3s.size.should eq 2
     @formats.mp3s.first.should be_a NPR::Entity::MP3
   end
+
+  it 'blank? is true if JSON was empty' do
+    formats = NPR::Entity::Formats.new(JSON.parse("{}"))
+    formats.empty?.should eq true
+  end
 end
