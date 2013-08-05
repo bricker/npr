@@ -15,7 +15,7 @@
 * None
 
 
-### Version 1.2.0 (unreleased)
+### Version 1.2.0 (2013-08-05)
 ##### Additions
 * Added support for the `parent` node.
 * Added the `#link_for` method for any node which has (multiple) nested links.
