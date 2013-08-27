@@ -33,10 +33,10 @@ module NPR
         end
 
         params = conditions || {}
-        params[:sort]       = @builder[:order]  if @builder[:order]
-        params[:numResults] = @builder[:limit]  if @builder[:limit]
-        params[:startNum]   = @builder[:offset] if @builder[:offset]
-        params.merge!(@builder[:extra])         if @builder[:extra]
+        params[:sort]       = @builder[:order]      if @builder[:order]
+        params[:numResults] = @builder[:limit]      if @builder[:limit]
+        params[:startNum]   = @builder[:offset] + 1 if @builder[:offset]
+        params.merge!(@builder[:extra])             if @builder[:extra]
 
         params
       end

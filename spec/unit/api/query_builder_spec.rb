@@ -12,7 +12,7 @@ describe NPR::API::QueryBuilder do
         :id         => 5 ,
         :sort       => "date descending",
         :numResults => 10,
-        :startNum   => 100
+        :startNum   => 101
       ]
     end
 
@@ -172,6 +172,11 @@ describe NPR::API::QueryBuilder do
 
     it "returns itself" do
       @builder.offset(0).should eq @builder
+    end
+
+    it "sets the startNum to value + 1" do
+      @builder.offset(100)
+      @builder.to_params[:startNum].should eq 101
     end
   end
 

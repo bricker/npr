@@ -10,6 +10,11 @@
 * `Audio#stream` now returns an `NPR::Entity::Stream` object. This will break
   your code if you were doing something like `if audio.stream == true`.
   To fix it, you can just use: `if audio.stream.active?`. 
+* Changed the `offset` method on `QueryBuilder` to set `startNum` to
+  `offset + 1`. Previously, if you said `.offset(1)`, you would actually still
+  get the first result, because it was passing its value directly to the
+  `startNum` parameter, which is confusing. Now you can say `.offset(1)` and
+  the results will actually be offset by 1 object.
 
 ##### Deprecations
 * None
