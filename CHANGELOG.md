@@ -14,7 +14,8 @@
   `offset + 1`. Previously, if you said `.offset(1)`, you would actually still
   get the first result, because it was passing its value directly to the
   `startNum` parameter, which is confusing. Now you can say `.offset(1)` and
-  the results will actually be offset by 1 object.
+  the results will actually be offset by 1 object. This behavior is to mimic
+  ActiveRecord a little more closely.
 
 ##### Deprecations
 * None
