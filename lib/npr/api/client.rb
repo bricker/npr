@@ -83,6 +83,7 @@ module NPR
         @connection ||= begin
           Faraday.new @url do |conn|
             conn.response :json
+            conn.use ForceEncoding
             conn.adapter Faraday.default_adapter
           end
         end

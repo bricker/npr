@@ -8,6 +8,7 @@ end
 # Dependencies
 require 'faraday'
 require 'faraday_middleware'
+require 'faraday/response/force_encoding'
 require "npr/core_ext/array/wrap"
 
 #------------------
