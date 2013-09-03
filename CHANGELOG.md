@@ -16,7 +16,6 @@
   `startNum` parameter, which is confusing. Now you can say `.offset(1)` and
   the results will actually be offset by 1 object. This behavior is to mimic
   ActiveRecord a little more closely.
-* Response body is now force-encoded into `UTF-8`.
 
 ##### Deprecations
 * None
