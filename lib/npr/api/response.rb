@@ -18,7 +18,7 @@ module NPR
         create_relations(response)
 
         @_response = response
-        @raw       = response.body
+        @raw       = response.body.force_encoding('UTF-8')
 
         @version = @raw["version"]
 
