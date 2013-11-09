@@ -1,4 +1,4 @@
-### Version 2.0.0 (unreleased)
+### Version 2.0.0 (2013-11-08)
 ##### Additions
 * Added `NPR::Entity::Stream`.
 * Added `empty?` method to `NPR::Entity::Formats`. Since `audio.formats` isn't
