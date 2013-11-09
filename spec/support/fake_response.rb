@@ -6,7 +6,7 @@
 module FakeResponse
   #---------------------
   # Takes the filename to respond with,
-  # and (optionally) any options to be passed to 
+  # and (optionally) any options to be passed to
   # +FakeWeb.register_uri+.
   #
   # If no block is given, the registry will not be cleaned
@@ -17,34 +17,34 @@ module FakeResponse
   #
   def mock_response(filename, options={}, &block)
     respond_with(filename, options)
-    
+
     response = yield
     FakeWeb.clean_registry
-    
+
     response
   end
 
   #---------------------
-  # Register the NPR root with FakeWeb, and set its 
+  # Register the NPR root with FakeWeb, and set its
   # response body to the contents of the requested file.
   def respond_with(filename, options)
     content_type = options[:content_type] || "application/json"
     uri          = options.delete(:uri) || %r{^#{NPR::Configuration::API_ROOT}}
 
-    FakeWeb.register_uri(:get, uri, 
-      { 
+    FakeWeb.register_uri(:get, uri,
+      {
         :body         => load_fixture(filename),
         :content_type => content_type
       }.merge(options))
   end
-  
+
   #---------------------
   # Read a fixure file
   def load_fixture(filename)
     file = filename == :random ? random_filename : filename
     File.read(File.join FIXTURE_ROOT, file)
   end
-  
+
   #---------------------
   # Select a random response fixture
   def random_filename

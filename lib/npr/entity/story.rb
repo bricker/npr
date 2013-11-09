@@ -103,7 +103,7 @@ module NPR
 
       #------------------
 
-      shallow_attribute(
+      shallow_attribute \
         "title",
         "partnerId",
         "subtitle",
@@ -117,7 +117,6 @@ module NPR
         "keywords",
         "priorityKeywords",
         "fullText"
-      )
 
       #-------------------------
 
