@@ -1,3 +1,8 @@
+### 2.0.1 (2014-02-27)
+#### Changes
+* Be more strict about Faraday dependecies.
+
+
 ### Version 2.0.0 (2013-11-08)
 ##### Additions
 * Added `NPR::Entity::Stream`.
@@ -9,7 +14,7 @@
 ##### Changes
 * `Audio#stream` now returns an `NPR::Entity::Stream` object. This will break
   your code if you were doing something like `if audio.stream == true`.
-  To fix it, you can just use: `if audio.stream.active?`. 
+  To fix it, you can just use: `if audio.stream.active?`.
 * Changed the `offset` method on `QueryBuilder` to set `startNum` to
   `offset + 1`. Previously, if you said `.offset(1)`, you would actually still
   get the first result, because it was passing its value directly to the
@@ -46,7 +51,7 @@
 
 ##### Changes
 * Handle an HTTP Error from the API better. If the API response is not a
-  success (as defined by `Faraday::Response#success?`), then an 
+  success (as defined by `Faraday::Response#success?`), then an
   `NPR::APIError` will be raised. An error was being raised before, but
   it was due to a nil error (when response.body was nil), which could be confusing.
 
