@@ -21,8 +21,8 @@ Gem::Specification.new do |s|
 
   s.licenses = ['MIT']
 
-  s.add_dependency 'faraday', '>= 0.8.0'
-  s.add_dependency 'faraday_middleware', '>= 0.9.0'
+  s.add_dependency 'faraday', ['>= 0.8.0', "< 1.0.0"]
+  s.add_dependency 'faraday_middleware', ['>= 0.9.0', "< 1.0.0"]
 
   s.add_development_dependency 'bundler', '>= 1.0.0'
   s.add_development_dependency 'rake'
