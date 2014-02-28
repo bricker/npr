@@ -1,3 +1,8 @@
+### 2.0.2
+#### Changes
+* More strict faraday_middleware dependency.
+
+
 ### 2.0.1 (2014-02-27)
 #### Changes
 * Be more strict about Faraday dependecies.
