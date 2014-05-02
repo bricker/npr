@@ -1,3 +1,4 @@
+### 2.0.2
 #### Changes
 * More strict faraday_middleware dependency.
 
