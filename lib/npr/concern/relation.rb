@@ -84,7 +84,7 @@ module NPR
           collection = []
 
           if node = json[relation[:key]]
-            node.each do |obj|
+            Array.wrap(node).each do |obj|
               collection.push relation[:class_name].new(obj)
             end
           end
