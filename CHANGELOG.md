@@ -1,3 +1,8 @@
+### 3.0.0
+#### Changes
+* Transcripts now has many links instead of one.
+* `has_many` association can take either a collection or a single object.
+
 ### 2.0.2
 #### Changes
 * More strict faraday_middleware dependency.

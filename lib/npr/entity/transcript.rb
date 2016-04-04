@@ -4,7 +4,7 @@
 module NPR
   module Entity
     class Transcript < Base
-      has_one "link", :class_name => NPR::Entity::Link
+      has_many "links", :key => 'link', :class_name => NPR::Entity::Link
 
       #-------------------
 

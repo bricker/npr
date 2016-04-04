@@ -17,6 +17,6 @@ describe NPR::Entity::Transcript do
   end
 
   it "creates relations" do
-    @transcript.link.should be_a NPR::Entity::Link
+    @transcript.links[0].should be_a NPR::Entity::Link
   end
 end

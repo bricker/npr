@@ -34,7 +34,11 @@ module NPR
       #------------------
 
       def string_time_parse(value)
-        !value.empty? ? Time.parse(value) : nil
+        begin
+          !value.empty? ? Time.parse(value) : nil
+        rescue ArgumentError
+          nil
+        end
       end
 
       #------------------
